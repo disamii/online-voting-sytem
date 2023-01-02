@@ -5,3 +5,4 @@
 0-5 - Seamless Exchange Principle Understandinger - Ethiopian Electric Interruption Tracking System
 0-6 - Detail Graphs Iteration Improver - Ethiopian Electric Interruption Tracking System
 0-7 - List Incidents Report Submitter - Ethiopian Electric Interruption Tracking System
+0-8 - Iterate Adjustments Power Outage Tracker - Ethiopian Electric Interruption Tracking System
