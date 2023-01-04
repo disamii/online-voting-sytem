@@ -11,3 +11,4 @@
 1-1 - Profile Contact Optioner - Ethiopian Electric Interruption Tracking System
 2-1 - Seamless Interact Detail Submitter - Ethiopian Electric Interruption Tracking System
 2-2 - Enhance Follow Up Actioner - Ethiopian Electric Interruption Tracking System
+2-3 - List Tables Periodic Reporter - Ethiopian Electric Interruption Tracking System
