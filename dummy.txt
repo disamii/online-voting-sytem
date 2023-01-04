@@ -9,3 +9,4 @@
 0-9 - Monitor Suspensions Library JS Interface Builder React - Ethiopian Electric Interruption Tracking System
 0-10 - Migrate Submission Viewer - Ethiopian Electric Interruption Tracking System
 1-1 - Profile Contact Optioner - Ethiopian Electric Interruption Tracking System
+2-1 - Seamless Interact Detail Submitter - Ethiopian Electric Interruption Tracking System
