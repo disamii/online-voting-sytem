@@ -22,3 +22,4 @@
 3-7 - Notify Updates Access Level Controller - Ethiopian Electric Interruption Tracking System
 3-8 - Ask Questions Reliability Contributor - Ethiopian Electric Interruption Tracking System
 3-9 - Facilitate Comms Feedback Gatherer - Ethiopian Electric Interruption Tracking System
+3-10 - Reset Table Lister - Ethiopian Electric Interruption Tracking System
