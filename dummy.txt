@@ -14,3 +14,4 @@
 2-3 - List Tables Periodic Reporter - Ethiopian Electric Interruption Tracking System
 2-4 - Provide LAN Configuration - Ethiopian Electric Interruption Tracking System
 3-1 - Create Isolated Data Flow Designer - Ethiopian Electric Interruption Tracking System
+3-2 - Manage Database Report Submitter - Ethiopian Electric Interruption Tracking System
