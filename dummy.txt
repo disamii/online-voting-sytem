@@ -19,3 +19,4 @@
 3-4 - Collaborate Code Notification Summarizer - Ethiopian Electric Interruption Tracking System
 3-5 - Understand Limitations Suspension Monitor - Ethiopian Electric Interruption Tracking System
 3-6 - Generate Tables Library JS Interface Builder React - Ethiopian Electric Interruption Tracking System
+3-7 - Notify Updates Access Level Controller - Ethiopian Electric Interruption Tracking System
