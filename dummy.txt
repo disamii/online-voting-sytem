@@ -24,3 +24,4 @@
 3-9 - Facilitate Comms Feedback Gatherer - Ethiopian Electric Interruption Tracking System
 3-10 - Reset Table Lister - Ethiopian Electric Interruption Tracking System
 4-1 - Track Infos Insight Deeper Deriver - Ethiopian Electric Interruption Tracking System
+4-2 - Connect Branches User Friendly Interface - Ethiopian Electric Interruption Tracking System
