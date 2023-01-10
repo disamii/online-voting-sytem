@@ -37,3 +37,4 @@
 6-7 - Reference Comms Data Manager - Ethiopian Electric Interruption Tracking System
 6-8 - Ask Questions Info Viewer - Ethiopian Electric Interruption Tracking System
 6-9 - Standard Networks Experience Deepener - Ethiopian Electric Interruption Tracking System
+6-10 - Capture Event Logging Module - Ethiopian Electric Interruption Tracking System
