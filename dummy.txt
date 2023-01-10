@@ -33,3 +33,4 @@
 6-3 - User Manuals Employee Uploader - Ethiopian Electric Interruption Tracking System
 6-4 - Delete Requests Container Orchestrator - Ethiopian Electric Interruption Tracking System
 6-5 - Auto-generate Support Enhancer - Ethiopian Electric Interruption Tracking System
+6-6 - Set Reminders Principle Understandinger - Ethiopian Electric Interruption Tracking System
