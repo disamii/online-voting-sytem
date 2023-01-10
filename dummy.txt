@@ -35,3 +35,4 @@
 6-5 - Auto-generate Support Enhancer - Ethiopian Electric Interruption Tracking System
 6-6 - Set Reminders Principle Understandinger - Ethiopian Electric Interruption Tracking System
 6-7 - Reference Comms Data Manager - Ethiopian Electric Interruption Tracking System
+6-8 - Ask Questions Info Viewer - Ethiopian Electric Interruption Tracking System
