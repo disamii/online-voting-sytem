@@ -29,3 +29,4 @@
 4-4 - Tech Sector Utility Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 4-5 - Link Insights Line Affecter - Ethiopian Electric Interruption Tracking System
 6-1 - Fix React Components - Ethiopian Electric Interruption Tracking System
+6-2 - Identify Improves Delete Option Provider - Ethiopian Electric Interruption Tracking System
