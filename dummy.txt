@@ -31,3 +31,4 @@
 6-1 - Fix React Components - Ethiopian Electric Interruption Tracking System
 6-2 - Identify Improves Delete Option Provider - Ethiopian Electric Interruption Tracking System
 6-3 - User Manuals Employee Uploader - Ethiopian Electric Interruption Tracking System
+6-4 - Delete Requests Container Orchestrator - Ethiopian Electric Interruption Tracking System
