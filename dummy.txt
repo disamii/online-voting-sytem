@@ -41,3 +41,4 @@
 6-11 - Provide Insight Comparer - Ethiopian Electric Interruption Tracking System
 7-1 - Consult Initial System Manager - Ethiopian Electric Interruption Tracking System
 7-2 - Form Submissions Express Line Detail - Ethiopian Electric Interruption Tracking System
+7-3 - Streamline System Architecture - Ethiopian Electric Interruption Tracking System
