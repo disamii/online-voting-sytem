@@ -44,3 +44,4 @@
 7-3 - Streamline System Architecture - Ethiopian Electric Interruption Tracking System
 7-4 - Handle Deletions Analytics Predictor - Ethiopian Electric Interruption Tracking System
 8-1 - Compare Patterns Profile Viewer - Ethiopian Electric Interruption Tracking System
+8-2 - Improve Tailwind Styling - Ethiopian Electric Interruption Tracking System
