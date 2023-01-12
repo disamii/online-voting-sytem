@@ -45,3 +45,4 @@
 7-4 - Handle Deletions Analytics Predictor - Ethiopian Electric Interruption Tracking System
 8-1 - Compare Patterns Profile Viewer - Ethiopian Electric Interruption Tracking System
 8-2 - Improve Tailwind Styling - Ethiopian Electric Interruption Tracking System
+8-3 - Standard Networks Device Manual User Huawei - Ethiopian Electric Interruption Tracking System
