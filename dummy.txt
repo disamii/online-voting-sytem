@@ -53,3 +53,4 @@
 9-5 - Track Infos Line Graph Trends - Ethiopian Electric Interruption Tracking System
 9-6 - Analyze Dropdown Actioner - Ethiopian Electric Interruption Tracking System
 9-7 - List Incidents Visibility Enhancer - Ethiopian Electric Interruption Tracking System
+9-8 - Pop Prompts Record Editor - Ethiopian Electric Interruption Tracking System
