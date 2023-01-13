@@ -50,3 +50,4 @@
 9-2 - Deepen Skills Feature Integrator - Ethiopian Electric Interruption Tracking System
 9-3 - Enhance Skill Deepener - Ethiopian Electric Interruption Tracking System
 9-4 - Switch Themes Adaptability Layer - Ethiopian Electric Interruption Tracking System
+9-5 - Track Infos Line Graph Trends - Ethiopian Electric Interruption Tracking System
