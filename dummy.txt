@@ -61,3 +61,4 @@
 10-4 - Action Dropdowns Operational Efficiency - Ethiopian Electric Interruption Tracking System
 10-5 - Link Navigations Digital Screen Optimizer - Ethiopian Electric Interruption Tracking System
 10-6 - Modularize Graph Visualization - Ethiopian Electric Interruption Tracking System
+10-7 - Personalize Passes Challenge Proactive Addresser - Ethiopian Electric Interruption Tracking System
