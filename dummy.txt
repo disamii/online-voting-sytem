@@ -63,3 +63,4 @@
 10-6 - Modularize Graph Visualization - Ethiopian Electric Interruption Tracking System
 10-7 - Personalize Passes Challenge Proactive Addresser - Ethiopian Electric Interruption Tracking System
 10-8 - Add Efficiency Improver - Ethiopian Electric Interruption Tracking System
+10-9 - Iterate Adjustments Total Interruption Counter - Ethiopian Electric Interruption Tracking System
