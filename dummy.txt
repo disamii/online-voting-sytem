@@ -60,3 +60,4 @@
 10-3 - Clarify Text Analysis Detailer - Ethiopian Electric Interruption Tracking System
 10-4 - Action Dropdowns Operational Efficiency - Ethiopian Electric Interruption Tracking System
 10-5 - Link Navigations Digital Screen Optimizer - Ethiopian Electric Interruption Tracking System
+10-6 - Modularize Graph Visualization - Ethiopian Electric Interruption Tracking System
