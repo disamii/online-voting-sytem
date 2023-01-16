@@ -57,3 +57,4 @@
 9-9 - Edit Profiles Notification Summarizer - Ethiopian Electric Interruption Tracking System
 10-1 - Acquire Knowledges User Interface - Ethiopian Electric Interruption Tracking System
 10-2 - State Visions Feedback Collector - Ethiopian Electric Interruption Tracking System
+10-3 - Clarify Text Analysis Detailer - Ethiopian Electric Interruption Tracking System
