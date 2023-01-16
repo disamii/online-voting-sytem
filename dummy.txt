@@ -59,3 +59,4 @@
 10-2 - State Visions Feedback Collector - Ethiopian Electric Interruption Tracking System
 10-3 - Clarify Text Analysis Detailer - Ethiopian Electric Interruption Tracking System
 10-4 - Action Dropdowns Operational Efficiency - Ethiopian Electric Interruption Tracking System
+10-5 - Link Navigations Digital Screen Optimizer - Ethiopian Electric Interruption Tracking System
