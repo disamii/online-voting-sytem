@@ -56,3 +56,4 @@
 9-8 - Pop Prompts Record Editor - Ethiopian Electric Interruption Tracking System
 9-9 - Edit Profiles Notification Summarizer - Ethiopian Electric Interruption Tracking System
 10-1 - Acquire Knowledges User Interface - Ethiopian Electric Interruption Tracking System
+10-2 - State Visions Feedback Collector - Ethiopian Electric Interruption Tracking System
