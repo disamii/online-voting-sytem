@@ -66,3 +66,4 @@
 10-9 - Iterate Adjustments Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 10-10 - Easier Navs Duration Recorder - Ethiopian Electric Interruption Tracking System
 11-1 - Provide Feedback Collector - Ethiopian Electric Interruption Tracking System
+11-2 - Restore Password Management - Ethiopian Electric Interruption Tracking System
