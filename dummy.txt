@@ -72,3 +72,4 @@
 12-3 - Analyze Account Setup Streamliner - Ethiopian Electric Interruption Tracking System
 12-4 - Calculate Navigation Linker - Ethiopian Electric Interruption Tracking System
 12-5 - View Depths Action Recorder - Ethiopian Electric Interruption Tracking System
+12-6 - User Manuals Account Setup Streamliner - Ethiopian Electric Interruption Tracking System
