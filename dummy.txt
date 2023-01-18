@@ -68,3 +68,4 @@
 11-1 - Provide Feedback Collector - Ethiopian Electric Interruption Tracking System
 11-2 - Restore Password Management - Ethiopian Electric Interruption Tracking System
 12-1 - Derive Deeper Frontend Builder - Ethiopian Electric Interruption Tracking System
+12-2 - Easier Navs Interaction Seamlesser - Ethiopian Electric Interruption Tracking System
