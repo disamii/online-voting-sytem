@@ -69,3 +69,4 @@
 11-2 - Restore Password Management - Ethiopian Electric Interruption Tracking System
 12-1 - Derive Deeper Frontend Builder - Ethiopian Electric Interruption Tracking System
 12-2 - Easier Navs Interaction Seamlesser - Ethiopian Electric Interruption Tracking System
+12-3 - Analyze Account Setup Streamliner - Ethiopian Electric Interruption Tracking System
