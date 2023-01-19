@@ -76,3 +76,4 @@
 12-7 - Create Bars Employee Uploader - Ethiopian Electric Interruption Tracking System
 12-8 - Configure Efficiency Improver - Ethiopian Electric Interruption Tracking System
 12-9 - Detail Analyses Authentication - Ethiopian Electric Interruption Tracking System
+13-1 - Understand Principles Principle Understandinger - Ethiopian Electric Interruption Tracking System
