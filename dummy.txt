@@ -84,3 +84,4 @@
 13-6 - Generate Username Line Graph Trends - Ethiopian Electric Interruption Tracking System
 13-7 - Analyze Performance Info Viewer - Ethiopian Electric Interruption Tracking System
 13-8 - Record Durations Exchange Seamlesser - Ethiopian Electric Interruption Tracking System
+13-9 - Identify Areas Notification Service - Ethiopian Electric Interruption Tracking System
