@@ -87,3 +87,4 @@
 13-9 - Identify Areas Notification Service - Ethiopian Electric Interruption Tracking System
 13-10 - Edit Profiles Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
 13-11 - Conduct Discussions Data Communicator - Ethiopian Electric Interruption Tracking System
+14-1 - Store Data Operational Efficiency - Ethiopian Electric Interruption Tracking System
