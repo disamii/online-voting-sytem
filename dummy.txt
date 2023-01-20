@@ -89,3 +89,4 @@
 13-11 - Conduct Discussions Data Communicator - Ethiopian Electric Interruption Tracking System
 14-1 - Store Data Operational Efficiency - Ethiopian Electric Interruption Tracking System
 14-2 - Glance Views Tracker Effectiver - Ethiopian Electric Interruption Tracking System
+14-3 - Derive Deeper Support Enhancer - Ethiopian Electric Interruption Tracking System
