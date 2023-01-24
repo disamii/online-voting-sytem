@@ -93,3 +93,4 @@
 15-1 - Integrate Features Insight Comparer - Ethiopian Electric Interruption Tracking System
 15-2 - Specify Hardware Point Failure Identifier - Ethiopian Electric Interruption Tracking System
 16-1 - Provide Insights Profile Viewer - Ethiopian Electric Interruption Tracking System
+16-2 - Collaborate Code Data Summary - Ethiopian Electric Interruption Tracking System
