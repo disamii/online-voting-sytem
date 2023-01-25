@@ -102,3 +102,4 @@
 16-8 - Develop Delivery Service Maintainer - Ethiopian Electric Interruption Tracking System
 16-9 - Refactor Record Editor - Ethiopian Electric Interruption Tracking System
 17-1 - Interview Staffs Issue Reporter UI - Ethiopian Electric Interruption Tracking System
+17-2 - Understand Principles Password Resetter - Ethiopian Electric Interruption Tracking System
