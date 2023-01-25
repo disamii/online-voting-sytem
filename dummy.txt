@@ -104,3 +104,4 @@
 17-1 - Interview Staffs Issue Reporter UI - Ethiopian Electric Interruption Tracking System
 17-2 - Understand Principles Password Resetter - Ethiopian Electric Interruption Tracking System
 17-3 - Auto-generate Django Endpoints - Ethiopian Electric Interruption Tracking System
+17-4 - Store Data Downtime Table Generator - Ethiopian Electric Interruption Tracking System
