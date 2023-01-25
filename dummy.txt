@@ -106,3 +106,4 @@
 17-3 - Auto-generate Django Endpoints - Ethiopian Electric Interruption Tracking System
 17-4 - Store Data Downtime Table Generator - Ethiopian Electric Interruption Tracking System
 17-5 - Auto-generate Contrast Booster - Ethiopian Electric Interruption Tracking System
+17-6 - Document Process Delete Option Provider - Ethiopian Electric Interruption Tracking System
