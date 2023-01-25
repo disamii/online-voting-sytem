@@ -108,3 +108,4 @@
 17-5 - Auto-generate Contrast Booster - Ethiopian Electric Interruption Tracking System
 17-6 - Document Process Delete Option Provider - Ethiopian Electric Interruption Tracking System
 17-7 - Provide Outage Reasoner - Ethiopian Electric Interruption Tracking System
+17-8 - Delete Users Issue Reporter UI - Ethiopian Electric Interruption Tracking System
