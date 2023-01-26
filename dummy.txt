@@ -111,3 +111,4 @@
 17-8 - Delete Users Issue Reporter UI - Ethiopian Electric Interruption Tracking System
 17-9 - Handle Deletions Feedback Collector - Ethiopian Electric Interruption Tracking System
 18-1 - Migrate Database - Ethiopian Electric Interruption Tracking System
+18-2 - Deploy Theme Toggle - Ethiopian Electric Interruption Tracking System
