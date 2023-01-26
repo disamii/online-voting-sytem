@@ -113,3 +113,4 @@
 18-1 - Migrate Database - Ethiopian Electric Interruption Tracking System
 18-2 - Deploy Theme Toggle - Ethiopian Electric Interruption Tracking System
 18-3 - Receive Notifs Data Summary - Ethiopian Electric Interruption Tracking System
+18-4 - Seamless Interact Adaptability Layer - Ethiopian Electric Interruption Tracking System
