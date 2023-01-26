@@ -115,3 +115,4 @@
 18-3 - Receive Notifs Data Summary - Ethiopian Electric Interruption Tracking System
 18-4 - Seamless Interact Adaptability Layer - Ethiopian Electric Interruption Tracking System
 18-5 - Link Features Data Summary - Ethiopian Electric Interruption Tracking System
+18-6 - List Uploads Duration Calculator - Ethiopian Electric Interruption Tracking System
