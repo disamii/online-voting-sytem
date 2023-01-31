@@ -131,3 +131,4 @@
 21-4 - Enhance Web Based Solution - Ethiopian Electric Interruption Tracking System
 21-5 - Build Interfaces Predictive Insights - Ethiopian Electric Interruption Tracking System
 21-6 - Identify Guideline Internship Follower - Ethiopian Electric Interruption Tracking System
+21-7 - Analyze Deletion Handler - Ethiopian Electric Interruption Tracking System
