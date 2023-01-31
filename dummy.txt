@@ -134,3 +134,4 @@
 21-7 - Analyze Deletion Handler - Ethiopian Electric Interruption Tracking System
 21-8 - Visualize Insight Provider - Ethiopian Electric Interruption Tracking System
 21-9 - Logic Server Side Entity Relationship - Ethiopian Electric Interruption Tracking System
+21-10 - Art Testings Trend Visualizer - Ethiopian Electric Interruption Tracking System
