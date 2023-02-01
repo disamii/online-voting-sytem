@@ -141,3 +141,4 @@
 22-4 - Link Navigations Password Resetter - Ethiopian Electric Interruption Tracking System
 22-5 - Boost Contrast Frequency Comparator - Ethiopian Electric Interruption Tracking System
 22-6 - Implement React Components - Ethiopian Electric Interruption Tracking System
+22-7 - Edit Records Guideline Internship Follower - Ethiopian Electric Interruption Tracking System
