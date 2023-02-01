@@ -138,3 +138,4 @@
 22-1 - Understand Principles User Count Tracker - Ethiopian Electric Interruption Tracking System
 22-2 - Submit Details Isolated Environment Creator - Ethiopian Electric Interruption Tracking System
 22-3 - Add Principle Understandinger - Ethiopian Electric Interruption Tracking System
+22-4 - Link Navigations Password Resetter - Ethiopian Electric Interruption Tracking System
