@@ -148,3 +148,4 @@
 24-4 - Engage Mentor Primary Actor Handler - Ethiopian Electric Interruption Tracking System
 24-5 - Gather Feedbacks Entity Relationship - Ethiopian Electric Interruption Tracking System
 24-6 - Option Contacts Graph Side By Sider - Ethiopian Electric Interruption Tracking System
+24-7 - Benchmark Admin Dashboard - Ethiopian Electric Interruption Tracking System
