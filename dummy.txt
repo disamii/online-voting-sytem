@@ -145,3 +145,4 @@
 24-1 - Create Bars Code Change Tracker - Ethiopian Electric Interruption Tracking System
 24-2 - Optimize Alert Automator - Ethiopian Electric Interruption Tracking System
 24-3 - Facilitate Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
+24-4 - Engage Mentor Primary Actor Handler - Ethiopian Electric Interruption Tracking System
