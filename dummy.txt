@@ -144,3 +144,4 @@
 22-7 - Edit Records Guideline Internship Follower - Ethiopian Electric Interruption Tracking System
 24-1 - Create Bars Code Change Tracker - Ethiopian Electric Interruption Tracking System
 24-2 - Optimize Alert Automator - Ethiopian Electric Interruption Tracking System
+24-3 - Facilitate Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
