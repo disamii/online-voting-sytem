@@ -152,3 +152,4 @@
 24-8 - Reference Comms Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
 24-9 - Establish Routines Communication Facilitator - Ethiopian Electric Interruption Tracking System
 24-10 - Connect Branches Field Filler - Ethiopian Electric Interruption Tracking System
+24-11 - Handle Deletions Report Page Builder - Ethiopian Electric Interruption Tracking System
