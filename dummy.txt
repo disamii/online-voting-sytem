@@ -160,3 +160,4 @@
 26-4 - Improve Reliabs Frontend Builder - Ethiopian Electric Interruption Tracking System
 26-5 - Authenticate Suspension Monitor - Ethiopian Electric Interruption Tracking System
 26-6 - Acquire Knowledges Code Change Tracker - Ethiopian Electric Interruption Tracking System
+26-7 - Integrate Improvement Identifier - Ethiopian Electric Interruption Tracking System
