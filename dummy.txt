@@ -158,3 +158,4 @@
 26-2 - Gain Insights Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 26-3 - Add UML Entity Mapper - Ethiopian Electric Interruption Tracking System
 26-4 - Improve Reliabs Frontend Builder - Ethiopian Electric Interruption Tracking System
+26-5 - Authenticate Suspension Monitor - Ethiopian Electric Interruption Tracking System
