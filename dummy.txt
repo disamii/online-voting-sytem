@@ -155,3 +155,4 @@
 24-11 - Handle Deletions Report Page Builder - Ethiopian Electric Interruption Tracking System
 25-1 - Deploy Skill Deepener - Ethiopian Electric Interruption Tracking System
 26-1 - Department Engineers User Guide Writer - Ethiopian Electric Interruption Tracking System
+26-2 - Gain Insights Total Interruption Counter - Ethiopian Electric Interruption Tracking System
