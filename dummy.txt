@@ -161,3 +161,4 @@
 26-5 - Authenticate Suspension Monitor - Ethiopian Electric Interruption Tracking System
 26-6 - Acquire Knowledges Code Change Tracker - Ethiopian Electric Interruption Tracking System
 26-7 - Integrate Improvement Identifier - Ethiopian Electric Interruption Tracking System
+27-1 - Calculate Text Clarifier - Ethiopian Electric Interruption Tracking System
