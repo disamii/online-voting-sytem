@@ -162,3 +162,4 @@
 26-6 - Acquire Knowledges Code Change Tracker - Ethiopian Electric Interruption Tracking System
 26-7 - Integrate Improvement Identifier - Ethiopian Electric Interruption Tracking System
 27-1 - Calculate Text Clarifier - Ethiopian Electric Interruption Tracking System
+28-1 - Style With Tailwind Navigation Linker - Ethiopian Electric Interruption Tracking System
