@@ -165,3 +165,4 @@
 28-1 - Style With Tailwind Navigation Linker - Ethiopian Electric Interruption Tracking System
 29-1 - Monitor Suspensions Info Tracker - Ethiopian Electric Interruption Tracking System
 29-2 - Implement Solutions Upload Lister - Ethiopian Electric Interruption Tracking System
+29-3 - Optimize Disruptions Real Time Collection - Ethiopian Electric Interruption Tracking System
