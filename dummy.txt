@@ -167,3 +167,4 @@
 29-2 - Implement Solutions Upload Lister - Ethiopian Electric Interruption Tracking System
 29-3 - Optimize Disruptions Real Time Collection - Ethiopian Electric Interruption Tracking System
 29-4 - Submit Reports Readability Improver - Ethiopian Electric Interruption Tracking System
+29-5 - Create Bars Navigation Easier - Ethiopian Electric Interruption Tracking System
