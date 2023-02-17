@@ -176,3 +176,4 @@
 34-2 - Establish Routines Analysis Detailer - Ethiopian Electric Interruption Tracking System
 34-3 - Foundation Docs Routine Establisher - Ethiopian Electric Interruption Tracking System
 34-4 - Install Software Resolution Quickener - Ethiopian Electric Interruption Tracking System
+34-5 - Parse Text Clarifier - Ethiopian Electric Interruption Tracking System
