@@ -180,3 +180,4 @@
 34-6 - Switch Themes Delete Option Provider - Ethiopian Electric Interruption Tracking System
 34-7 - Acquire Knowledges Django Endpoints - Ethiopian Electric Interruption Tracking System
 34-8 - Optimalize Performs Sector Utility Tech - Ethiopian Electric Interruption Tracking System
+34-9 - Debug Communication Facilitator - Ethiopian Electric Interruption Tracking System
