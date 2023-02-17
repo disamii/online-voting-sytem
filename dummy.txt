@@ -178,3 +178,4 @@
 34-4 - Install Software Resolution Quickener - Ethiopian Electric Interruption Tracking System
 34-5 - Parse Text Clarifier - Ethiopian Electric Interruption Tracking System
 34-6 - Switch Themes Delete Option Provider - Ethiopian Electric Interruption Tracking System
+34-7 - Acquire Knowledges Django Endpoints - Ethiopian Electric Interruption Tracking System
