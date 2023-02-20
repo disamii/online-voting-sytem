@@ -188,3 +188,4 @@
 35-4 - Connect Internet Visibility Enhancer - Ethiopian Electric Interruption Tracking System
 35-5 - Handle Class Diagram - Ethiopian Electric Interruption Tracking System
 35-6 - Address Proactives Credential Validator - Ethiopian Electric Interruption Tracking System
+35-7 - Establish Routines Improvement Identifier Stakeholder - Ethiopian Electric Interruption Tracking System
