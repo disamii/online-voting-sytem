@@ -189,3 +189,4 @@
 35-5 - Handle Class Diagram - Ethiopian Electric Interruption Tracking System
 35-6 - Address Proactives Credential Validator - Ethiopian Electric Interruption Tracking System
 35-7 - Establish Routines Improvement Identifier Stakeholder - Ethiopian Electric Interruption Tracking System
+36-1 - Identify Password Management - Ethiopian Electric Interruption Tracking System
