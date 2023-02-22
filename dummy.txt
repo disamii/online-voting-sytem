@@ -197,3 +197,4 @@
 37-5 - Ongoing Train Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
 37-6 - View Infos Trend Visualizer - Ethiopian Electric Interruption Tracking System
 37-7 - Develop API Feeder Line Tracking - Ethiopian Electric Interruption Tracking System
+37-8 - Capture Database - Ethiopian Electric Interruption Tracking System
