@@ -205,3 +205,4 @@
 39-3 - Design Glancer - Ethiopian Electric Interruption Tracking System
 39-4 - Improve Reliabs Version Manager - Ethiopian Electric Interruption Tracking System
 39-5 - Logic Server Side Update Notifier - Ethiopian Electric Interruption Tracking System
+39-6 - Contribute Reliabilities Operational Efficiency - Ethiopian Electric Interruption Tracking System
