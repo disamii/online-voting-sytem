@@ -200,3 +200,4 @@
 37-8 - Capture Database - Ethiopian Electric Interruption Tracking System
 38-1 - Report UIs User Profile View - Ethiopian Electric Interruption Tracking System
 38-2 - Lab Docs Chat System - Ethiopian Electric Interruption Tracking System
+39-1 - Link Navigations Doc CSS Tailwind Lab - Ethiopian Electric Interruption Tracking System
