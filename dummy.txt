@@ -208,3 +208,4 @@
 39-6 - Contribute Reliabilities Operational Efficiency - Ethiopian Electric Interruption Tracking System
 39-7 - Design Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 39-8 - Benchmark Data Aligner - Ethiopian Electric Interruption Tracking System
+39-9 - Design Performance Analyzer - Ethiopian Electric Interruption Tracking System
