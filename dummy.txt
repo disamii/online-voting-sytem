@@ -202,3 +202,4 @@
 38-2 - Lab Docs Chat System - Ethiopian Electric Interruption Tracking System
 39-1 - Link Navigations Doc CSS Tailwind Lab - Ethiopian Electric Interruption Tracking System
 39-2 - Manage Database Chat System - Ethiopian Electric Interruption Tracking System
+39-3 - Design Glancer - Ethiopian Electric Interruption Tracking System
