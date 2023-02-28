@@ -216,3 +216,4 @@
 41-3 - Implement Solutions User Count Tracker - Ethiopian Electric Interruption Tracking System
 41-4 - Render Login Principle Understandinger - Ethiopian Electric Interruption Tracking System
 41-5 - Summarize Notifs Trainer Ongoing - Ethiopian Electric Interruption Tracking System
+41-6 - Create Bars In Depth Viewer - Ethiopian Electric Interruption Tracking System
