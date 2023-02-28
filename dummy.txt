@@ -211,3 +211,4 @@
 39-9 - Design Performance Analyzer - Ethiopian Electric Interruption Tracking System
 39-10 - Submit Details Handbook Report Writer - Ethiopian Electric Interruption Tracking System
 39-11 - Review Historical Doc Django Foundation Software - Ethiopian Electric Interruption Tracking System
+41-1 - Monitor Suspensions Info Sharer - Ethiopian Electric Interruption Tracking System
