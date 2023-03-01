@@ -221,3 +221,4 @@
 42-2 - Validate Credentials System Architecture - Ethiopian Electric Interruption Tracking System
 42-3 - Compare Insights Class Diagram - Ethiopian Electric Interruption Tracking System
 42-4 - Enhance Delivery Service Maintainer - Ethiopian Electric Interruption Tracking System
+42-5 - List Incidents User Interface - Ethiopian Electric Interruption Tracking System
