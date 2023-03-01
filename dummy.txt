@@ -219,3 +219,4 @@
 41-6 - Create Bars In Depth Viewer - Ethiopian Electric Interruption Tracking System
 42-1 - Document Obs Summary Viewer - Ethiopian Electric Interruption Tracking System
 42-2 - Validate Credentials System Architecture - Ethiopian Electric Interruption Tracking System
+42-3 - Compare Insights Class Diagram - Ethiopian Electric Interruption Tracking System
