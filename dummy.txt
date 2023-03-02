@@ -224,3 +224,4 @@
 42-5 - List Incidents User Interface - Ethiopian Electric Interruption Tracking System
 42-6 - Iterate Adjustments Real Time Collection - Ethiopian Electric Interruption Tracking System
 42-7 - Link Navigations Engineering Computer Departmenter - Ethiopian Electric Interruption Tracking System
+43-1 - Install Software Duration Recorder - Ethiopian Electric Interruption Tracking System
