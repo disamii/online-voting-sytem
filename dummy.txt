@@ -231,3 +231,4 @@
 44-3 - Report Issues Theme Switcher - Ethiopian Electric Interruption Tracking System
 44-4 - Track Changes Password Management - Ethiopian Electric Interruption Tracking System
 44-5 - Affect Lines Routine Establisher - Ethiopian Electric Interruption Tracking System
+44-6 - Side Graphs Insight Deeper Deriver - Ethiopian Electric Interruption Tracking System
