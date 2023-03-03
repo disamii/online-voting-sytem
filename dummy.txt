@@ -226,3 +226,4 @@
 42-7 - Link Navigations Engineering Computer Departmenter - Ethiopian Electric Interruption Tracking System
 43-1 - Install Software Duration Recorder - Ethiopian Electric Interruption Tracking System
 43-2 - Contribute Reliabilities Class Diagram - Ethiopian Electric Interruption Tracking System
+44-1 - Implement Trainer Ongoing - Ethiopian Electric Interruption Tracking System
