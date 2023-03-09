@@ -240,3 +240,4 @@
 48-1 - Invest Upgrades Internet Connector - Ethiopian Electric Interruption Tracking System
 48-2 - Create Stakeholder Feedback - Ethiopian Electric Interruption Tracking System
 48-3 - Inform Decisions Backend API - Ethiopian Electric Interruption Tracking System
+48-4 - Automate Alerts Detail Submitter - Ethiopian Electric Interruption Tracking System
