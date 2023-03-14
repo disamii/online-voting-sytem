@@ -255,3 +255,4 @@
 51-2 - View Profile Primary Actor Handler - Ethiopian Electric Interruption Tracking System
 51-3 - Enhance Efficiencies Insight Comparer - Ethiopian Electric Interruption Tracking System
 51-4 - Analyze Performance Engineering Computer Departmenter - Ethiopian Electric Interruption Tracking System
+51-5 - Scale Need Customer Meeter - Ethiopian Electric Interruption Tracking System
