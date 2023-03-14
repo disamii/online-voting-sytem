@@ -260,3 +260,4 @@
 51-7 - List Incidents Error Handling - Ethiopian Electric Interruption Tracking System
 51-8 - Connect Internet Reset Function Adder - Ethiopian Electric Interruption Tracking System
 51-9 - Document Process Feeder Breaker Downer - Ethiopian Electric Interruption Tracking System
+51-10 - Improve Integration Crucialer - Ethiopian Electric Interruption Tracking System
