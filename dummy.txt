@@ -257,3 +257,4 @@
 51-4 - Analyze Performance Engineering Computer Departmenter - Ethiopian Electric Interruption Tracking System
 51-5 - Scale Need Customer Meeter - Ethiopian Electric Interruption Tracking System
 51-6 - Interview Staffs Incident Lister - Ethiopian Electric Interruption Tracking System
+51-7 - List Incidents Error Handling - Ethiopian Electric Interruption Tracking System
