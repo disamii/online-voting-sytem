@@ -251,3 +251,4 @@
 49-5 - Build Reports Account Deleter - Ethiopian Electric Interruption Tracking System
 49-6 - Address Concerns Submission Former - Ethiopian Electric Interruption Tracking System
 50-1 - Improve Readability Info Sharer - Ethiopian Electric Interruption Tracking System
+51-1 - Deploy Knowledge Acquirer - Ethiopian Electric Interruption Tracking System
