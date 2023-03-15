@@ -270,3 +270,4 @@
 52-7 - Submit Reports Git Version Control - Ethiopian Electric Interruption Tracking System
 52-8 - Automate User Management - Ethiopian Electric Interruption Tracking System
 52-9 - Seamless Exchange Text Clarifier - Ethiopian Electric Interruption Tracking System
+52-10 - Submit Details Docker Container - Ethiopian Electric Interruption Tracking System
