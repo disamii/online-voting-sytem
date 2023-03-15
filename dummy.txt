@@ -264,3 +264,4 @@
 52-1 - Quicken Resolutions Electricity Data Parser - Ethiopian Electric Interruption Tracking System
 52-2 - Connect Internet Handbook Report Writer - Ethiopian Electric Interruption Tracking System
 52-3 - Secure Manual Technical Operational EEU - Ethiopian Electric Interruption Tracking System
+52-4 - Delete Requests Duration Calculator - Ethiopian Electric Interruption Tracking System
