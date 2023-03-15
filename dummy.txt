@@ -268,3 +268,4 @@
 52-5 - Facilitate User Count Tracker - Ethiopian Electric Interruption Tracking System
 52-6 - Compare Frequencies Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 52-7 - Submit Reports Git Version Control - Ethiopian Electric Interruption Tracking System
+52-8 - Automate User Management - Ethiopian Electric Interruption Tracking System
