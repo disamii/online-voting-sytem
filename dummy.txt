@@ -261,3 +261,4 @@
 51-8 - Connect Internet Reset Function Adder - Ethiopian Electric Interruption Tracking System
 51-9 - Document Process Feeder Breaker Downer - Ethiopian Electric Interruption Tracking System
 51-10 - Improve Integration Crucialer - Ethiopian Electric Interruption Tracking System
+52-1 - Quicken Resolutions Electricity Data Parser - Ethiopian Electric Interruption Tracking System
