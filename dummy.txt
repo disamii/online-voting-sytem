@@ -273,3 +273,4 @@
 52-10 - Submit Details Docker Container - Ethiopian Electric Interruption Tracking System
 52-11 - Personalize Passes Chat System - Ethiopian Electric Interruption Tracking System
 53-1 - Timer Entries Electricity Data Parser - Ethiopian Electric Interruption Tracking System
+54-1 - Summarize Notifs Reliability Improver - Ethiopian Electric Interruption Tracking System
