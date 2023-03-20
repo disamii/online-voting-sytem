@@ -278,3 +278,4 @@
 54-3 - Optimize Screens Git Version Control - Ethiopian Electric Interruption Tracking System
 55-1 - Authenticate Employee Uploader - Ethiopian Electric Interruption Tracking System
 55-2 - Compare Insights Field Filler - Ethiopian Electric Interruption Tracking System
+55-3 - Receive Notifs Data Upload Table - Ethiopian Electric Interruption Tracking System
