@@ -284,3 +284,4 @@
 56-2 - Build Reports Navigation Linker - Ethiopian Electric Interruption Tracking System
 56-3 - Engage Mentor Readability Improver - Ethiopian Electric Interruption Tracking System
 56-4 - Validate Tracker Effectiver - Ethiopian Electric Interruption Tracking System
+57-1 - Scale Duration Calculator - Ethiopian Electric Interruption Tracking System
