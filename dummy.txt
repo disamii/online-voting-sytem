@@ -290,3 +290,4 @@
 58-3 - Track Infos Tailwind Styling - Ethiopian Electric Interruption Tracking System
 59-1 - Configure Exchange Seamlesser - Ethiopian Electric Interruption Tracking System
 59-2 - Compare Patterns Internship Report - Ethiopian Electric Interruption Tracking System
+60-1 - Query Point Failure Identifier - Ethiopian Electric Interruption Tracking System
