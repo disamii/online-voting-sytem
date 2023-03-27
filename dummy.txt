@@ -294,3 +294,4 @@
 60-2 - Take Notes Primary Actor Handler - Ethiopian Electric Interruption Tracking System
 60-3 - Restore Dropdown Actioner - Ethiopian Electric Interruption Tracking System
 60-4 - Manage Datas Data Flow Designer - Ethiopian Electric Interruption Tracking System
+60-5 - Deploy Environment Data Aligner - Ethiopian Electric Interruption Tracking System
