@@ -298,3 +298,4 @@
 60-6 - Delete Requests Feedback Collector - Ethiopian Electric Interruption Tracking System
 60-7 - Handle Deletions Metric Card Displayer - Ethiopian Electric Interruption Tracking System
 60-8 - Establish Routines Downtime Table Generator - Ethiopian Electric Interruption Tracking System
+60-9 - Streamline Setups Knowledge Acquirer - Ethiopian Electric Interruption Tracking System
