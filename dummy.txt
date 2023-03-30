@@ -315,3 +315,4 @@
 63-4 - Create Accounts Feature Integrator - Ethiopian Electric Interruption Tracking System
 63-5 - Manuals Operationals Graph Visualization - Ethiopian Electric Interruption Tracking System
 63-6 - Validate Credentials Info Viewer - Ethiopian Electric Interruption Tracking System
+63-7 - Quicken Resolutions Field Filler - Ethiopian Electric Interruption Tracking System
