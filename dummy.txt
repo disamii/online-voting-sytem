@@ -312,3 +312,4 @@
 63-1 - Define Roles Notification Summarizer - Ethiopian Electric Interruption Tracking System
 63-2 - Build Analysis Detailer - Ethiopian Electric Interruption Tracking System
 63-3 - Form Submissions Insight Linker - Ethiopian Electric Interruption Tracking System
+63-4 - Create Accounts Feature Integrator - Ethiopian Electric Interruption Tracking System
