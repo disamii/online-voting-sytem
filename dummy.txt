@@ -319,3 +319,4 @@
 63-8 - Track Changes Username Generator - Ethiopian Electric Interruption Tracking System
 64-1 - Create Bars Git Version Control - Ethiopian Electric Interruption Tracking System
 64-2 - Configure Text Clarifier - Ethiopian Electric Interruption Tracking System
+64-3 - Query Class Diagram - Ethiopian Electric Interruption Tracking System
