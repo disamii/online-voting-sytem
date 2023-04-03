@@ -322,3 +322,4 @@
 64-3 - Query Class Diagram - Ethiopian Electric Interruption Tracking System
 65-1 - Integrate Analytics Predictor - Ethiopian Electric Interruption Tracking System
 65-2 - Participate Configs System Manager - Ethiopian Electric Interruption Tracking System
+65-3 - Collect Feedback Class Diagram - Ethiopian Electric Interruption Tracking System
