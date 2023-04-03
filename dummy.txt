@@ -324,3 +324,4 @@
 65-2 - Participate Configs System Manager - Ethiopian Electric Interruption Tracking System
 65-3 - Collect Feedback Class Diagram - Ethiopian Electric Interruption Tracking System
 65-4 - Enable Note Taking Contrast Booster - Ethiopian Electric Interruption Tracking System
+65-5 - Compare Patterns Report Generation - Ethiopian Electric Interruption Tracking System
