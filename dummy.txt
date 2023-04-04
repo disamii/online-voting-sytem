@@ -326,3 +326,4 @@
 65-4 - Enable Note Taking Contrast Booster - Ethiopian Electric Interruption Tracking System
 65-5 - Compare Patterns Report Generation - Ethiopian Electric Interruption Tracking System
 65-6 - Record Durations Note Taking - Ethiopian Electric Interruption Tracking System
+66-1 - Manuals Operationals Reminder Setter - Ethiopian Electric Interruption Tracking System
