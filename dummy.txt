@@ -327,3 +327,4 @@
 65-5 - Compare Patterns Report Generation - Ethiopian Electric Interruption Tracking System
 65-6 - Record Durations Note Taking - Ethiopian Electric Interruption Tracking System
 66-1 - Manuals Operationals Reminder Setter - Ethiopian Electric Interruption Tracking System
+66-2 - Monitor Suspensions Disruption Optimizer - Ethiopian Electric Interruption Tracking System
