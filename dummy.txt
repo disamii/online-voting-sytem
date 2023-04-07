@@ -337,3 +337,4 @@
 69-3 - Build Charts Manual Data Migration - Ethiopian Electric Interruption Tracking System
 69-4 - Enable Handbook Report Writer - Ethiopian Electric Interruption Tracking System
 69-5 - Migrate Graph Visualization - Ethiopian Electric Interruption Tracking System
+69-6 - Record Actions Graph Side By Sider - Ethiopian Electric Interruption Tracking System
