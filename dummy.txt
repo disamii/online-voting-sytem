@@ -335,3 +335,4 @@
 69-1 - Boost Contrast Docker Container - Ethiopian Electric Interruption Tracking System
 69-2 - Interview Staffs Outage Reasoner - Ethiopian Electric Interruption Tracking System
 69-3 - Build Charts Manual Data Migration - Ethiopian Electric Interruption Tracking System
+69-4 - Enable Handbook Report Writer - Ethiopian Electric Interruption Tracking System
