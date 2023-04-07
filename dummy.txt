@@ -333,3 +333,4 @@
 68-3 - Reduce Strain Iteration Improver - Ethiopian Electric Interruption Tracking System
 68-4 - Personalize Passes Web Based Solution - Ethiopian Electric Interruption Tracking System
 69-1 - Boost Contrast Docker Container - Ethiopian Electric Interruption Tracking System
+69-2 - Interview Staffs Outage Reasoner - Ethiopian Electric Interruption Tracking System
