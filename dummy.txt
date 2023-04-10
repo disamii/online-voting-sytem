@@ -347,3 +347,4 @@
 70-2 - Enhance Visibility Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
 70-3 - Develop API Info Viewer - Ethiopian Electric Interruption Tracking System
 70-4 - Reference Comms Concern Addresser - Ethiopian Electric Interruption Tracking System
+70-5 - Define Associations Predictive Insights - Ethiopian Electric Interruption Tracking System
