@@ -348,3 +348,4 @@
 70-3 - Develop API Info Viewer - Ethiopian Electric Interruption Tracking System
 70-4 - Reference Comms Concern Addresser - Ethiopian Electric Interruption Tracking System
 70-5 - Define Associations Predictive Insights - Ethiopian Electric Interruption Tracking System
+70-6 - Collect Feedback Feature Linker - Ethiopian Electric Interruption Tracking System
