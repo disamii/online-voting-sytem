@@ -350,3 +350,4 @@
 70-5 - Define Associations Predictive Insights - Ethiopian Electric Interruption Tracking System
 70-6 - Collect Feedback Feature Linker - Ethiopian Electric Interruption Tracking System
 70-7 - Flow Data Handbook Report Writer - Ethiopian Electric Interruption Tracking System
+70-8 - Address Concerns Database - Ethiopian Electric Interruption Tracking System
