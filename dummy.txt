@@ -345,3 +345,4 @@
 69-11 - Enhance Supports Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 70-1 - View Infos Info Tracker - Ethiopian Electric Interruption Tracking System
 70-2 - Enhance Visibility Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
+70-3 - Develop API Info Viewer - Ethiopian Electric Interruption Tracking System
