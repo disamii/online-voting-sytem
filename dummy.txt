@@ -362,3 +362,4 @@
 71-7 - Contribute Reliabilities Experience Deepener - Ethiopian Electric Interruption Tracking System
 71-8 - Enhance Reliability Contributor - Ethiopian Electric Interruption Tracking System
 71-9 - Specify Hardware Predictive Insights - Ethiopian Electric Interruption Tracking System
+71-10 - Engage Mentor Guideline Internship Follower - Ethiopian Electric Interruption Tracking System
