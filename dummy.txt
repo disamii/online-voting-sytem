@@ -354,3 +354,4 @@
 70-9 - Report Periodic Experience Deepener - Ethiopian Electric Interruption Tracking System
 70-10 - Restore Data Aligner - Ethiopian Electric Interruption Tracking System
 71-1 - Configure Firewalls Performance Optimalizer - Ethiopian Electric Interruption Tracking System
+71-2 - Enable Note Taking Delete Option Provider - Ethiopian Electric Interruption Tracking System
