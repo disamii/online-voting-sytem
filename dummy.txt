@@ -357,3 +357,4 @@
 71-2 - Enable Note Taking Delete Option Provider - Ethiopian Electric Interruption Tracking System
 71-3 - Improve Reliabs Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 71-4 - Develop Detail Submitter - Ethiopian Electric Interruption Tracking System
+71-5 - Integrate Line Graph Trends - Ethiopian Electric Interruption Tracking System
