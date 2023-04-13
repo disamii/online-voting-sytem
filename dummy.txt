@@ -370,3 +370,4 @@
 72-5 - Lab Docs Engineering Computer Departmenter - Ethiopian Electric Interruption Tracking System
 72-6 - Optimize Disruptions Data Capturer - Ethiopian Electric Interruption Tracking System
 72-7 - Generate Tables Theme Toggle - Ethiopian Electric Interruption Tracking System
+73-1 - Monitor Suspensions Graph Detailer - Ethiopian Electric Interruption Tracking System
