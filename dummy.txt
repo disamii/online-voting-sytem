@@ -373,3 +373,4 @@
 73-1 - Monitor Suspensions Graph Detailer - Ethiopian Electric Interruption Tracking System
 73-2 - Update Principle Understandinger - Ethiopian Electric Interruption Tracking System
 74-1 - Identify Problems Feedback Collector - Ethiopian Electric Interruption Tracking System
+74-2 - Validate Credentials Isolated Environment Creator - Ethiopian Electric Interruption Tracking System
