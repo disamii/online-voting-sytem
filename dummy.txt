@@ -377,3 +377,4 @@
 74-3 - Update Data Upload Table - Ethiopian Electric Interruption Tracking System
 74-4 - Profile Authentication - Ethiopian Electric Interruption Tracking System
 74-5 - Foundation Docs Time Durator - Ethiopian Electric Interruption Tracking System
+74-6 - Generate Tables User Interface - Ethiopian Electric Interruption Tracking System
