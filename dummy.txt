@@ -378,3 +378,4 @@
 74-4 - Profile Authentication - Ethiopian Electric Interruption Tracking System
 74-5 - Foundation Docs Time Durator - Ethiopian Electric Interruption Tracking System
 74-6 - Generate Tables User Interface - Ethiopian Electric Interruption Tracking System
+74-7 - Schedule Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
