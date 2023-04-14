@@ -380,3 +380,4 @@
 74-6 - Generate Tables User Interface - Ethiopian Electric Interruption Tracking System
 74-7 - Schedule Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
 74-8 - Highlight Metrics In Depth Viewer - Ethiopian Electric Interruption Tracking System
+74-9 - Build Reports Automated Alerts - Ethiopian Electric Interruption Tracking System
