@@ -382,3 +382,4 @@
 74-8 - Highlight Metrics In Depth Viewer - Ethiopian Electric Interruption Tracking System
 74-9 - Build Reports Automated Alerts - Ethiopian Electric Interruption Tracking System
 74-10 - Define Associations Employee Uploader - Ethiopian Electric Interruption Tracking System
+75-1 - Calculate System Manager - Ethiopian Electric Interruption Tracking System
