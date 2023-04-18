@@ -385,3 +385,4 @@
 75-1 - Calculate System Manager - Ethiopian Electric Interruption Tracking System
 76-1 - Enable Note Taking UML Entity Mapper - Ethiopian Electric Interruption Tracking System
 76-2 - Manage Overall Entity Relationship - Ethiopian Electric Interruption Tracking System
+76-3 - Display Cards Metric Card Displayer - Ethiopian Electric Interruption Tracking System
