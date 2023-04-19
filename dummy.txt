@@ -388,3 +388,4 @@
 76-3 - Display Cards Metric Card Displayer - Ethiopian Electric Interruption Tracking System
 76-4 - Facilitate Comms Submission Former - Ethiopian Electric Interruption Tracking System
 77-1 - Count Totals System Architecture - Ethiopian Electric Interruption Tracking System
+77-2 - Handle Actors Reliability Service Improver - Ethiopian Electric Interruption Tracking System
