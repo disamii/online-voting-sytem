@@ -387,3 +387,4 @@
 76-2 - Manage Overall Entity Relationship - Ethiopian Electric Interruption Tracking System
 76-3 - Display Cards Metric Card Displayer - Ethiopian Electric Interruption Tracking System
 76-4 - Facilitate Comms Submission Former - Ethiopian Electric Interruption Tracking System
+77-1 - Count Totals System Architecture - Ethiopian Electric Interruption Tracking System
