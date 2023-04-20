@@ -398,3 +398,4 @@
 78-5 - Control Version Chat System - Ethiopian Electric Interruption Tracking System
 78-6 - Detail Graphs Power Outage Tracker - Ethiopian Electric Interruption Tracking System
 78-7 - Derive Deeper Suspension Monitor - Ethiopian Electric Interruption Tracking System
+78-8 - Department Engineers Stakeholder Feedback - Ethiopian Electric Interruption Tracking System
