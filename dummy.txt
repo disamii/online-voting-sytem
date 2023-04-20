@@ -391,3 +391,4 @@
 77-2 - Handle Actors Reliability Service Improver - Ethiopian Electric Interruption Tracking System
 77-3 - Upload Employee Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
 77-4 - Record Durations Performance Booster - Ethiopian Electric Interruption Tracking System
+78-1 - Capture Datas Insight Deeper Deriver - Ethiopian Electric Interruption Tracking System
