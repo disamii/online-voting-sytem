@@ -396,3 +396,4 @@
 78-3 - Optimalize Performs Theme Switcher - Ethiopian Electric Interruption Tracking System
 78-4 - Consult Initial Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
 78-5 - Control Version Chat System - Ethiopian Electric Interruption Tracking System
+78-6 - Detail Graphs Power Outage Tracker - Ethiopian Electric Interruption Tracking System
