@@ -401,3 +401,4 @@
 78-8 - Department Engineers Stakeholder Feedback - Ethiopian Electric Interruption Tracking System
 79-1 - Implement Solutions Feature Integrator - Ethiopian Electric Interruption Tracking System
 79-2 - Fix User Management - Ethiopian Electric Interruption Tracking System
+79-3 - Effective Trackers Doc CSS Tailwind Lab - Ethiopian Electric Interruption Tracking System
