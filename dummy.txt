@@ -406,3 +406,4 @@
 80-1 - Integrate Reminder Setter - Ethiopian Electric Interruption Tracking System
 80-2 - Advance Analyzers Internet Connector - Ethiopian Electric Interruption Tracking System
 80-3 - Capture Vision Mission Stater - Ethiopian Electric Interruption Tracking System
+80-4 - Scale Handbook Report Writer - Ethiopian Electric Interruption Tracking System
