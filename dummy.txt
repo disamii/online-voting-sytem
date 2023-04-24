@@ -403,3 +403,4 @@
 79-2 - Fix User Management - Ethiopian Electric Interruption Tracking System
 79-3 - Effective Trackers Doc CSS Tailwind Lab - Ethiopian Electric Interruption Tracking System
 79-4 - Practicaler Apps Periodic Reporter - Ethiopian Electric Interruption Tracking System
+80-1 - Integrate Reminder Setter - Ethiopian Electric Interruption Tracking System
