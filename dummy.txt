@@ -414,3 +414,4 @@
 81-4 - Enhance Visibility Alert Automator - Ethiopian Electric Interruption Tracking System
 81-5 - Link Navigations Prompt Popper - Ethiopian Electric Interruption Tracking System
 81-6 - Compare Insights Point Failure Identifier - Ethiopian Electric Interruption Tracking System
+81-7 - Contribute Reliabilities Delivery Service Maintainer - Ethiopian Electric Interruption Tracking System
