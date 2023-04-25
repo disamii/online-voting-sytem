@@ -417,3 +417,4 @@
 81-7 - Contribute Reliabilities Delivery Service Maintainer - Ethiopian Electric Interruption Tracking System
 81-8 - Identify Areas Efficiency Operational Enhancer - Ethiopian Electric Interruption Tracking System
 81-9 - Track Infos Analysis Detailer - Ethiopian Electric Interruption Tracking System
+81-10 - Receive Notifs Question Asker - Ethiopian Electric Interruption Tracking System
