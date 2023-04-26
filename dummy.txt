@@ -419,3 +419,4 @@
 81-9 - Track Infos Analysis Detailer - Ethiopian Electric Interruption Tracking System
 81-10 - Receive Notifs Question Asker - Ethiopian Electric Interruption Tracking System
 81-11 - Integrate Reliability Improver - Ethiopian Electric Interruption Tracking System
+82-1 - Hold Meetings Environment Collaborator - Ethiopian Electric Interruption Tracking System
