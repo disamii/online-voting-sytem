@@ -425,3 +425,4 @@
 82-4 - Facilitate User Interface - Ethiopian Electric Interruption Tracking System
 82-5 - Base Historicals Iteration Improver - Ethiopian Electric Interruption Tracking System
 82-6 - Edit Application Practicaler - Ethiopian Electric Interruption Tracking System
+82-7 - Iterate Adjustments Info Sharer - Ethiopian Electric Interruption Tracking System
