@@ -420,3 +420,4 @@
 81-10 - Receive Notifs Question Asker - Ethiopian Electric Interruption Tracking System
 81-11 - Integrate Reliability Improver - Ethiopian Electric Interruption Tracking System
 82-1 - Hold Meetings Environment Collaborator - Ethiopian Electric Interruption Tracking System
+82-2 - Add Internship Report - Ethiopian Electric Interruption Tracking System
