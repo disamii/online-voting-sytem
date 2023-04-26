@@ -423,3 +423,4 @@
 82-2 - Add Internship Report - Ethiopian Electric Interruption Tracking System
 82-3 - Share Infos Feature Linker - Ethiopian Electric Interruption Tracking System
 82-4 - Facilitate User Interface - Ethiopian Electric Interruption Tracking System
+82-5 - Base Historicals Iteration Improver - Ethiopian Electric Interruption Tracking System
