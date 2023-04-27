@@ -427,3 +427,4 @@
 82-6 - Edit Application Practicaler - Ethiopian Electric Interruption Tracking System
 82-7 - Iterate Adjustments Info Sharer - Ethiopian Electric Interruption Tracking System
 82-8 - Gather Data User Interface - Ethiopian Electric Interruption Tracking System
+83-1 - Enforce Standards Account Creator - Ethiopian Electric Interruption Tracking System
