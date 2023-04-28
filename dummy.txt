@@ -435,3 +435,4 @@
 84-2 - Manage Datas Access Level Controller - Ethiopian Electric Interruption Tracking System
 84-3 - Improve Reliabs Line Affecter - Ethiopian Electric Interruption Tracking System
 84-4 - Map Entities Background Company Referencer - Ethiopian Electric Interruption Tracking System
+84-5 - Optimize Disruptions Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
