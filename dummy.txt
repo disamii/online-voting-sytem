@@ -434,3 +434,4 @@
 84-1 - Generate Username API Development - Ethiopian Electric Interruption Tracking System
 84-2 - Manage Datas Access Level Controller - Ethiopian Electric Interruption Tracking System
 84-3 - Improve Reliabs Line Affecter - Ethiopian Electric Interruption Tracking System
+84-4 - Map Entities Background Company Referencer - Ethiopian Electric Interruption Tracking System
