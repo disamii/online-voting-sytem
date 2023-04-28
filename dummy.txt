@@ -432,3 +432,4 @@
 83-3 - Validate Credentials Field Filler - Ethiopian Electric Interruption Tracking System
 83-4 - Log Application Practicaler - Ethiopian Electric Interruption Tracking System
 84-1 - Generate Username API Development - Ethiopian Electric Interruption Tracking System
+84-2 - Manage Datas Access Level Controller - Ethiopian Electric Interruption Tracking System
