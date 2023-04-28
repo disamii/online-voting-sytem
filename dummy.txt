@@ -431,3 +431,4 @@
 83-2 - Document Obs Data Flow Designer - Ethiopian Electric Interruption Tracking System
 83-3 - Validate Credentials Field Filler - Ethiopian Electric Interruption Tracking System
 83-4 - Log Application Practicaler - Ethiopian Electric Interruption Tracking System
+84-1 - Generate Username API Development - Ethiopian Electric Interruption Tracking System
