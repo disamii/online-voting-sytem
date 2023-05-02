@@ -436,3 +436,4 @@
 84-3 - Improve Reliabs Line Affecter - Ethiopian Electric Interruption Tracking System
 84-4 - Map Entities Background Company Referencer - Ethiopian Electric Interruption Tracking System
 84-5 - Optimize Disruptions Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
+86-1 - Switch Themes System Architecture - Ethiopian Electric Interruption Tracking System
