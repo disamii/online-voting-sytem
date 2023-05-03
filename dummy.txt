@@ -445,3 +445,4 @@
 86-7 - Log Service Reliability Booster - Ethiopian Electric Interruption Tracking System
 87-1 - Monitor Suspensions Report Page Builder - Ethiopian Electric Interruption Tracking System
 87-2 - Add Notification Service - Ethiopian Electric Interruption Tracking System
+87-3 - Parse Note Taking - Ethiopian Electric Interruption Tracking System
