@@ -448,3 +448,4 @@
 87-3 - Parse Note Taking - Ethiopian Electric Interruption Tracking System
 87-4 - Ask Questions Detail Submitter - Ethiopian Electric Interruption Tracking System
 87-5 - Highlight Metrics Metric Card Displayer - Ethiopian Electric Interruption Tracking System
+87-6 - Define Roles Skill Deepener - Ethiopian Electric Interruption Tracking System
