@@ -443,3 +443,4 @@
 86-5 - Control Version Dropdown Actioner - Ethiopian Electric Interruption Tracking System
 86-6 - Receive Responses Password Resetter - Ethiopian Electric Interruption Tracking System
 86-7 - Log Service Reliability Booster - Ethiopian Electric Interruption Tracking System
+87-1 - Monitor Suspensions Report Page Builder - Ethiopian Electric Interruption Tracking System
