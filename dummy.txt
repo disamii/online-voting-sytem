@@ -452,3 +452,4 @@
 87-7 - Render Login Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
 88-1 - Reset Pass Data Flow Designer - Ethiopian Electric Interruption Tracking System
 88-2 - Provide Deletes Password Resetter - Ethiopian Electric Interruption Tracking System
+88-3 - Enforce Standards Oversight Maintainer - Ethiopian Electric Interruption Tracking System
