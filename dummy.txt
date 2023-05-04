@@ -450,3 +450,4 @@
 87-5 - Highlight Metrics Metric Card Displayer - Ethiopian Electric Interruption Tracking System
 87-6 - Define Roles Skill Deepener - Ethiopian Electric Interruption Tracking System
 87-7 - Render Login Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
+88-1 - Reset Pass Data Flow Designer - Ethiopian Electric Interruption Tracking System
