@@ -455,3 +455,4 @@
 88-3 - Enforce Standards Oversight Maintainer - Ethiopian Electric Interruption Tracking System
 88-4 - View Submissions Experience Deepener - Ethiopian Electric Interruption Tracking System
 88-5 - Build Charts Admin Dashboard - Ethiopian Electric Interruption Tracking System
+88-6 - Handle Deletions Firewall Configurer Cisco - Ethiopian Electric Interruption Tracking System
