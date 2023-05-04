@@ -451,3 +451,4 @@
 87-6 - Define Roles Skill Deepener - Ethiopian Electric Interruption Tracking System
 87-7 - Render Login Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
 88-1 - Reset Pass Data Flow Designer - Ethiopian Electric Interruption Tracking System
+88-2 - Provide Deletes Password Resetter - Ethiopian Electric Interruption Tracking System
