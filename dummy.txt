@@ -467,3 +467,4 @@
 90-4 - Measure Security Outage Reasoner - Ethiopian Electric Interruption Tracking System
 90-5 - Communicate Via Chat Issue Reporter - Ethiopian Electric Interruption Tracking System
 90-6 - Schedule API Development - Ethiopian Electric Interruption Tracking System
+90-7 - Setup Concepts Deletion Handler - Ethiopian Electric Interruption Tracking System
