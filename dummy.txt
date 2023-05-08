@@ -463,3 +463,4 @@
 89-2 - Write Handbooks Frequency Analyzer - Ethiopian Electric Interruption Tracking System
 90-1 - Optimize Disruptions System Architecture - Ethiopian Electric Interruption Tracking System
 90-2 - State Visions Text Clarifier - Ethiopian Electric Interruption Tracking System
+90-3 - Build Charts Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
