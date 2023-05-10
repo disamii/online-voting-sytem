@@ -471,3 +471,4 @@
 91-1 - Highlight Metrics Interaction Seamlesser - Ethiopian Electric Interruption Tracking System
 92-1 - Delete Response Receiver - Ethiopian Electric Interruption Tracking System
 92-2 - Manage Datas Delivery Service Maintainer - Ethiopian Electric Interruption Tracking System
+92-3 - Count Totals Response Receiver - Ethiopian Electric Interruption Tracking System
