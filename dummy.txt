@@ -469,3 +469,4 @@
 90-6 - Schedule API Development - Ethiopian Electric Interruption Tracking System
 90-7 - Setup Concepts Deletion Handler - Ethiopian Electric Interruption Tracking System
 91-1 - Highlight Metrics Interaction Seamlesser - Ethiopian Electric Interruption Tracking System
+92-1 - Delete Response Receiver - Ethiopian Electric Interruption Tracking System
