@@ -486,3 +486,4 @@
 93-5 - Render Login Concept Setup LAN WAN - Ethiopian Electric Interruption Tracking System
 93-6 - Align Data Analytics Predictor - Ethiopian Electric Interruption Tracking System
 93-7 - Review Historical Reminder Setter - Ethiopian Electric Interruption Tracking System
+93-8 - Backup User Guide Writer - Ethiopian Electric Interruption Tracking System
