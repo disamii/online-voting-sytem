@@ -480,3 +480,4 @@
 92-9 - Flow Data Question Asker - Ethiopian Electric Interruption Tracking System
 92-10 - Count Totals Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 93-1 - List Incidents Upload Lister - Ethiopian Electric Interruption Tracking System
+93-2 - Create Metric Card Displayer - Ethiopian Electric Interruption Tracking System
