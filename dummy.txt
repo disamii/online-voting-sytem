@@ -497,3 +497,4 @@
 96-5 - Collect Feedback Detail Submitter - Ethiopian Electric Interruption Tracking System
 96-6 - Record Actions Password Resetter - Ethiopian Electric Interruption Tracking System
 96-7 - Enhance Supports Entity Relationship - Ethiopian Electric Interruption Tracking System
+96-8 - Notify Trend Visualizer - Ethiopian Electric Interruption Tracking System
