@@ -494,3 +494,4 @@
 96-2 - Tech Sector Utility Efficiency Operational Enhancer - Ethiopian Electric Interruption Tracking System
 96-3 - Reduce Strain Distribution Bar Creator - Ethiopian Electric Interruption Tracking System
 96-4 - Track Changes Contact Optioner - Ethiopian Electric Interruption Tracking System
+96-5 - Collect Feedback Detail Submitter - Ethiopian Electric Interruption Tracking System
