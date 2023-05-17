@@ -499,3 +499,4 @@
 96-7 - Enhance Supports Entity Relationship - Ethiopian Electric Interruption Tracking System
 96-8 - Notify Trend Visualizer - Ethiopian Electric Interruption Tracking System
 96-9 - Create Data Summary - Ethiopian Electric Interruption Tracking System
+97-1 - Enhance Visibility Contact Optioner - Ethiopian Electric Interruption Tracking System
