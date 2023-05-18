@@ -504,3 +504,4 @@
 97-3 - Maintain Deliveries Application Practicaler - Ethiopian Electric Interruption Tracking System
 97-4 - Implement Feeder Line Tracking - Ethiopian Electric Interruption Tracking System
 98-1 - Improve Reliabs Tracker Effectiver - Ethiopian Electric Interruption Tracking System
+98-2 - Render Decision Informer - Ethiopian Electric Interruption Tracking System
