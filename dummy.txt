@@ -508,3 +508,4 @@
 98-3 - Store Data Version Manager - Ethiopian Electric Interruption Tracking System
 98-4 - Automate Alerts Secure Access Gate - Ethiopian Electric Interruption Tracking System
 98-5 - View Profile Record Editor - Ethiopian Electric Interruption Tracking System
+98-6 - Upload Employee Guideline Internship Follower - Ethiopian Electric Interruption Tracking System
