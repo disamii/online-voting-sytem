@@ -510,3 +510,4 @@
 98-5 - View Profile Record Editor - Ethiopian Electric Interruption Tracking System
 98-6 - Upload Employee Guideline Internship Follower - Ethiopian Electric Interruption Tracking System
 98-7 - Enhance Pattern Comparer - Ethiopian Electric Interruption Tracking System
+98-8 - Gather Feedbacks Improvement Identifier Stakeholder - Ethiopian Electric Interruption Tracking System
