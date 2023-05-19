@@ -514,3 +514,4 @@
 98-9 - Optimize Screens Frequency Comparator - Ethiopian Electric Interruption Tracking System
 98-10 - Optimize Upgrade Investor - Ethiopian Electric Interruption Tracking System
 99-1 - Highlight Screenshots Readability Improver - Ethiopian Electric Interruption Tracking System
+99-2 - Optimize Access Level Controller - Ethiopian Electric Interruption Tracking System
