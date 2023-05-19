@@ -513,3 +513,4 @@
 98-8 - Gather Feedbacks Improvement Identifier Stakeholder - Ethiopian Electric Interruption Tracking System
 98-9 - Optimize Screens Frequency Comparator - Ethiopian Electric Interruption Tracking System
 98-10 - Optimize Upgrade Investor - Ethiopian Electric Interruption Tracking System
+99-1 - Highlight Screenshots Readability Improver - Ethiopian Electric Interruption Tracking System
