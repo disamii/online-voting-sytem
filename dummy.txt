@@ -517,3 +517,4 @@
 99-2 - Optimize Access Level Controller - Ethiopian Electric Interruption Tracking System
 99-3 - Reset Pass Theme Toggle - Ethiopian Electric Interruption Tracking System
 99-4 - Integrate Features Upgrade Investor - Ethiopian Electric Interruption Tracking System
+100-1 - Update Version Manager - Ethiopian Electric Interruption Tracking System
