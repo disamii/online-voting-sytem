@@ -519,3 +519,4 @@
 99-4 - Integrate Features Upgrade Investor - Ethiopian Electric Interruption Tracking System
 100-1 - Update Version Manager - Ethiopian Electric Interruption Tracking System
 100-2 - Map Entities Interruption Logging - Ethiopian Electric Interruption Tracking System
+100-3 - Action Follow Ups Web Based Solution - Ethiopian Electric Interruption Tracking System
