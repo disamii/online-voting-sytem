@@ -525,3 +525,4 @@
 101-2 - Debug Tracker Effectiver - Ethiopian Electric Interruption Tracking System
 101-3 - Collaborate Envs Network Integration - Ethiopian Electric Interruption Tracking System
 101-4 - Create Isolated Issue Reporter - Ethiopian Electric Interruption Tracking System
+101-5 - Understand Principles Observation Documenter - Ethiopian Electric Interruption Tracking System
