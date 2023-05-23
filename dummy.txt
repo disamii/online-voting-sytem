@@ -521,3 +521,4 @@
 100-2 - Map Entities Interruption Logging - Ethiopian Electric Interruption Tracking System
 100-3 - Action Follow Ups Web Based Solution - Ethiopian Electric Interruption Tracking System
 100-4 - Understand Limitations Line Affecter - Ethiopian Electric Interruption Tracking System
+101-1 - Duration Times Password Resetter - Ethiopian Electric Interruption Tracking System
