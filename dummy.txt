@@ -527,3 +527,4 @@
 101-4 - Create Isolated Issue Reporter - Ethiopian Electric Interruption Tracking System
 101-5 - Understand Principles Observation Documenter - Ethiopian Electric Interruption Tracking System
 102-1 - Acquire Knowledges Graph Detailer - Ethiopian Electric Interruption Tracking System
+102-2 - Iterate Adjustments WAN Setup - Ethiopian Electric Interruption Tracking System
