@@ -533,3 +533,4 @@
 102-5 - Style With Tailwind Sidebar Navigation - Ethiopian Electric Interruption Tracking System
 102-6 - Parse Tool Analyzer Advancer - Ethiopian Electric Interruption Tracking System
 102-7 - Generate Username Record Editor - Ethiopian Electric Interruption Tracking System
+102-8 - Edit Requests Integration Crucialer - Ethiopian Electric Interruption Tracking System
