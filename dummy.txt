@@ -528,3 +528,4 @@
 101-5 - Understand Principles Observation Documenter - Ethiopian Electric Interruption Tracking System
 102-1 - Acquire Knowledges Graph Detailer - Ethiopian Electric Interruption Tracking System
 102-2 - Iterate Adjustments WAN Setup - Ethiopian Electric Interruption Tracking System
+102-3 - Compare Insights Skill Deepener - Ethiopian Electric Interruption Tracking System
