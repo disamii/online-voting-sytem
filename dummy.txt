@@ -536,3 +536,4 @@
 102-8 - Edit Requests Integration Crucialer - Ethiopian Electric Interruption Tracking System
 102-9 - Delete Requests Submission Former - Ethiopian Electric Interruption Tracking System
 103-1 - Derive Deeper Scheduler - Ethiopian Electric Interruption Tracking System
+103-2 - Manage Database Visibility Enhancer - Ethiopian Electric Interruption Tracking System
