@@ -541,3 +541,4 @@
 105-1 - Implement Solutions React Components - Ethiopian Electric Interruption Tracking System
 105-2 - Log Contact Optioner - Ethiopian Electric Interruption Tracking System
 105-3 - Interview Staffs Detail Submitter - Ethiopian Electric Interruption Tracking System
+105-4 - Automate Analysis Detailer - Ethiopian Electric Interruption Tracking System
