@@ -543,3 +543,4 @@
 105-3 - Interview Staffs Detail Submitter - Ethiopian Electric Interruption Tracking System
 105-4 - Automate Analysis Detailer - Ethiopian Electric Interruption Tracking System
 105-5 - Enable Note Taking Performance Optimalizer - Ethiopian Electric Interruption Tracking System
+106-1 - Reset Record Editor - Ethiopian Electric Interruption Tracking System
