@@ -544,3 +544,4 @@
 105-4 - Automate Analysis Detailer - Ethiopian Electric Interruption Tracking System
 105-5 - Enable Note Taking Performance Optimalizer - Ethiopian Electric Interruption Tracking System
 106-1 - Reset Record Editor - Ethiopian Electric Interruption Tracking System
+106-2 - Compare Patterns Standard IEEE Network Area - Ethiopian Electric Interruption Tracking System
