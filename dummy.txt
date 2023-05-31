@@ -547,3 +547,4 @@
 106-2 - Compare Patterns Standard IEEE Network Area - Ethiopian Electric Interruption Tracking System
 106-3 - Link Features Data Storage Manager - Ethiopian Electric Interruption Tracking System
 106-4 - Define Roles Delete Option Provider - Ethiopian Electric Interruption Tracking System
+107-1 - Pop Prompts Express Line Detail - Ethiopian Electric Interruption Tracking System
