@@ -552,3 +552,4 @@
 107-3 - Query Adaptability Layer - Ethiopian Electric Interruption Tracking System
 107-4 - Migrate Analysis Detailer - Ethiopian Electric Interruption Tracking System
 107-5 - Capture Datas System Architecture - Ethiopian Electric Interruption Tracking System
+107-6 - Manage Datas Reminder Setter - Ethiopian Electric Interruption Tracking System
