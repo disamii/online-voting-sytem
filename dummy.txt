@@ -557,3 +557,4 @@
 108-2 - Report Issues Primary Actor Handler - Ethiopian Electric Interruption Tracking System
 108-3 - Enhance Supports Security Measurer - Ethiopian Electric Interruption Tracking System
 108-4 - Analyze Graph Detailer - Ethiopian Electric Interruption Tracking System
+108-5 - Develop API Total Interruption Counter - Ethiopian Electric Interruption Tracking System
