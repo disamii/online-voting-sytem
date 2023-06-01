@@ -554,3 +554,4 @@
 107-5 - Capture Datas System Architecture - Ethiopian Electric Interruption Tracking System
 107-6 - Manage Datas Reminder Setter - Ethiopian Electric Interruption Tracking System
 108-1 - Validate Backend API - Ethiopian Electric Interruption Tracking System
+108-2 - Report Issues Primary Actor Handler - Ethiopian Electric Interruption Tracking System
