@@ -559,3 +559,4 @@
 108-4 - Analyze Graph Detailer - Ethiopian Electric Interruption Tracking System
 108-5 - Develop API Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 108-6 - Improve Feedback Gatherer - Ethiopian Electric Interruption Tracking System
+108-7 - Schedule Report Submitter - Ethiopian Electric Interruption Tracking System
