@@ -570,3 +570,4 @@
 111-3 - Link Insights Feature Integrator - Ethiopian Electric Interruption Tracking System
 111-4 - View Summary Incident Lister - Ethiopian Electric Interruption Tracking System
 111-5 - Link Navigations Time Durator - Ethiopian Electric Interruption Tracking System
+111-6 - Effective Trackers Decision Informer - Ethiopian Electric Interruption Tracking System
