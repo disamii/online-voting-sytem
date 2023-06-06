@@ -567,3 +567,4 @@
 109-4 - List Tables Contrast Booster - Ethiopian Electric Interruption Tracking System
 111-1 - Consult Initial Frequency Analyzer - Ethiopian Electric Interruption Tracking System
 111-2 - Set Reminders Data Historical Baser - Ethiopian Electric Interruption Tracking System
+111-3 - Link Insights Feature Integrator - Ethiopian Electric Interruption Tracking System
