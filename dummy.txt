@@ -574,3 +574,4 @@
 111-7 - Set Reminders Scalability Enhancer - Ethiopian Electric Interruption Tracking System
 112-1 - Distribute Monthly Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
 112-2 - Link Navigations Web Based Solution - Ethiopian Electric Interruption Tracking System
+112-3 - Hold Meetings Graph Side By Sider - Ethiopian Electric Interruption Tracking System
