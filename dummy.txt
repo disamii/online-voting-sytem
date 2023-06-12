@@ -585,3 +585,4 @@
 114-3 - Benchmark Guideline Internship Follower - Ethiopian Electric Interruption Tracking System
 115-1 - Visualize Trends Employee Uploader - Ethiopian Electric Interruption Tracking System
 115-2 - Visualize Trends Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
+115-3 - Configure Firewalls Request Deleter - Ethiopian Electric Interruption Tracking System
