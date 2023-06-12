@@ -591,3 +591,4 @@
 115-6 - Write Guides Insight Comparer - Ethiopian Electric Interruption Tracking System
 115-7 - Collaborate Code Data Communicator - Ethiopian Electric Interruption Tracking System
 115-8 - Inform Decisions Django Endpoints - Ethiopian Electric Interruption Tracking System
+115-9 - Option Contacts Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
