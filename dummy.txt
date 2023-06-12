@@ -589,3 +589,4 @@
 115-4 - Enforce Standards Profile Viewer - Ethiopian Electric Interruption Tracking System
 115-5 - Provide Version Manager - Ethiopian Electric Interruption Tracking System
 115-6 - Write Guides Insight Comparer - Ethiopian Electric Interruption Tracking System
+115-7 - Collaborate Code Data Communicator - Ethiopian Electric Interruption Tracking System
