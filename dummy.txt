@@ -594,3 +594,4 @@
 115-9 - Option Contacts Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
 116-1 - Store Data Handbook Report Writer - Ethiopian Electric Interruption Tracking System
 117-1 - List Tables Solution Implementer - Ethiopian Electric Interruption Tracking System
+117-2 - Write Handbooks Iteration Improver - Ethiopian Electric Interruption Tracking System
