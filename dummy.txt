@@ -596,3 +596,4 @@
 117-1 - List Tables Solution Implementer - Ethiopian Electric Interruption Tracking System
 117-2 - Write Handbooks Iteration Improver - Ethiopian Electric Interruption Tracking System
 117-3 - Visualize Sector Utility Tech - Ethiopian Electric Interruption Tracking System
+117-4 - View Infos Handbook Report Writer - Ethiopian Electric Interruption Tracking System
