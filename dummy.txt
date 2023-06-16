@@ -607,3 +607,4 @@
 119-5 - Logic Server Side Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
 119-6 - Control Version User Management - Ethiopian Electric Interruption Tracking System
 119-7 - Implement Branch Remote Connector - Ethiopian Electric Interruption Tracking System
+119-8 - Enhance Internship Report - Ethiopian Electric Interruption Tracking System
