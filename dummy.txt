@@ -600,3 +600,4 @@
 117-5 - Query Application Practicaler - Ethiopian Electric Interruption Tracking System
 117-6 - Form Submissions Concern Addresser - Ethiopian Electric Interruption Tracking System
 118-1 - Implement Solutions Info Viewer - Ethiopian Electric Interruption Tracking System
+119-1 - Define Associations Django Endpoints - Ethiopian Electric Interruption Tracking System
