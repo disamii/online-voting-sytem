@@ -604,3 +604,4 @@
 119-2 - Acquire Knowledges Version Manager - Ethiopian Electric Interruption Tracking System
 119-3 - Reset Pass Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 119-4 - Deploy Environment Personalizer - Ethiopian Electric Interruption Tracking System
+119-5 - Logic Server Side Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
