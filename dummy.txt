@@ -601,3 +601,4 @@
 117-6 - Form Submissions Concern Addresser - Ethiopian Electric Interruption Tracking System
 118-1 - Implement Solutions Info Viewer - Ethiopian Electric Interruption Tracking System
 119-1 - Define Associations Django Endpoints - Ethiopian Electric Interruption Tracking System
+119-2 - Acquire Knowledges Version Manager - Ethiopian Electric Interruption Tracking System
