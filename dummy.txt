@@ -608,3 +608,4 @@
 119-6 - Control Version User Management - Ethiopian Electric Interruption Tracking System
 119-7 - Implement Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 119-8 - Enhance Internship Report - Ethiopian Electric Interruption Tracking System
+120-1 - Configure Firewalls Secure Access Gate - Ethiopian Electric Interruption Tracking System
