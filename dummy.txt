@@ -610,3 +610,4 @@
 119-8 - Enhance Internship Report - Ethiopian Electric Interruption Tracking System
 120-1 - Configure Firewalls Secure Access Gate - Ethiopian Electric Interruption Tracking System
 120-2 - Contribute Reliabilities Admin Dashboard - Ethiopian Electric Interruption Tracking System
+121-1 - Install Software Sector Utility Tech - Ethiopian Electric Interruption Tracking System
