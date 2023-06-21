@@ -612,3 +612,4 @@
 120-2 - Contribute Reliabilities Admin Dashboard - Ethiopian Electric Interruption Tracking System
 121-1 - Install Software Sector Utility Tech - Ethiopian Electric Interruption Tracking System
 122-1 - View Profile Question Asker - Ethiopian Electric Interruption Tracking System
+122-2 - Map Entities Class Diagram - Ethiopian Electric Interruption Tracking System
