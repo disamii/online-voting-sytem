@@ -615,3 +615,4 @@
 122-2 - Map Entities Class Diagram - Ethiopian Electric Interruption Tracking System
 122-3 - Orchestrate Containers Configuration Participant - Ethiopian Electric Interruption Tracking System
 122-4 - Document Process Incident Lister - Ethiopian Electric Interruption Tracking System
+122-5 - Structure Dropdown Actioner - Ethiopian Electric Interruption Tracking System
