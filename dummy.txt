@@ -617,3 +617,4 @@
 122-4 - Document Process Incident Lister - Ethiopian Electric Interruption Tracking System
 122-5 - Structure Dropdown Actioner - Ethiopian Electric Interruption Tracking System
 123-1 - Detail Analyses Point Failure Identifier - Ethiopian Electric Interruption Tracking System
+123-2 - Share Infos Account Setup Streamliner - Ethiopian Electric Interruption Tracking System
