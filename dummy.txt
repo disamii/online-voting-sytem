@@ -622,3 +622,4 @@
 123-4 - Profile Personalizer - Ethiopian Electric Interruption Tracking System
 123-5 - Engage Mentor Doc Django Foundation Software - Ethiopian Electric Interruption Tracking System
 123-6 - Structure Experience User Friendlier - Ethiopian Electric Interruption Tracking System
+123-7 - Edit Profiles Personalizer - Ethiopian Electric Interruption Tracking System
