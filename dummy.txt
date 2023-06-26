@@ -639,3 +639,4 @@
 125-3 - Validate Sidebar Navigation - Ethiopian Electric Interruption Tracking System
 125-4 - Align Data Doc Django Foundation Software - Ethiopian Electric Interruption Tracking System
 125-5 - Gain Insights Prompt Popper - Ethiopian Electric Interruption Tracking System
+125-6 - Deploy Environment Time Durator - Ethiopian Electric Interruption Tracking System
