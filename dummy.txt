@@ -644,3 +644,4 @@
 125-8 - State Visions Standards Enforcer - Ethiopian Electric Interruption Tracking System
 125-9 - Switch Themes Predictive Insights - Ethiopian Electric Interruption Tracking System
 125-10 - Add Resets Reliability Improver - Ethiopian Electric Interruption Tracking System
+125-11 - Glance Views Device Manual User Huawei - Ethiopian Electric Interruption Tracking System
