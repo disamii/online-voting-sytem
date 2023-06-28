@@ -654,3 +654,4 @@
 127-6 - Identify Problems Challenge Proactive Addresser - Ethiopian Electric Interruption Tracking System
 127-7 - Receive Notifs Summary Viewer - Ethiopian Electric Interruption Tracking System
 127-8 - Highlight Screenshots Chat System - Ethiopian Electric Interruption Tracking System
+127-9 - Scale Insight Provider - Ethiopian Electric Interruption Tracking System
