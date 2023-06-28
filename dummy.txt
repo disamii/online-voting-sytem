@@ -652,3 +652,4 @@
 127-4 - Connect Internet Security Measurer - Ethiopian Electric Interruption Tracking System
 127-5 - Add Resets Table Lister - Ethiopian Electric Interruption Tracking System
 127-6 - Identify Problems Challenge Proactive Addresser - Ethiopian Electric Interruption Tracking System
+127-7 - Receive Notifs Summary Viewer - Ethiopian Electric Interruption Tracking System
