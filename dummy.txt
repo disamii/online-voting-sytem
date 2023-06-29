@@ -658,3 +658,4 @@
 127-10 - Compare Frequencies Dropdown Actioner - Ethiopian Electric Interruption Tracking System
 128-1 - Summarize Notifs Notification Service - Ethiopian Electric Interruption Tracking System
 128-2 - Improve Reliabs Upload Lister - Ethiopian Electric Interruption Tracking System
+128-3 - Write Handbooks Sector Utility Tech - Ethiopian Electric Interruption Tracking System
