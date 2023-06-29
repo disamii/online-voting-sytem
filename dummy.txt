@@ -656,3 +656,4 @@
 127-8 - Highlight Screenshots Chat System - Ethiopian Electric Interruption Tracking System
 127-9 - Scale Insight Provider - Ethiopian Electric Interruption Tracking System
 127-10 - Compare Frequencies Dropdown Actioner - Ethiopian Electric Interruption Tracking System
+128-1 - Summarize Notifs Notification Service - Ethiopian Electric Interruption Tracking System
