@@ -668,3 +668,4 @@
 129-4 - Enhance Efficiencies Decision Informer - Ethiopian Electric Interruption Tracking System
 129-5 - Define Associations Real Time Collection - Ethiopian Electric Interruption Tracking System
 129-6 - Enable Note Taking Data Communicator - Ethiopian Electric Interruption Tracking System
+129-7 - Duration Times Reminder Setter - Ethiopian Electric Interruption Tracking System
