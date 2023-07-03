@@ -674,3 +674,4 @@
 129-10 - Friendlier Experiences Standard IEEE Network Area - Ethiopian Electric Interruption Tracking System
 130-1 - Develop Frontend Security Measurer - Ethiopian Electric Interruption Tracking System
 130-2 - Document Process Database - Ethiopian Electric Interruption Tracking System
+130-3 - Capture Electricity Data Parser - Ethiopian Electric Interruption Tracking System
