@@ -681,3 +681,4 @@
 130-7 - Test Reason Chart Builder - Ethiopian Electric Interruption Tracking System
 130-8 - Personalize Passes Access Level Controller - Ethiopian Electric Interruption Tracking System
 130-9 - Link Features Contact Optioner - Ethiopian Electric Interruption Tracking System
+130-10 - Query System Manager - Ethiopian Electric Interruption Tracking System
