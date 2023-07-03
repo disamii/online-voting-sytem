@@ -678,3 +678,4 @@
 130-4 - List Incidents Backend API - Ethiopian Electric Interruption Tracking System
 130-5 - Safeguard Infos Alert Automator - Ethiopian Electric Interruption Tracking System
 130-6 - Quicken Resolutions Pattern Comparer - Ethiopian Electric Interruption Tracking System
+130-7 - Test Reason Chart Builder - Ethiopian Electric Interruption Tracking System
