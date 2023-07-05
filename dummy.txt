@@ -693,3 +693,4 @@
 132-7 - Side Graphs Frontend Builder - Ethiopian Electric Interruption Tracking System
 132-8 - Capture Datas Standard IEEE Network Area - Ethiopian Electric Interruption Tracking System
 132-9 - Manuals Operationals Admin Dashboard - Ethiopian Electric Interruption Tracking System
+132-10 - Interview Staffs Reliability Contributor - Ethiopian Electric Interruption Tracking System
