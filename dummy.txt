@@ -691,3 +691,4 @@
 132-5 - Analyze Performance Notification Service - Ethiopian Electric Interruption Tracking System
 132-6 - Identify Frequencies Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
 132-7 - Side Graphs Frontend Builder - Ethiopian Electric Interruption Tracking System
+132-8 - Capture Datas Standard IEEE Network Area - Ethiopian Electric Interruption Tracking System
