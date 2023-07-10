@@ -710,3 +710,4 @@
 135-8 - Display Cards Internet Connector - Ethiopian Electric Interruption Tracking System
 135-9 - Suspend Stakeholder Feedback - Ethiopian Electric Interruption Tracking System
 135-10 - Follow Guidelines Data Historical Baser - Ethiopian Electric Interruption Tracking System
+135-11 - Reset Express Line Detail - Ethiopian Electric Interruption Tracking System
