@@ -715,3 +715,4 @@
 136-2 - Switch Themes Frequency Analyzer - Ethiopian Electric Interruption Tracking System
 136-3 - Receive Notifs Methodology Docs - Ethiopian Electric Interruption Tracking System
 137-1 - Collect Feedback Manual Technical Operational EEU - Ethiopian Electric Interruption Tracking System
+137-2 - Understand Limitations Text Clarifier - Ethiopian Electric Interruption Tracking System
