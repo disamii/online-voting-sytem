@@ -718,3 +718,4 @@
 137-2 - Understand Limitations Text Clarifier - Ethiopian Electric Interruption Tracking System
 137-3 - Enforce Standards Integration Crucialer - Ethiopian Electric Interruption Tracking System
 137-4 - Test Integration Crucialer - Ethiopian Electric Interruption Tracking System
+137-5 - Summarize Notifs Monthly Distributor - Ethiopian Electric Interruption Tracking System
