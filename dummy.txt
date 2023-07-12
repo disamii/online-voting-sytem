@@ -722,3 +722,4 @@
 137-6 - Track Changes Suspension Monitor - Ethiopian Electric Interruption Tracking System
 137-7 - Manage Database Iteration Improver - Ethiopian Electric Interruption Tracking System
 137-8 - Handle Actors Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
+137-9 - Conduct Discussions Upgrade Investor - Ethiopian Electric Interruption Tracking System
