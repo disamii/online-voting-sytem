@@ -720,3 +720,4 @@
 137-4 - Test Integration Crucialer - Ethiopian Electric Interruption Tracking System
 137-5 - Summarize Notifs Monthly Distributor - Ethiopian Electric Interruption Tracking System
 137-6 - Track Changes Suspension Monitor - Ethiopian Electric Interruption Tracking System
+137-7 - Manage Database Iteration Improver - Ethiopian Electric Interruption Tracking System
