@@ -725,3 +725,4 @@
 137-9 - Conduct Discussions Upgrade Investor - Ethiopian Electric Interruption Tracking System
 139-1 - Handle Actors Class Diagram - Ethiopian Electric Interruption Tracking System
 139-2 - Improve Efficiencies Monthly Distributor - Ethiopian Electric Interruption Tracking System
+139-3 - Store Data Response Receiver - Ethiopian Electric Interruption Tracking System
