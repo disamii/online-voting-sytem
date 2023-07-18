@@ -738,3 +738,4 @@
 140-7 - Develop Frontend Iteration Improver - Ethiopian Electric Interruption Tracking System
 140-8 - Detail Graphs Graph Visualization - Ethiopian Electric Interruption Tracking System
 141-1 - Write Guides Scalability Enhancer - Ethiopian Electric Interruption Tracking System
+141-2 - Ongoing Train Device Manual User Huawei - Ethiopian Electric Interruption Tracking System
