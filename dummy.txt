@@ -743,3 +743,4 @@
 141-4 - Define Associations React Components - Ethiopian Electric Interruption Tracking System
 141-5 - Side Graphs Support Enhancer - Ethiopian Electric Interruption Tracking System
 141-6 - Edit Profiles Solution Implementer - Ethiopian Electric Interruption Tracking System
+141-7 - Option Contacts Duration Calculator - Ethiopian Electric Interruption Tracking System
