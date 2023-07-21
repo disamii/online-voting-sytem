@@ -762,3 +762,4 @@
 144-3 - Scale Monthly Distributor - Ethiopian Electric Interruption Tracking System
 144-4 - Develop Frontend Observation Documenter - Ethiopian Electric Interruption Tracking System
 144-5 - Seamless Interact Git Version Control - Ethiopian Electric Interruption Tracking System
+144-6 - Display Cards Methodology Testing Software Art - Ethiopian Electric Interruption Tracking System
