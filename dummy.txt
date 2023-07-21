@@ -760,3 +760,4 @@
 144-1 - Advance Analyzers Version Manager - Ethiopian Electric Interruption Tracking System
 144-2 - Collaborate Code React Components - Ethiopian Electric Interruption Tracking System
 144-3 - Scale Monthly Distributor - Ethiopian Electric Interruption Tracking System
+144-4 - Develop Frontend Observation Documenter - Ethiopian Electric Interruption Tracking System
