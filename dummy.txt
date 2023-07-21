@@ -758,3 +758,4 @@
 143-3 - Break Feeders Express Line Detail - Ethiopian Electric Interruption Tracking System
 143-4 - Pop Prompts Data Summary - Ethiopian Electric Interruption Tracking System
 144-1 - Advance Analyzers Version Manager - Ethiopian Electric Interruption Tracking System
+144-2 - Collaborate Code React Components - Ethiopian Electric Interruption Tracking System
