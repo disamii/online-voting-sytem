@@ -766,3 +766,4 @@
 144-7 - Reset Password Management - Ethiopian Electric Interruption Tracking System
 145-1 - Detail Graphs Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
 145-2 - Optimize Screens Report Page Builder - Ethiopian Electric Interruption Tracking System
+145-3 - Facilitate Background Company Referencer - Ethiopian Electric Interruption Tracking System
