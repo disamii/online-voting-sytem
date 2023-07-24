@@ -772,3 +772,4 @@
 145-6 - Optimize Disruptions Service Reliability Booster - Ethiopian Electric Interruption Tracking System
 145-7 - Handle Adaptability Layer - Ethiopian Electric Interruption Tracking System
 145-8 - Improve Reliabs Proactive Maintenance - Ethiopian Electric Interruption Tracking System
+145-9 - Define Roles Database - Ethiopian Electric Interruption Tracking System
