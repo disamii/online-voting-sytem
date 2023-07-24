@@ -764,3 +764,4 @@
 144-5 - Seamless Interact Git Version Control - Ethiopian Electric Interruption Tracking System
 144-6 - Display Cards Methodology Testing Software Art - Ethiopian Electric Interruption Tracking System
 144-7 - Reset Password Management - Ethiopian Electric Interruption Tracking System
+145-1 - Detail Graphs Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
