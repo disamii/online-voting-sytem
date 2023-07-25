@@ -781,3 +781,4 @@
 146-6 - Interview Staffs Line Affecter - Ethiopian Electric Interruption Tracking System
 146-7 - Calculate Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
 146-8 - Identify Improves Security Measurer - Ethiopian Electric Interruption Tracking System
+146-9 - Identify Software Installer - Ethiopian Electric Interruption Tracking System
