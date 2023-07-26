@@ -783,3 +783,4 @@
 146-8 - Identify Improves Security Measurer - Ethiopian Electric Interruption Tracking System
 146-9 - Identify Software Installer - Ethiopian Electric Interruption Tracking System
 147-1 - Align Data Association Definer - Ethiopian Electric Interruption Tracking System
+147-2 - Effective Trackers Tracker Effectiver - Ethiopian Electric Interruption Tracking System
