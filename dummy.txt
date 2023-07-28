@@ -789,3 +789,4 @@
 147-5 - Easier Navs Performance Optimalizer - Ethiopian Electric Interruption Tracking System
 147-6 - Tech Sector Utility Service Reliability Booster - Ethiopian Electric Interruption Tracking System
 149-1 - Modularize Efficiency Operational Enhancer - Ethiopian Electric Interruption Tracking System
+149-2 - Collect Feedback Interruption Logging - Ethiopian Electric Interruption Tracking System
