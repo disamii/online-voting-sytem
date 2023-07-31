@@ -801,3 +801,4 @@
 150-4 - Improve Reliabs API Development - Ethiopian Electric Interruption Tracking System
 150-5 - Edit Records Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
 150-6 - Detail Analyses Data Upload Table - Ethiopian Electric Interruption Tracking System
+150-7 - Share Infos Incident Lister - Ethiopian Electric Interruption Tracking System
