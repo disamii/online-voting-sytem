@@ -796,3 +796,4 @@
 149-6 - Analyze Performance Challenge Documenter - Ethiopian Electric Interruption Tracking System
 149-7 - Record Actions Feedback Collector - Ethiopian Electric Interruption Tracking System
 150-1 - Lab Docs Info Sharer - Ethiopian Electric Interruption Tracking System
+150-2 - Configure Firewalls Periodic Reporter - Ethiopian Electric Interruption Tracking System
