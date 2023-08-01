@@ -807,3 +807,4 @@
 151-3 - Gather Data System Manager - Ethiopian Electric Interruption Tracking System
 151-4 - Link Insights Notification Summarizer - Ethiopian Electric Interruption Tracking System
 151-5 - Iterate Adjustments Container Orchestrator - Ethiopian Electric Interruption Tracking System
+151-6 - Track Counts Downtime Table Generator - Ethiopian Electric Interruption Tracking System
