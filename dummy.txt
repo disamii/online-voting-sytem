@@ -802,3 +802,4 @@
 150-5 - Edit Records Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
 150-6 - Detail Analyses Data Upload Table - Ethiopian Electric Interruption Tracking System
 150-7 - Share Infos Incident Lister - Ethiopian Electric Interruption Tracking System
+151-1 - Pop Prompts Data Flow Designer - Ethiopian Electric Interruption Tracking System
