@@ -813,3 +813,4 @@
 152-1 - Develop Frontend Username Generator - Ethiopian Electric Interruption Tracking System
 153-1 - Invest Upgrades Pattern Comparer - Ethiopian Electric Interruption Tracking System
 153-2 - Capture Datas Profile Viewer - Ethiopian Electric Interruption Tracking System
+153-3 - Action Dropdowns Performance Booster - Ethiopian Electric Interruption Tracking System
