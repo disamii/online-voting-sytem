@@ -817,3 +817,4 @@
 153-4 - Design Integration Crucialer - Ethiopian Electric Interruption Tracking System
 153-5 - Record Durations Glancer - Ethiopian Electric Interruption Tracking System
 153-6 - Facilitate Insight Provider - Ethiopian Electric Interruption Tracking System
+153-7 - Fix Note Taking - Ethiopian Electric Interruption Tracking System
