@@ -827,3 +827,4 @@
 154-5 - Affect Lines Disruption Optimizer - Ethiopian Electric Interruption Tracking System
 154-6 - Crucial Integrate Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
 154-7 - Advance Analyzers Efficiency Operational Enhancer - Ethiopian Electric Interruption Tracking System
+154-8 - Delete Requests Resolution Quickener - Ethiopian Electric Interruption Tracking System
