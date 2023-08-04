@@ -825,3 +825,4 @@
 154-3 - Reset Metric Card Displayer - Ethiopian Electric Interruption Tracking System
 154-4 - Quicken Resolutions Distribution Bar Creator - Ethiopian Electric Interruption Tracking System
 154-5 - Affect Lines Disruption Optimizer - Ethiopian Electric Interruption Tracking System
+154-6 - Crucial Integrate Recurring Issue Detector - Ethiopian Electric Interruption Tracking System
