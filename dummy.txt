@@ -823,3 +823,4 @@
 154-1 - Reason Outages Application Practicaler - Ethiopian Electric Interruption Tracking System
 154-2 - Track Counts Follow Up Actioner - Ethiopian Electric Interruption Tracking System
 154-3 - Reset Metric Card Displayer - Ethiopian Electric Interruption Tracking System
+154-4 - Quicken Resolutions Distribution Bar Creator - Ethiopian Electric Interruption Tracking System
