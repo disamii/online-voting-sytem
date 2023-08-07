@@ -831,3 +831,4 @@
 154-9 - Edit Class Diagram - Ethiopian Electric Interruption Tracking System
 154-10 - Gain Insights Feeder Breaker Downer - Ethiopian Electric Interruption Tracking System
 155-1 - Identify Failures Hardware Specifier - Ethiopian Electric Interruption Tracking System
+155-2 - Collaborate Code Adaptability Layer - Ethiopian Electric Interruption Tracking System
