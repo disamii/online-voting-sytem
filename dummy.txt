@@ -841,3 +841,4 @@
 156-5 - Affect Lines Graph Visualization - Ethiopian Electric Interruption Tracking System
 156-6 - Implement Solutions Internship Report - Ethiopian Electric Interruption Tracking System
 156-7 - Side Graphs Logging - Ethiopian Electric Interruption Tracking System
+156-8 - Schedule Django Endpoints - Ethiopian Electric Interruption Tracking System
