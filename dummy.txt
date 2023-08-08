@@ -835,3 +835,4 @@
 155-3 - Acquire Knowledges Experience User Friendlier - Ethiopian Electric Interruption Tracking System
 155-4 - Schedule Report Page Builder - Ethiopian Electric Interruption Tracking System
 156-1 - Insight Causes Data Upload Table - Ethiopian Electric Interruption Tracking System
+156-2 - Enhance Supports Request Deleter - Ethiopian Electric Interruption Tracking System
