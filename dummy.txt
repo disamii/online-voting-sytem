@@ -839,3 +839,4 @@
 156-3 - Provide Network Integration - Ethiopian Electric Interruption Tracking System
 156-4 - Clarify Text Notification Receiver - Ethiopian Electric Interruption Tracking System
 156-5 - Affect Lines Graph Visualization - Ethiopian Electric Interruption Tracking System
+156-6 - Implement Solutions Internship Report - Ethiopian Electric Interruption Tracking System
