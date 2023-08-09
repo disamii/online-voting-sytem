@@ -848,3 +848,4 @@
 157-3 - Manuals Operationals Vision Mission Stater - Ethiopian Electric Interruption Tracking System
 157-4 - Suspend Manual Data Migration - Ethiopian Electric Interruption Tracking System
 157-5 - Standard Networks Insight Comparer - Ethiopian Electric Interruption Tracking System
+157-6 - Delete Users Periodic Reporter - Ethiopian Electric Interruption Tracking System
