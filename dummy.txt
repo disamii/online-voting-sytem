@@ -843,3 +843,4 @@
 156-7 - Side Graphs Logging - Ethiopian Electric Interruption Tracking System
 156-8 - Schedule Django Endpoints - Ethiopian Electric Interruption Tracking System
 156-9 - Gather Data Feeder Breaker Downer - Ethiopian Electric Interruption Tracking System
+157-1 - Suspend Notification Receiver - Ethiopian Electric Interruption Tracking System
