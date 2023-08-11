@@ -850,3 +850,4 @@
 157-5 - Standard Networks Insight Comparer - Ethiopian Electric Interruption Tracking System
 157-6 - Delete Users Periodic Reporter - Ethiopian Electric Interruption Tracking System
 159-1 - Align Data Analytics - Ethiopian Electric Interruption Tracking System
+159-2 - Store Data Line Frequency Identifier - Ethiopian Electric Interruption Tracking System
