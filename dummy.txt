@@ -861,3 +861,4 @@
 160-4 - Distribute Monthly Detail Page Router - Ethiopian Electric Interruption Tracking System
 160-5 - Benchmark Application Practicaler - Ethiopian Electric Interruption Tracking System
 161-1 - Address Concerns Trend Visualizer - Ethiopian Electric Interruption Tracking System
+161-2 - Capture Datas Standards Enforcer - Ethiopian Electric Interruption Tracking System
