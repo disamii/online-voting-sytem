@@ -867,3 +867,4 @@
 161-5 - View Summary Glancer - Ethiopian Electric Interruption Tracking System
 161-6 - Record Durations Account Setup Streamliner - Ethiopian Electric Interruption Tracking System
 161-7 - Reference Backgrounds Summary Viewer - Ethiopian Electric Interruption Tracking System
+161-8 - Handle Actors System Architecture - Ethiopian Electric Interruption Tracking System
