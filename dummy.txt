@@ -875,3 +875,4 @@
 162-3 - Fill Fields Follow Up Actioner - Ethiopian Electric Interruption Tracking System
 162-4 - Compare Frequencies Info Sharer - Ethiopian Electric Interruption Tracking System
 163-1 - Reset Login Page Renderer - Ethiopian Electric Interruption Tracking System
+163-2 - Provide Action Recorder - Ethiopian Electric Interruption Tracking System
