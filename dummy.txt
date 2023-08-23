@@ -883,3 +883,4 @@
 166-1 - Personalize Passes Notification Summarizer - Ethiopian Electric Interruption Tracking System
 166-2 - Write Guides LAN Configuration - Ethiopian Electric Interruption Tracking System
 166-3 - Foundation Docs Operational Efficiency - Ethiopian Electric Interruption Tracking System
+167-1 - User Manuals Action Recorder - Ethiopian Electric Interruption Tracking System
