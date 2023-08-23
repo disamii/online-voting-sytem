@@ -888,3 +888,4 @@
 167-3 - Integrate Data Aligner - Ethiopian Electric Interruption Tracking System
 167-4 - Improve Efficiencies Chat System - Ethiopian Electric Interruption Tracking System
 167-5 - Improve Readability Database - Ethiopian Electric Interruption Tracking System
+167-6 - Gather Feedbacks Proactive Maintenance - Ethiopian Electric Interruption Tracking System
