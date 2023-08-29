@@ -895,3 +895,4 @@
 169-3 - Understand Limitations Performance Optimalizer - Ethiopian Electric Interruption Tracking System
 170-1 - Secure Graph Detailer - Ethiopian Electric Interruption Tracking System
 171-1 - Improve Login Page Renderer - Ethiopian Electric Interruption Tracking System
+171-2 - Migrate Version Manager - Ethiopian Electric Interruption Tracking System
