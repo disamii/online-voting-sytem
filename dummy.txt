@@ -896,3 +896,4 @@
 170-1 - Secure Graph Detailer - Ethiopian Electric Interruption Tracking System
 171-1 - Improve Login Page Renderer - Ethiopian Electric Interruption Tracking System
 171-2 - Migrate Version Manager - Ethiopian Electric Interruption Tracking System
+171-3 - Reduce Strain Data Historical Baser - Ethiopian Electric Interruption Tracking System
