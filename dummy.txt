@@ -899,3 +899,4 @@
 171-3 - Reduce Strain Data Historical Baser - Ethiopian Electric Interruption Tracking System
 171-4 - Identify Frequencies User Management - Ethiopian Electric Interruption Tracking System
 171-5 - Benchmark Data Manager - Ethiopian Electric Interruption Tracking System
+171-6 - Collect Feedback Trend Visualizer - Ethiopian Electric Interruption Tracking System
