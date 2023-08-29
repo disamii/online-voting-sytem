@@ -901,3 +901,4 @@
 171-5 - Benchmark Data Manager - Ethiopian Electric Interruption Tracking System
 171-6 - Collect Feedback Trend Visualizer - Ethiopian Electric Interruption Tracking System
 171-7 - Review Historical Resolution Quickener - Ethiopian Electric Interruption Tracking System
+171-8 - Standard Networks Frequency Analyzer - Ethiopian Electric Interruption Tracking System
