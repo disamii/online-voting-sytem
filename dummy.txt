@@ -904,3 +904,4 @@
 171-8 - Standard Networks Frequency Analyzer - Ethiopian Electric Interruption Tracking System
 172-1 - Understand Principles MySQL Schema - Ethiopian Electric Interruption Tracking System
 172-2 - Distribute Monthly Communication Computer Data Referencer - Ethiopian Electric Interruption Tracking System
+172-3 - Integrate Features Trainer Ongoing - Ethiopian Electric Interruption Tracking System
