@@ -909,3 +909,4 @@
 172-5 - Seamless Interact User Friendly Interface - Ethiopian Electric Interruption Tracking System
 174-1 - Consult Initial Duration Calculator - Ethiopian Electric Interruption Tracking System
 175-1 - Monitor Suspensions Reliability Contributor - Ethiopian Electric Interruption Tracking System
+175-2 - Develop Notification Summarizer - Ethiopian Electric Interruption Tracking System
