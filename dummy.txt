@@ -915,3 +915,4 @@
 175-5 - Base Historicals System Manager - Ethiopian Electric Interruption Tracking System
 175-6 - Implement Solutions Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
 175-7 - Benchmark User Interface - Ethiopian Electric Interruption Tracking System
+175-8 - Switch Themes Deletion Handler - Ethiopian Electric Interruption Tracking System
