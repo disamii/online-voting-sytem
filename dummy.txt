@@ -923,3 +923,4 @@
 176-2 - Document Process Contrast Booster - Ethiopian Electric Interruption Tracking System
 176-3 - Insight Causes Need Customer Meeter - Ethiopian Electric Interruption Tracking System
 176-4 - Report Periodic Error Handling - Ethiopian Electric Interruption Tracking System
+178-1 - Develop Efficiency Improver - Ethiopian Electric Interruption Tracking System
