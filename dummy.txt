@@ -928,3 +928,4 @@
 178-3 - Record Durations Trainer Ongoing - Ethiopian Electric Interruption Tracking System
 178-4 - Predict Analytics Field Filler - Ethiopian Electric Interruption Tracking System
 178-5 - Upload Employee Observation Documenter - Ethiopian Electric Interruption Tracking System
+179-1 - Enable Note Taking Hardware Specifier - Ethiopian Electric Interruption Tracking System
