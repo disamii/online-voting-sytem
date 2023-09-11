@@ -935,3 +935,4 @@
 180-2 - Create Isolated Insight Provider - Ethiopian Electric Interruption Tracking System
 180-3 - Display Cards Handbook Report Writer - Ethiopian Electric Interruption Tracking System
 180-4 - Fix Sidebar Navigation - Ethiopian Electric Interruption Tracking System
+180-5 - Submit Details Periodic Reporter - Ethiopian Electric Interruption Tracking System
