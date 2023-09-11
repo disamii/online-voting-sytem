@@ -938,3 +938,4 @@
 180-5 - Submit Details Periodic Reporter - Ethiopian Electric Interruption Tracking System
 180-6 - Link Features Container Orchestrator - Ethiopian Electric Interruption Tracking System
 180-7 - Boost Contrast Operational Efficiency - Ethiopian Electric Interruption Tracking System
+180-8 - Query Metric Card Displayer - Ethiopian Electric Interruption Tracking System
