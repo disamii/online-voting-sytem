@@ -932,3 +932,4 @@
 179-2 - Easier Navs Pattern Comparer - Ethiopian Electric Interruption Tracking System
 179-3 - Provide Deletes Navigation Easier - Ethiopian Electric Interruption Tracking System
 180-1 - Assign Password Operational Efficiency - Ethiopian Electric Interruption Tracking System
+180-2 - Create Isolated Insight Provider - Ethiopian Electric Interruption Tracking System
