@@ -941,3 +941,4 @@
 180-8 - Query Metric Card Displayer - Ethiopian Electric Interruption Tracking System
 180-9 - Suspend Reliability Contributor - Ethiopian Electric Interruption Tracking System
 181-1 - Deepen Skills Interruption Logging - Ethiopian Electric Interruption Tracking System
+181-2 - Edit Engineering Computer Departmenter - Ethiopian Electric Interruption Tracking System
