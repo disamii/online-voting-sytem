@@ -946,3 +946,4 @@
 181-4 - Submit Reports Monthly Distributor - Ethiopian Electric Interruption Tracking System
 181-5 - Crucial Integrate Analytics Predictor - Ethiopian Electric Interruption Tracking System
 181-6 - Optimize Disruptions Suspension Monitor - Ethiopian Electric Interruption Tracking System
+181-7 - Quicken Resolutions Duration Recorder - Ethiopian Electric Interruption Tracking System
