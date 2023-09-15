@@ -963,3 +963,4 @@
 183-5 - Meet Needs Account Creator - Ethiopian Electric Interruption Tracking System
 183-6 - Fix Network Integration - Ethiopian Electric Interruption Tracking System
 184-1 - Analyze Experience User Friendlier - Ethiopian Electric Interruption Tracking System
+184-2 - Reset Pass Express Line Detail - Ethiopian Electric Interruption Tracking System
