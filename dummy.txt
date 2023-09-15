@@ -968,3 +968,4 @@
 184-4 - Seamless Exchange Configuration Participant - Ethiopian Electric Interruption Tracking System
 184-5 - Debug Event Logging Module - Ethiopian Electric Interruption Tracking System
 184-6 - Schedule Data Historical Baser - Ethiopian Electric Interruption Tracking System
+184-7 - Streamline Setups Line Graph Trends - Ethiopian Electric Interruption Tracking System
