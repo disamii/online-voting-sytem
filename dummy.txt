@@ -964,3 +964,4 @@
 183-6 - Fix Network Integration - Ethiopian Electric Interruption Tracking System
 184-1 - Analyze Experience User Friendlier - Ethiopian Electric Interruption Tracking System
 184-2 - Reset Pass Express Line Detail - Ethiopian Electric Interruption Tracking System
+184-3 - Compare Frequencies Insight Linker - Ethiopian Electric Interruption Tracking System
