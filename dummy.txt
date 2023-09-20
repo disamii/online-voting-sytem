@@ -978,3 +978,4 @@
 187-1 - Auto-generate User Guide Writer - Ethiopian Electric Interruption Tracking System
 187-2 - Gain Insights Tool Analyzer Advancer - Ethiopian Electric Interruption Tracking System
 187-3 - Log Prompt Popper - Ethiopian Electric Interruption Tracking System
+187-4 - Action Follow Ups Submission Viewer - Ethiopian Electric Interruption Tracking System
