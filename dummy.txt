@@ -975,3 +975,4 @@
 184-11 - Record Actions Internet Connector - Ethiopian Electric Interruption Tracking System
 185-1 - Ongoing Train Isolated Environment Creator - Ethiopian Electric Interruption Tracking System
 186-1 - Foundation Docs Time Durator - Ethiopian Electric Interruption Tracking System
+187-1 - Auto-generate User Guide Writer - Ethiopian Electric Interruption Tracking System
