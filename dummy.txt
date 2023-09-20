@@ -982,3 +982,4 @@
 187-5 - Submit Details Delete Option Provider - Ethiopian Electric Interruption Tracking System
 187-6 - Configure Reason Chart Builder - Ethiopian Electric Interruption Tracking System
 187-7 - Glance Views Predictive Insights - Ethiopian Electric Interruption Tracking System
+187-8 - Optimize Disruptions Internship Report - Ethiopian Electric Interruption Tracking System
