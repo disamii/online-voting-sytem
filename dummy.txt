@@ -992,3 +992,4 @@
 189-3 - Compare Frequencies Login Page Renderer - Ethiopian Electric Interruption Tracking System
 189-4 - Placeholder Performance Analyzer - Ethiopian Electric Interruption Tracking System
 189-5 - Install Software Concern Addresser - Ethiopian Electric Interruption Tracking System
+189-6 - Address Concerns Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
