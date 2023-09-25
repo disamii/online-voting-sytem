@@ -996,3 +996,4 @@
 190-1 - Enhance Efficiencies Sidebar Navigation - Ethiopian Electric Interruption Tracking System
 190-2 - Affect Lines Tool Analyzer Advancer - Ethiopian Electric Interruption Tracking System
 190-3 - Enable Personalizer - Ethiopian Electric Interruption Tracking System
+190-4 - Log Data Aligner - Ethiopian Electric Interruption Tracking System
