@@ -1009,3 +1009,4 @@
 192-3 - Edit Profiles Profile Viewer - Ethiopian Electric Interruption Tracking System
 192-4 - View Profile Time Durator - Ethiopian Electric Interruption Tracking System
 192-5 - Display Cards Isolated Environment Creator - Ethiopian Electric Interruption Tracking System
+192-6 - Improve Readability Action Recorder - Ethiopian Electric Interruption Tracking System
