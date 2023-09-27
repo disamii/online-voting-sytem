@@ -1007,3 +1007,4 @@
 192-1 - Reset Container Orchestrator - Ethiopian Electric Interruption Tracking System
 192-2 - Placeholder Interruption Logging - Ethiopian Electric Interruption Tracking System
 192-3 - Edit Profiles Profile Viewer - Ethiopian Electric Interruption Tracking System
+192-4 - View Profile Time Durator - Ethiopian Electric Interruption Tracking System
