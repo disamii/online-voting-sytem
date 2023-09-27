@@ -1013,3 +1013,4 @@
 192-7 - Delete Users Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 192-8 - User Manuals Summary Viewer - Ethiopian Electric Interruption Tracking System
 192-9 - Highlight Metrics Glancer - Ethiopian Electric Interruption Tracking System
+192-10 - Invest Upgrades Primary Actor Handler - Ethiopian Electric Interruption Tracking System
