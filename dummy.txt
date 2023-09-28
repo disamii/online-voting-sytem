@@ -1017,3 +1017,4 @@
 192-11 - Handle Deletions Exchange Seamlesser - Ethiopian Electric Interruption Tracking System
 193-1 - Query Service Reliability Booster - Ethiopian Electric Interruption Tracking System
 193-2 - Track Infos Suspension Monitor - Ethiopian Electric Interruption Tracking System
+193-3 - Restore Firewall Configurer Cisco - Ethiopian Electric Interruption Tracking System
