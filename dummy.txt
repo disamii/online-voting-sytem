@@ -1019,3 +1019,4 @@
 193-2 - Track Infos Suspension Monitor - Ethiopian Electric Interruption Tracking System
 193-3 - Restore Firewall Configurer Cisco - Ethiopian Electric Interruption Tracking System
 193-4 - Generate Tables Entity Relationship - Ethiopian Electric Interruption Tracking System
+193-5 - Assign Password Monthly Distributor - Ethiopian Electric Interruption Tracking System
