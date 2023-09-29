@@ -1021,3 +1021,4 @@
 193-4 - Generate Tables Entity Relationship - Ethiopian Electric Interruption Tracking System
 193-5 - Assign Password Monthly Distributor - Ethiopian Electric Interruption Tracking System
 194-1 - Iterate Adjustments Analytics Predictor - Ethiopian Electric Interruption Tracking System
+194-2 - Analyze Performance Decision Informer - Ethiopian Electric Interruption Tracking System
