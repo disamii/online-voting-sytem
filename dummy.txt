@@ -1025,3 +1025,4 @@
 194-3 - Identify Problems Web Based Solution - Ethiopian Electric Interruption Tracking System
 194-4 - Report Periodic Vision Mission Stater - Ethiopian Electric Interruption Tracking System
 194-5 - Debug Hardware Specifier - Ethiopian Electric Interruption Tracking System
+194-6 - Foundation Docs User Profile View - Ethiopian Electric Interruption Tracking System
