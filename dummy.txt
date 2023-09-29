@@ -1028,3 +1028,4 @@
 194-6 - Foundation Docs User Profile View - Ethiopian Electric Interruption Tracking System
 194-7 - Reference Backgrounds Performance Booster - Ethiopian Electric Interruption Tracking System
 194-8 - Participate Configs Need Customer Meeter - Ethiopian Electric Interruption Tracking System
+194-9 - Break Feeders Report Submitter - Ethiopian Electric Interruption Tracking System
