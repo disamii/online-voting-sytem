@@ -1041,3 +1041,4 @@
 196-3 - Address Proactives Library JS Interface Builder React - Ethiopian Electric Interruption Tracking System
 196-4 - Support Customizable System Architecture - Ethiopian Electric Interruption Tracking System
 196-5 - Option Contacts Frequency Comparator - Ethiopian Electric Interruption Tracking System
+196-6 - Map Entities Data Upload Table - Ethiopian Electric Interruption Tracking System
