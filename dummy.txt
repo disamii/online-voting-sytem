@@ -1045,3 +1045,4 @@
 196-7 - Manage Database Report Submitter - Ethiopian Electric Interruption Tracking System
 197-1 - Maintain Oversights UML Entity Mapper - Ethiopian Electric Interruption Tracking System
 197-2 - Implement Account Deleter - Ethiopian Electric Interruption Tracking System
+197-3 - Friendlier Experiences Interruption Logging - Ethiopian Electric Interruption Tracking System
