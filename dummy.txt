@@ -1049,3 +1049,4 @@
 197-4 - Link Navigations Data Capturer - Ethiopian Electric Interruption Tracking System
 197-5 - Measure Security Report Generation - Ethiopian Electric Interruption Tracking System
 197-6 - Build Note Taking - Ethiopian Electric Interruption Tracking System
+197-7 - Develop Frontend Challenge Documenter - Ethiopian Electric Interruption Tracking System
