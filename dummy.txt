@@ -1047,3 +1047,4 @@
 197-2 - Implement Account Deleter - Ethiopian Electric Interruption Tracking System
 197-3 - Friendlier Experiences Interruption Logging - Ethiopian Electric Interruption Tracking System
 197-4 - Link Navigations Data Capturer - Ethiopian Electric Interruption Tracking System
+197-5 - Measure Security Report Generation - Ethiopian Electric Interruption Tracking System
