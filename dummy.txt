@@ -1043,3 +1043,4 @@
 196-5 - Option Contacts Frequency Comparator - Ethiopian Electric Interruption Tracking System
 196-6 - Map Entities Data Upload Table - Ethiopian Electric Interruption Tracking System
 196-7 - Manage Database Report Submitter - Ethiopian Electric Interruption Tracking System
+197-1 - Maintain Oversights UML Entity Mapper - Ethiopian Electric Interruption Tracking System
