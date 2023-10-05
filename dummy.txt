@@ -1056,3 +1056,4 @@
 198-4 - Link Features Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
 198-5 - Reason Outages Data Historical Baser - Ethiopian Electric Interruption Tracking System
 198-6 - Build Reports Time Durator - Ethiopian Electric Interruption Tracking System
+198-7 - Connect Branches Update Notifier - Ethiopian Electric Interruption Tracking System
