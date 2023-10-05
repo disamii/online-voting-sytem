@@ -1053,3 +1053,4 @@
 198-1 - Highlight Metrics WAN Setup - Ethiopian Electric Interruption Tracking System
 198-2 - Duration Times Incident Lister - Ethiopian Electric Interruption Tracking System
 198-3 - Scale Feeder Breaker Downer - Ethiopian Electric Interruption Tracking System
+198-4 - Link Features Bar Chart Renderer - Ethiopian Electric Interruption Tracking System
