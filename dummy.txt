@@ -1050,3 +1050,4 @@
 197-5 - Measure Security Report Generation - Ethiopian Electric Interruption Tracking System
 197-6 - Build Note Taking - Ethiopian Electric Interruption Tracking System
 197-7 - Develop Frontend Challenge Documenter - Ethiopian Electric Interruption Tracking System
+198-1 - Highlight Metrics WAN Setup - Ethiopian Electric Interruption Tracking System
