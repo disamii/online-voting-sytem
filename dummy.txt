@@ -1075,3 +1075,4 @@
 202-3 - Reset Pass Theme Switcher - Ethiopian Electric Interruption Tracking System
 203-1 - Receive Notifs Standard IEEE Network Area - Ethiopian Electric Interruption Tracking System
 203-2 - Standard Networks Digital Screen Optimizer - Ethiopian Electric Interruption Tracking System
+203-3 - Deepen Experiences User Friendly Interface - Ethiopian Electric Interruption Tracking System
