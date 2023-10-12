@@ -1078,3 +1078,4 @@
 203-3 - Deepen Experiences User Friendly Interface - Ethiopian Electric Interruption Tracking System
 203-4 - View Submissions System Architecture - Ethiopian Electric Interruption Tracking System
 203-5 - Side Graphs Suspension Monitor - Ethiopian Electric Interruption Tracking System
+203-6 - Identify User Management - Ethiopian Electric Interruption Tracking System
