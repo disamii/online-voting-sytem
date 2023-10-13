@@ -1083,3 +1083,4 @@
 204-2 - Participate Configs Line Frequency Identifier - Ethiopian Electric Interruption Tracking System
 204-3 - Logic Server Side Express Line Detail - Ethiopian Electric Interruption Tracking System
 204-4 - Setup Concepts Django Endpoints - Ethiopian Electric Interruption Tracking System
+204-5 - Insight Causes Service Reliability Booster - Ethiopian Electric Interruption Tracking System
