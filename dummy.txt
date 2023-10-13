@@ -1080,3 +1080,4 @@
 203-5 - Side Graphs Suspension Monitor - Ethiopian Electric Interruption Tracking System
 203-6 - Identify User Management - Ethiopian Electric Interruption Tracking System
 204-1 - Optimize Disruptions Cause Frequency Insight - Ethiopian Electric Interruption Tracking System
+204-2 - Participate Configs Line Frequency Identifier - Ethiopian Electric Interruption Tracking System
