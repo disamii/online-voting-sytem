@@ -1090,3 +1090,4 @@
 205-2 - View Depths Trainer Ongoing - Ethiopian Electric Interruption Tracking System
 205-3 - List Incidents Real Time Collection - Ethiopian Electric Interruption Tracking System
 205-4 - Build Manual Technical Operational EEU - Ethiopian Electric Interruption Tracking System
+205-5 - Delete Configuration Participant - Ethiopian Electric Interruption Tracking System
