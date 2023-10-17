@@ -1102,3 +1102,4 @@
 206-3 - Facilitate Comms Data Communicator - Ethiopian Electric Interruption Tracking System
 206-4 - Refactor Theme Switcher - Ethiopian Electric Interruption Tracking System
 206-5 - Seamless Interact Security Measurer - Ethiopian Electric Interruption Tracking System
+206-6 - Validate Note Taking - Ethiopian Electric Interruption Tracking System
