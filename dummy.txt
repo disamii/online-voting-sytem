@@ -1107,3 +1107,4 @@
 206-8 - Suspend Network Integration - Ethiopian Electric Interruption Tracking System
 206-9 - Standard Networks Communication Computer Data Referencer - Ethiopian Electric Interruption Tracking System
 207-1 - Support Customizable Performance Optimalizer - Ethiopian Electric Interruption Tracking System
+207-2 - Manage Database User Guide Writer - Ethiopian Electric Interruption Tracking System
