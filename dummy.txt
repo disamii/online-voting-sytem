@@ -1124,3 +1124,4 @@
 209-6 - Log Frontend Builder - Ethiopian Electric Interruption Tracking System
 210-1 - Create Bars Data Capturer - Ethiopian Electric Interruption Tracking System
 210-2 - Logic Server Side Delete Option Provider - Ethiopian Electric Interruption Tracking System
+210-3 - Provide Insights Concept Setup LAN WAN - Ethiopian Electric Interruption Tracking System
