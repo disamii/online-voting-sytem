@@ -1123,3 +1123,4 @@
 209-5 - Art Testings Data Aligner - Ethiopian Electric Interruption Tracking System
 209-6 - Log Frontend Builder - Ethiopian Electric Interruption Tracking System
 210-1 - Create Bars Data Capturer - Ethiopian Electric Interruption Tracking System
+210-2 - Logic Server Side Delete Option Provider - Ethiopian Electric Interruption Tracking System
