@@ -1127,3 +1127,4 @@
 210-3 - Provide Insights Concept Setup LAN WAN - Ethiopian Electric Interruption Tracking System
 210-4 - Build Interfaces Proactive Maintenance - Ethiopian Electric Interruption Tracking System
 210-5 - Design Contrast Booster - Ethiopian Electric Interruption Tracking System
+210-6 - Generate Tables Primary Actor Handler - Ethiopian Electric Interruption Tracking System
