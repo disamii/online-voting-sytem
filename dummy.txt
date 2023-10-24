@@ -1130,3 +1130,4 @@
 210-6 - Generate Tables Primary Actor Handler - Ethiopian Electric Interruption Tracking System
 211-1 - Switch Themes Support Enhancer - Ethiopian Electric Interruption Tracking System
 211-2 - Automate Info Viewer - Ethiopian Electric Interruption Tracking System
+211-3 - Affect Lines User Guide Writer - Ethiopian Electric Interruption Tracking System
