@@ -1133,3 +1133,4 @@
 211-3 - Affect Lines User Guide Writer - Ethiopian Electric Interruption Tracking System
 211-4 - Create Personalizer - Ethiopian Electric Interruption Tracking System
 213-1 - Implement Field Filler - Ethiopian Electric Interruption Tracking System
+213-2 - Identify Frequencies Library JS Interface Builder React - Ethiopian Electric Interruption Tracking System
