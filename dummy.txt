@@ -1139,3 +1139,4 @@
 213-5 - Assign Password Security Measurer - Ethiopian Electric Interruption Tracking System
 213-6 - Reference Comms Pattern Comparer - Ethiopian Electric Interruption Tracking System
 213-7 - Deploy Text Clarifier - Ethiopian Electric Interruption Tracking System
+213-8 - Reset Hardware Specifier - Ethiopian Electric Interruption Tracking System
