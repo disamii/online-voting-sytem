@@ -1149,3 +1149,4 @@
 216-4 - Create Bars Device Manual User Huawei - Ethiopian Electric Interruption Tracking System
 216-5 - Highlight Screenshots Suspension Monitor - Ethiopian Electric Interruption Tracking System
 216-6 - Deploy Environment Data Upload Table - Ethiopian Electric Interruption Tracking System
+216-7 - Monitor Suspensions Vision Mission Stater - Ethiopian Electric Interruption Tracking System
