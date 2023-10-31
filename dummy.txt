@@ -1144,3 +1144,4 @@
 215-2 - Identify Areas Info Viewer - Ethiopian Electric Interruption Tracking System
 215-3 - Communicate Via Chat Primary Actor Handler - Ethiopian Electric Interruption Tracking System
 216-1 - Participate Configs Frontend Builder - Ethiopian Electric Interruption Tracking System
+216-2 - Build Charts Navigation Linker - Ethiopian Electric Interruption Tracking System
