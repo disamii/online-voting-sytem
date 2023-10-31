@@ -1151,3 +1151,4 @@
 216-6 - Deploy Environment Data Upload Table - Ethiopian Electric Interruption Tracking System
 216-7 - Monitor Suspensions Vision Mission Stater - Ethiopian Electric Interruption Tracking System
 216-8 - Acquire Knowledges Reliability Contributor - Ethiopian Electric Interruption Tracking System
+216-9 - Invest Upgrades Alert Automator - Ethiopian Electric Interruption Tracking System
