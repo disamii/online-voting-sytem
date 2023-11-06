@@ -1167,3 +1167,4 @@
 220-5 - Secure Text Clarifier - Ethiopian Electric Interruption Tracking System
 220-6 - Reset Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 220-7 - Calculate Concern Addresser - Ethiopian Electric Interruption Tracking System
+220-8 - Collect Feedback Tailwind Styling - Ethiopian Electric Interruption Tracking System
