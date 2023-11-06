@@ -1168,3 +1168,4 @@
 220-6 - Reset Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 220-7 - Calculate Concern Addresser - Ethiopian Electric Interruption Tracking System
 220-8 - Collect Feedback Tailwind Styling - Ethiopian Electric Interruption Tracking System
+220-9 - Iterate Adjustments Data Upload Table - Ethiopian Electric Interruption Tracking System
