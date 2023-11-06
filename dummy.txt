@@ -1161,3 +1161,4 @@
 218-6 - Link Insights Password Management - Ethiopian Electric Interruption Tracking System
 219-1 - Store Data Detail Submitter - Ethiopian Electric Interruption Tracking System
 220-1 - Address Concerns User Profile View - Ethiopian Electric Interruption Tracking System
+220-2 - Render Login Interaction Seamlesser - Ethiopian Electric Interruption Tracking System
