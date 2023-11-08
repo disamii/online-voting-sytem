@@ -1178,3 +1178,4 @@
 222-4 - Link Features Backend API - Ethiopian Electric Interruption Tracking System
 222-5 - List Uploads Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 222-6 - Handle Credential Validator - Ethiopian Electric Interruption Tracking System
+222-7 - Define Associations Decision Informer - Ethiopian Electric Interruption Tracking System
