@@ -1173,3 +1173,4 @@
 221-2 - Timer Entries System Architecture - Ethiopian Electric Interruption Tracking System
 221-3 - Edit Scheduler - Ethiopian Electric Interruption Tracking System
 222-1 - Safeguard Infos Feature Linker - Ethiopian Electric Interruption Tracking System
+222-2 - Handle Actors Info Viewer - Ethiopian Electric Interruption Tracking System
