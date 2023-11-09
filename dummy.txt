@@ -1182,3 +1182,4 @@
 222-8 - Report Issues Network Integration - Ethiopian Electric Interruption Tracking System
 222-9 - Edit Performance Analyzer - Ethiopian Electric Interruption Tracking System
 223-1 - Refactor Username Generator - Ethiopian Electric Interruption Tracking System
+223-2 - Monitor Suspensions Reliability Service Improver - Ethiopian Electric Interruption Tracking System
