@@ -1193,3 +1193,4 @@
 224-4 - Art Testings System Architecture - Ethiopian Electric Interruption Tracking System
 224-5 - Crucial Integrate Event Logging Module - Ethiopian Electric Interruption Tracking System
 224-6 - Track Changes Analytics - Ethiopian Electric Interruption Tracking System
+224-7 - Optimize Screens Authentication - Ethiopian Electric Interruption Tracking System
