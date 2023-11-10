@@ -1191,3 +1191,4 @@
 224-2 - Engage Mentor Issue Reporter - Ethiopian Electric Interruption Tracking System
 224-3 - Personalize Passes Interruption Logging - Ethiopian Electric Interruption Tracking System
 224-4 - Art Testings System Architecture - Ethiopian Electric Interruption Tracking System
+224-5 - Crucial Integrate Event Logging Module - Ethiopian Electric Interruption Tracking System
