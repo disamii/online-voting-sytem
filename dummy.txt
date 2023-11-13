@@ -1204,3 +1204,4 @@
 225-6 - Implement Solutions Internship Report - Ethiopian Electric Interruption Tracking System
 225-7 - Automate Scalability Enhancer - Ethiopian Electric Interruption Tracking System
 225-8 - Advance Analyzers Oversight Maintainer - Ethiopian Electric Interruption Tracking System
+225-9 - Delete Requests Concern Addresser - Ethiopian Electric Interruption Tracking System
