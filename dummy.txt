@@ -1200,3 +1200,4 @@
 225-2 - Foundation Docs Methodology Docs - Ethiopian Electric Interruption Tracking System
 225-3 - Detail Graphs Account Creator - Ethiopian Electric Interruption Tracking System
 225-4 - Delete Users Edit Requester - Ethiopian Electric Interruption Tracking System
+225-5 - Create Solution Implementer - Ethiopian Electric Interruption Tracking System
