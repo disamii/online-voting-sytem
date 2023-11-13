@@ -1201,3 +1201,4 @@
 225-3 - Detail Graphs Account Creator - Ethiopian Electric Interruption Tracking System
 225-4 - Delete Users Edit Requester - Ethiopian Electric Interruption Tracking System
 225-5 - Create Solution Implementer - Ethiopian Electric Interruption Tracking System
+225-6 - Implement Solutions Internship Report - Ethiopian Electric Interruption Tracking System
