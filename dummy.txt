@@ -1217,3 +1217,4 @@
 227-7 - Improve Feedback Collector - Ethiopian Electric Interruption Tracking System
 228-1 - Visualize Total Interruption Counter - Ethiopian Electric Interruption Tracking System
 228-2 - Notify Feature Linker - Ethiopian Electric Interruption Tracking System
+228-3 - Understand Limitations Line Frequency Identifier - Ethiopian Electric Interruption Tracking System
