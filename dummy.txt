@@ -1222,3 +1222,4 @@
 228-5 - Delete Users Contact Optioner - Ethiopian Electric Interruption Tracking System
 228-6 - Update Standards Enforcer - Ethiopian Electric Interruption Tracking System
 228-7 - Tech Sector Utility Profile Viewer - Ethiopian Electric Interruption Tracking System
+228-8 - Improve Efficiencies Table Lister - Ethiopian Electric Interruption Tracking System
