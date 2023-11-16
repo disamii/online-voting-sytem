@@ -1221,3 +1221,4 @@
 228-4 - Delete Standard IEEE Network Area - Ethiopian Electric Interruption Tracking System
 228-5 - Delete Users Contact Optioner - Ethiopian Electric Interruption Tracking System
 228-6 - Update Standards Enforcer - Ethiopian Electric Interruption Tracking System
+228-7 - Tech Sector Utility Profile Viewer - Ethiopian Electric Interruption Tracking System
