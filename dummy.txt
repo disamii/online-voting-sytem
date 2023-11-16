@@ -1215,3 +1215,4 @@
 227-5 - Foundation Docs Readability Improver - Ethiopian Electric Interruption Tracking System
 227-6 - Optimalize Performs Feature Integrator - Ethiopian Electric Interruption Tracking System
 227-7 - Improve Feedback Collector - Ethiopian Electric Interruption Tracking System
+228-1 - Visualize Total Interruption Counter - Ethiopian Electric Interruption Tracking System
