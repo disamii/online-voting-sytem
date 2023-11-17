@@ -1224,3 +1224,4 @@
 228-7 - Tech Sector Utility Profile Viewer - Ethiopian Electric Interruption Tracking System
 228-8 - Improve Efficiencies Table Lister - Ethiopian Electric Interruption Tracking System
 228-9 - Analyze Feedback Collector - Ethiopian Electric Interruption Tracking System
+229-1 - Flow Data Communication Computer Data Referencer - Ethiopian Electric Interruption Tracking System
