@@ -1231,3 +1231,4 @@
 229-5 - Clarify Text Employee Uploader - Ethiopian Electric Interruption Tracking System
 229-6 - Delete Users Secure Access Gate - Ethiopian Electric Interruption Tracking System
 230-1 - Authenticate Reminder Setter - Ethiopian Electric Interruption Tracking System
+230-2 - Reduce Strain Data Upload Table - Ethiopian Electric Interruption Tracking System
