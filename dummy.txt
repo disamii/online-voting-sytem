@@ -1233,3 +1233,4 @@
 230-1 - Authenticate Reminder Setter - Ethiopian Electric Interruption Tracking System
 230-2 - Reduce Strain Data Upload Table - Ethiopian Electric Interruption Tracking System
 231-1 - Engage Mentor Predictive Insights - Ethiopian Electric Interruption Tracking System
+231-2 - Pop Prompts Django Endpoints - Ethiopian Electric Interruption Tracking System
