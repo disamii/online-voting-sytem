@@ -1237,3 +1237,4 @@
 231-3 - Art Testings Edit Requester - Ethiopian Electric Interruption Tracking System
 231-4 - Collaborate Envs Secure Access Gate - Ethiopian Electric Interruption Tracking System
 231-5 - Facilitate Notification Summarizer - Ethiopian Electric Interruption Tracking System
+232-1 - Define Associations User Guide Writer - Ethiopian Electric Interruption Tracking System
