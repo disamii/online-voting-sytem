@@ -1241,3 +1241,4 @@
 232-2 - Identify Problems Predictive Insights - Ethiopian Electric Interruption Tracking System
 232-3 - Add Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 232-4 - Understand Limitations Entry Real Timer - Ethiopian Electric Interruption Tracking System
+232-5 - Reference Comms LAN Configuration - Ethiopian Electric Interruption Tracking System
