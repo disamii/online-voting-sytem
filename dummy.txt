@@ -1244,3 +1244,4 @@
 232-5 - Reference Comms LAN Configuration - Ethiopian Electric Interruption Tracking System
 232-6 - Tech Sector Utility Branch Remote Connector - Ethiopian Electric Interruption Tracking System
 232-7 - Define Roles Device Manual User Huawei - Ethiopian Electric Interruption Tracking System
+233-1 - Document Obs Info Sharer - Ethiopian Electric Interruption Tracking System
