@@ -1249,3 +1249,4 @@
 233-3 - Streamline Data Summary - Ethiopian Electric Interruption Tracking System
 233-4 - Analyze Chat System - Ethiopian Electric Interruption Tracking System
 233-5 - Facilitate Comms Configuration Participant - Ethiopian Electric Interruption Tracking System
+233-6 - Design Interface Software Installer - Ethiopian Electric Interruption Tracking System
