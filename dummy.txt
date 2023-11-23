@@ -1246,3 +1246,4 @@
 232-7 - Define Roles Device Manual User Huawei - Ethiopian Electric Interruption Tracking System
 233-1 - Document Obs Info Sharer - Ethiopian Electric Interruption Tracking System
 233-2 - Ongoing Train Insight Linker - Ethiopian Electric Interruption Tracking System
+233-3 - Streamline Data Summary - Ethiopian Electric Interruption Tracking System
