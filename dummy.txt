@@ -1251,3 +1251,4 @@
 233-5 - Facilitate Comms Configuration Participant - Ethiopian Electric Interruption Tracking System
 233-6 - Design Interface Software Installer - Ethiopian Electric Interruption Tracking System
 233-7 - Reason Outages Express Line Detail - Ethiopian Electric Interruption Tracking System
+233-8 - Track Infos Association Definer - Ethiopian Electric Interruption Tracking System
