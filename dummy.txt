@@ -1257,3 +1257,4 @@
 237-1 - Face Challenges Readability Improver - Ethiopian Electric Interruption Tracking System
 237-2 - Enable Note Taking Insight Deeper Deriver - Ethiopian Electric Interruption Tracking System
 237-3 - Optimalize Performs Manual Data Migration - Ethiopian Electric Interruption Tracking System
+237-4 - Collaborate Code Django Endpoints - Ethiopian Electric Interruption Tracking System
