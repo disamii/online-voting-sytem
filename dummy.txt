@@ -1261,3 +1261,4 @@
 238-1 - Restore Duration Calculator - Ethiopian Electric Interruption Tracking System
 239-1 - Develop API Frequency Comparator - Ethiopian Electric Interruption Tracking System
 239-2 - Assign Password Analysis Detailer - Ethiopian Electric Interruption Tracking System
+239-3 - Follow Guidelines Authentication - Ethiopian Electric Interruption Tracking System
