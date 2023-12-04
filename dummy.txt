@@ -1269,3 +1269,4 @@
 240-4 - Placeholder Info Viewer - Ethiopian Electric Interruption Tracking System
 240-5 - Reference Backgrounds Contact Optioner - Ethiopian Electric Interruption Tracking System
 240-6 - Enable Hardware Specifier - Ethiopian Electric Interruption Tracking System
+240-7 - Design Digital Screen Optimizer - Ethiopian Electric Interruption Tracking System
