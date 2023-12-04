@@ -1268,3 +1268,4 @@
 240-3 - Authenticate UML Entity Mapper - Ethiopian Electric Interruption Tracking System
 240-4 - Placeholder Info Viewer - Ethiopian Electric Interruption Tracking System
 240-5 - Reference Backgrounds Contact Optioner - Ethiopian Electric Interruption Tracking System
+240-6 - Enable Hardware Specifier - Ethiopian Electric Interruption Tracking System
