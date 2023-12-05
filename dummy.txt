@@ -1278,3 +1278,4 @@
 241-4 - Maintain Oversights Application Practicaler - Ethiopian Electric Interruption Tracking System
 241-5 - Maintain Deliveries Resolution Quickener - Ethiopian Electric Interruption Tracking System
 241-6 - Handle Actors Graph Side By Sider - Ethiopian Electric Interruption Tracking System
+241-7 - Map Entities Logging - Ethiopian Electric Interruption Tracking System
