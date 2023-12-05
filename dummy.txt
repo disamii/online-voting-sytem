@@ -1273,3 +1273,4 @@
 240-8 - Identify Frequencies In Depth Viewer - Ethiopian Electric Interruption Tracking System
 240-9 - Count Totals Edit Requester - Ethiopian Electric Interruption Tracking System
 241-1 - Delete Docker Container - Ethiopian Electric Interruption Tracking System
+241-2 - Document Process Suspension Monitor - Ethiopian Electric Interruption Tracking System
