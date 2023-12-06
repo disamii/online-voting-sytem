@@ -1280,3 +1280,4 @@
 241-6 - Handle Actors Graph Side By Sider - Ethiopian Electric Interruption Tracking System
 241-7 - Map Entities Logging - Ethiopian Electric Interruption Tracking System
 241-8 - Enable Note Taking Need Customer Meeter - Ethiopian Electric Interruption Tracking System
+242-1 - Secure Manual Technical Operational EEU - Ethiopian Electric Interruption Tracking System
