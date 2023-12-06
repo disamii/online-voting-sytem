@@ -1284,3 +1284,4 @@
 242-2 - Understand Limitations Performance Booster - Ethiopian Electric Interruption Tracking System
 242-3 - Optimize Graph Visualization - Ethiopian Electric Interruption Tracking System
 242-4 - Gain Insights User Interface - Ethiopian Electric Interruption Tracking System
+242-5 - Identify Failures Security Measurer - Ethiopian Electric Interruption Tracking System
