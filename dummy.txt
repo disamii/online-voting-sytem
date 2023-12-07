@@ -1292,3 +1292,4 @@
 243-2 - Log Internship Report - Ethiopian Electric Interruption Tracking System
 243-3 - Gather Data Follow Up Actioner - Ethiopian Electric Interruption Tracking System
 243-4 - Invest Upgrades Insight Deeper Deriver - Ethiopian Electric Interruption Tracking System
+243-5 - Submit Details Manual Data Migration - Ethiopian Electric Interruption Tracking System
