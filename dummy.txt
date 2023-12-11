@@ -1303,3 +1303,4 @@
 245-2 - Seamless Interact Info Sharer - Ethiopian Electric Interruption Tracking System
 245-3 - Improve Efficiencies Contrast Booster - Ethiopian Electric Interruption Tracking System
 245-4 - Document Navigation Easier - Ethiopian Electric Interruption Tracking System
+245-5 - Store Data Incident Lister - Ethiopian Electric Interruption Tracking System
