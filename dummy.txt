@@ -1305,3 +1305,4 @@
 245-4 - Document Navigation Easier - Ethiopian Electric Interruption Tracking System
 245-5 - Store Data Incident Lister - Ethiopian Electric Interruption Tracking System
 245-6 - Derive Deeper Handbook Report Writer - Ethiopian Electric Interruption Tracking System
+245-7 - Create Bars API Development - Ethiopian Electric Interruption Tracking System
