@@ -1311,3 +1311,4 @@
 246-3 - Communicate Via Chat Primary Actor Handler - Ethiopian Electric Interruption Tracking System
 246-4 - Count Totals Password Assigner - Ethiopian Electric Interruption Tracking System
 246-5 - Maintain Oversights Integration Crucialer - Ethiopian Electric Interruption Tracking System
+246-6 - List Tables Navigation Easier - Ethiopian Electric Interruption Tracking System
