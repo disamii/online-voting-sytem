@@ -1308,3 +1308,4 @@
 245-7 - Create Bars API Development - Ethiopian Electric Interruption Tracking System
 246-1 - Create Accounts Feeder Breaker Downer - Ethiopian Electric Interruption Tracking System
 246-2 - Personalize Passes Analysis Detailer - Ethiopian Electric Interruption Tracking System
+246-3 - Communicate Via Chat Primary Actor Handler - Ethiopian Electric Interruption Tracking System
