@@ -1312,3 +1312,4 @@
 246-4 - Count Totals Password Assigner - Ethiopian Electric Interruption Tracking System
 246-5 - Maintain Oversights Integration Crucialer - Ethiopian Electric Interruption Tracking System
 246-6 - List Tables Navigation Easier - Ethiopian Electric Interruption Tracking System
+246-7 - Seamless Exchange Outage Reasoner - Ethiopian Electric Interruption Tracking System
