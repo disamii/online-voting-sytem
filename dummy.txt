@@ -1323,3 +1323,4 @@
 249-1 - Enhance Backend API - Ethiopian Electric Interruption Tracking System
 249-2 - Facilitate Iteration Improver - Ethiopian Electric Interruption Tracking System
 249-3 - Record Durations Tool Analyzer Advancer - Ethiopian Electric Interruption Tracking System
+249-4 - Maintain Deliveries Info Tracker - Ethiopian Electric Interruption Tracking System
