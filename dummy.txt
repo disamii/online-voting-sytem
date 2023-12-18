@@ -1327,3 +1327,4 @@
 250-1 - Align Data Routine Establisher - Ethiopian Electric Interruption Tracking System
 250-2 - Structure Performance Optimalizer - Ethiopian Electric Interruption Tracking System
 250-3 - Structure Hardware Specifier - Ethiopian Electric Interruption Tracking System
+250-4 - Manage Database Delivery Service Maintainer - Ethiopian Electric Interruption Tracking System
