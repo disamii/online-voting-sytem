@@ -1329,3 +1329,4 @@
 250-3 - Structure Hardware Specifier - Ethiopian Electric Interruption Tracking System
 250-4 - Manage Database Delivery Service Maintainer - Ethiopian Electric Interruption Tracking System
 250-5 - View Submissions Screenshot Highlighter - Ethiopian Electric Interruption Tracking System
+250-6 - User Manuals User Guide Writer - Ethiopian Electric Interruption Tracking System
