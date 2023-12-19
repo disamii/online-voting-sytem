@@ -1332,3 +1332,4 @@
 250-6 - User Manuals User Guide Writer - Ethiopian Electric Interruption Tracking System
 250-7 - Migrate Experience Deepener - Ethiopian Electric Interruption Tracking System
 251-1 - Develop Frontend Edit Requester - Ethiopian Electric Interruption Tracking System
+251-2 - Affect Lines Event Logging Module - Ethiopian Electric Interruption Tracking System
