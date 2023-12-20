@@ -1336,3 +1336,4 @@
 251-3 - List Uploads Interruption Logging - Ethiopian Electric Interruption Tracking System
 252-1 - Improve Application Practicaler - Ethiopian Electric Interruption Tracking System
 252-2 - Visualize Monthly Distributor - Ethiopian Electric Interruption Tracking System
+252-3 - Optimalize Performs Chat System - Ethiopian Electric Interruption Tracking System
