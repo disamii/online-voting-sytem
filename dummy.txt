@@ -1334,3 +1334,4 @@
 251-1 - Develop Frontend Edit Requester - Ethiopian Electric Interruption Tracking System
 251-2 - Affect Lines Event Logging Module - Ethiopian Electric Interruption Tracking System
 251-3 - List Uploads Interruption Logging - Ethiopian Electric Interruption Tracking System
+252-1 - Improve Application Practicaler - Ethiopian Electric Interruption Tracking System
