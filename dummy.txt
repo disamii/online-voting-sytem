@@ -1345,3 +1345,4 @@
 254-5 - Manage Datas Library JS Interface Builder React - Ethiopian Electric Interruption Tracking System
 255-1 - Render Improvement Identifier - Ethiopian Electric Interruption Tracking System
 255-2 - Practicaler Apps Network Integration - Ethiopian Electric Interruption Tracking System
+255-3 - Provide Deletes Firewall Configurer Cisco - Ethiopian Electric Interruption Tracking System
