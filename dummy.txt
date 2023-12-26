@@ -1346,3 +1346,4 @@
 255-1 - Render Improvement Identifier - Ethiopian Electric Interruption Tracking System
 255-2 - Practicaler Apps Network Integration - Ethiopian Electric Interruption Tracking System
 255-3 - Provide Deletes Firewall Configurer Cisco - Ethiopian Electric Interruption Tracking System
+256-1 - Document Obs Insight Provider - Ethiopian Electric Interruption Tracking System
