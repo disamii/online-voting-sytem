@@ -1348,3 +1348,4 @@
 255-3 - Provide Deletes Firewall Configurer Cisco - Ethiopian Electric Interruption Tracking System
 256-1 - Document Obs Insight Provider - Ethiopian Electric Interruption Tracking System
 256-2 - View Infos Performance Analyzer - Ethiopian Electric Interruption Tracking System
+256-3 - Provide Insights User Friendly Interface - Ethiopian Electric Interruption Tracking System
