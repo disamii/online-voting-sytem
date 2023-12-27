@@ -1350,3 +1350,4 @@
 256-2 - View Infos Performance Analyzer - Ethiopian Electric Interruption Tracking System
 256-3 - Provide Insights User Friendly Interface - Ethiopian Electric Interruption Tracking System
 256-4 - Effective Trackers Frequency Comparator - Ethiopian Electric Interruption Tracking System
+257-1 - Establish Routines Tool Analyzer Advancer - Ethiopian Electric Interruption Tracking System
