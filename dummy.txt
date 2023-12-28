@@ -1352,3 +1352,4 @@
 256-4 - Effective Trackers Frequency Comparator - Ethiopian Electric Interruption Tracking System
 257-1 - Establish Routines Tool Analyzer Advancer - Ethiopian Electric Interruption Tracking System
 258-1 - Ask Questions Theme Switcher - Ethiopian Electric Interruption Tracking System
+258-2 - Authenticate Data Flow Designer - Ethiopian Electric Interruption Tracking System
