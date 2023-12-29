@@ -1362,3 +1362,4 @@
 259-2 - Build Interfaces Application Practicaler - Ethiopian Electric Interruption Tracking System
 259-3 - Enhance Efficiencies Data Summary - Ethiopian Electric Interruption Tracking System
 259-4 - Design Security Measurer - Ethiopian Electric Interruption Tracking System
+259-5 - Define Associations Frontend Builder - Ethiopian Electric Interruption Tracking System
