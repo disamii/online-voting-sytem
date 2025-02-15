@@ -22,15 +22,16 @@ class CustomUserManager(BaseUserManager):
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     email = models.EmailField(unique=True)
-    unique_id_number = models.CharField(max_length=20, unique=True)
+    national_id = models.CharField(max_length=20, unique=True)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
+    is_superuser = models.BooleanField(default=False)
     date_joined = models.DateTimeField(auto_now_add=True)
     last_login = models.DateTimeField(null=True, blank=True)
 
     objects = CustomUserManager()
 
-    USERNAME_FIELD = 'unique_id_number'
+    USERNAME_FIELD = 'national_id'
     REQUIRED_FIELDS = ['email']
 
 

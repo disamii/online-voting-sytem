@@ -61,6 +61,14 @@ SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
 }
 
+
+# settings.py
+DJOSER = {
+    'SERIALIZERS': {
+        'user_create': 'voting.serializers.CustomUserCreateSerializer',
+    },
+}
+
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
