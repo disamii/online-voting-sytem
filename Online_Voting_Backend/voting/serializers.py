@@ -41,10 +41,11 @@ class VoterProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = VoterProfile
         fields = [
-            'id', 'user', 'first_name', 'last_name', 'date_of_birth', 'gender', 'address',
-            'region', 'voter_id', 'photo', 'biometric_data', 'has_voted', 'registration_date', 'updated_at'
+            'id', 'voter', 'first_name', 'last_name', 'date_of_birth', 'gender', 'address',
+            'region',  'photo', 'biometric_data', 'has_voted', 'registration_date', 'updated_at'
         ]
-        read_only_fields = ['has_voted', 'registration_date', 'updated_at']
+        read_only_fields = ['has_voted', 'registration_date', 'updated_at','voter']
+
 
     def validate_voter_id(self, value):
         """Ensure voter_id is exactly 20 characters."""
@@ -61,15 +62,3 @@ class VoterProfileSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("Voter must be at least 18 years old.")
         return value
 
-    def create(self, validated_data):
-        """Link the authenticated user to the VoterProfile."""
-        user = self.context['request'].user
-        validated_data['user'] = user
-        return VoterProfile.objects.create(**validated_data)
-
-    def update(self, instance, validated_data):
-        """Custom logic during update if needed."""
-        for attr, value in validated_data.items():
-            setattr(instance, attr, value)
-        instance.save()
-        return instance

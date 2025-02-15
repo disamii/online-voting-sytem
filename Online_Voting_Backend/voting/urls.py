@@ -1,8 +1,8 @@
 from rest_framework import routers
-from .views import CustomUserViewset
+from .views import VoterProfileViewset
 
 router = routers.DefaultRouter()
 
-router.register(r'user', CustomUserViewset)
+router.register(r'voter_profile',VoterProfileViewset, basename='voter_profile')
 
 urlpatterns = router.urls
