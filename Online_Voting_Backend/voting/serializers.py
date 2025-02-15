@@ -11,23 +11,31 @@ class CustomUserCreateSerializer(serializers.ModelSerializer):
         fields = ['id', 'email', 'national_id', 'password']
 
     def create(self, validated_data):
-        password = validated_data.pop('password')
-        user = CustomUser(**validated_data)
-        user.password = make_password(password)
-        user.save()
-        refresh = RefreshToken.for_user(user)
-        access_token = str(refresh.access_token)
+            # Hash the password
+            password = validated_data.pop('password')
+            user = CustomUser(**validated_data)
+            user.password = make_password(password)
+            user.save()
 
-        # Include the token in the response
-        return {
-            'user': user,
-            'access_token': access_token,
-            'refresh_token': str(refresh),
-        }
+            # Generate tokens
+            refresh = RefreshToken.for_user(user)
+            access_token = str(refresh.access_token)
 
+            # Attach tokens to the context
+            self.context['access_token'] = access_token
+            self.context['refresh_token'] = str(refresh)
 
+            return user
 
+    def to_representation(self, instance):
+            # Default representation of the user
+            representation = super().to_representation(instance)
 
+            # Add tokens to the response
+            representation['access_token'] = self.context.get('access_token')
+            representation['refresh_token'] = self.context.get('refresh_token')
+
+            return representation
 
 class VoterProfileSerializer(serializers.ModelSerializer):
     class Meta:
