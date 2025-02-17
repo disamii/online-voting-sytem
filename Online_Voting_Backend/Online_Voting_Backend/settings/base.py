@@ -3,7 +3,6 @@ from datetime import timedelta
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECRET_KEY (you may want to keep this in an environment variable in production)
 SECRET_KEY = 'django-insecure-+s%e89$xr%(+0#gv^i5orp7(7%kj&-hvw)*+ql(bzw)w3(tp^1'
 
 # Application definition
@@ -58,7 +57,7 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-    'AUTH_HEADER_TYPES': ('JWT',),
+    'AUTH_HEADER_TYPES': ('Bearer',),
         "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
 }
 

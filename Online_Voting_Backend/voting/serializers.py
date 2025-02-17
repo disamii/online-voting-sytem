@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import CustomUser,VoterProfile
+from .models import CustomUser,VoterProfile,Candidate
 from django.contrib.auth.hashers import make_password
 from rest_framework_simplejwt.tokens import RefreshToken
 
@@ -62,3 +62,13 @@ class VoterProfileSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("Voter must be at least 18 years old.")
         return value
 
+class CandidateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=Candidate
+        fields = [
+            'id', 'first_name', 'last_name', 'party', 'photo',
+            'region', 'bio', 'education_history', 'best_speech_quotes', 'votes', 'created_at'
+        ]
+        read_only_fields = ['id', 'votes', 'created_at']
+class VoteSerializer(serializers.Serializer):
+    candidate_id = serializers.CharField(required=True)

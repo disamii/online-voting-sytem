@@ -1,11 +1,12 @@
-from django.shortcuts import render
 from rest_framework import viewsets
-from rest_framework.permissions import AllowAny,IsAuthenticated,IsAdminUser
+from rest_framework.permissions import IsAuthenticated,IsAdminUser
 from djoser.views import UserViewSet
-from .models import CustomUser,VoterProfile,Candidate
-from .serializers import VoterProfileSerializer
-from rest_framework.serializers import ValidationError
-
+from rest_framework.decorators import action
+from .models import VoterProfile,Candidate
+from .serializers import VoterProfileSerializer,CandidateSerializer,VoteSerializer
+from rest_framework.exceptions import PermissionDenied, NotFound, ValidationError
+from django.db import transaction
+from rest_framework.response import Response
 class VoterProfileViewset(viewsets.ModelViewSet):
     serializer_class = VoterProfileSerializer
 
@@ -29,5 +30,66 @@ class VoterProfileViewset(viewsets.ModelViewSet):
         serializer.save(voter=user)
 
 
+class CandidateViewset(viewsets.ModelViewSet):
+    queryset=Candidate.objects.all()
+    serializer_class=CandidateSerializer
+    permission_classes=[IsAuthenticated]
+    
+    def get_permissions(self):
+        if self.action in ['list']:
+            return [IsAuthenticated()]
+        if self.action in ['create', 'retrieve', 'update', 'partial_update']:
+            return [IsAdminUser()]
+        return [IsAdminUser()]
+    from rest_framework.exceptions import NotFound, ValidationError
+
+    def get_candidate(self):
+        candidate_id = self.request.data.get('candidate_id')  
+        if not candidate_id:
+            raise ValidationError("Candidate ID is required.")
+
+        try:
+            # Attempt to get the Candidate object based on the provided ID
+            candidate = Candidate.objects.get(id=candidate_id)
+        except Candidate.DoesNotExist:
+            raise NotFound("Candidate not found.")  
         
+
+        return candidate
+    
+
+
+    @action(detail=False, methods=['post'], serializer_class=VoteSerializer)
+    def vote(self, request):
+        user = self.request.user 
+
+        # Check if the voter's profile exists
+        try:
+            profile = VoterProfile.objects.get(voter=user)
+        except VoterProfile.DoesNotExist:
+            raise NotFound("Voter profile not found. Please complete your profile before voting.")
+
+        # Check if the user has already voted
+        if profile.has_voted:
+            raise PermissionDenied("You have already voted.")          
+
+        # Validate the vote request
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+
+        # Retrieve the candidate to vote for
+        candidate = self.get_candidate()
+
+        # Cast the vote atomically
+        with transaction.atomic():
+            candidate.votes += 1
+            candidate.save()
+            profile.has_voted = True
+            profile.save()
+
+        return Response(
+            {"message": "Vote successfully cast", "candidate_votes": candidate.votes},
+            status=status.HTTP_200_OK
+        )
+
 
