@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 import AuthLayout from './components/Auth/AuthLayout.jsx';
-
+import './index.css'; 
 const App: React.FC = () => {
   return (
     <Router>

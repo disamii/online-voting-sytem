@@ -1,17 +1,17 @@
 import React from 'react';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, ErrorMessage } from 'formik';
 import * as yup from 'yup';
-import { Loader2 } from "lucide-react";
-import {  Input } from '@/components/ui/input';
-
-const Login:React.FC=()=> {
+import { Loader2,  User } from "lucide-react";
+import { Input } from '@/components/ui/input';
+import { Button } from '../ui/button';
+const Login: React.FC = () => {
   const initialValues = {
-    national_id: '', 
+    national_id: '',
     password: '',
   };
 
   const validationSchema = yup.object().shape({
-    national_id: yup.string().required("National ID is required"), 
+    national_id: yup.string().required("National ID is required"),
     password: yup.string().required("Password is required"),
   });
 
@@ -26,20 +26,34 @@ const Login:React.FC=()=> {
       validationSchema={validationSchema}
     >
       {({ isSubmitting }) => (
-        <Form className='flex flex-col gap-3 items-center'>
-          <div>
-            <span>National ID:</span>
-            <Field name='national_id' component={Input} /> {/* Pass the component reference */}
-            <ErrorMessage name='national_id' component={'small'} />
+        <Form className='flex-1 bg-yellow flex items-center justify-center flex-col gap-4 '>
+          <div><User name='user' size={50} color='black'/></div>
+          <div className='flex flex-col gap-3 items-center justify-center'>
+
+            <div className='w-full'>
+              <div className='flex w-full gap-2 items-center justify-between'>
+                <label htmlFor='national_id'>National ID:</label>
+                <Input id='national_id' className='w-34 rounded-md' name='national_id' />
+              </div>
+              <ErrorMessage name='national_id' component={'small'} />
+            </div>
+
+
+            <div className='w-full'>
+              <div className='flex w-full gap-2 items-center  justify-between'>
+                <label htmlFor='password'>Password:</label>
+                <Input id='password' className='w-34 rounded-md' name='password' />
+              </div>
+              <ErrorMessage name='password' component={'small'} />
+            </div>
+            <Button
+              type='submit'
+              className='w-[13rem] rounded-lg bg-[var(--Very--dark--cyan)]'
+            >
+              {isSubmitting ? <Loader2 className="animate-spin" /> : <>Login</>}
+            </Button>
+        
           </div>
-          <div>
-            <span>Password:</span>
-            <Field type='password' name='password' component={Input} /> {/* Use your Input component here */}
-            <ErrorMessage name='password' component={'small'} />
-          </div>
-          <button type='submit'>
-            {isSubmitting ? <Loader2 className="animate-spin" /> : <>Login</>}
-          </button>
         </Form>
       )}
     </Formik>
