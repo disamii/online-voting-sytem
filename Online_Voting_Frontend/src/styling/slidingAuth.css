@@ -1,0 +1,32 @@
+.auth-container {
+  position: relative;
+  width: 60rem;
+  height: 38rem;
+  background: var(--Very--light--grayish--cyan);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  display: flex;
+}
+
+.auth-panel {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.login-panel {
+  left: 0;
+}
+
+.signup-panel {
+  right: 0;
+}
+
+.swap .login-panel {
+  transform: translateX(100%);
+}
+
+.swap .signup-panel {
+  transform: translateX(-100%);
+}

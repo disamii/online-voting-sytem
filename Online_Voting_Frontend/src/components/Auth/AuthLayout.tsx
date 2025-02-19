@@ -1,13 +1,26 @@
-import React from 'react';
-import Login from './Login.js';
-import Singup from './Signup.js';
+import React, { useState } from "react";
+import Login from "./Login.js";
+import SignupText from "./SignupText.js";
+import Signup from "./Signup.js";
+import "../../styling/slidingAuth.css";
+import LoginText from "./LoginText.js";
 
 const AuthLayout: React.FC = () => {
+  const [swap, setSwap] = useState(false);
+
+  const handleSwap = () => {
+    setSwap((prev) => !prev);
+  };
+
   return (
-    <div className="bg-[url('src/assets/pattern-bg.svg')]  h-screen flex items-center justify-center relative p-0 m-0">
-      <div className='w-[50rem] h-[33rem] bg-[var(--Very--light--grayish--cyan)] rounded-sm flex overflow-hidden gap-2'>
-      <Login/>
-      <Singup/>
+    <div className="bg-[url('src/assets/pattern-bg.svg')] h-screen flex items-center justify-center">
+      <div className={`auth-container ${swap ? "swap" : ""}`}>
+        <div className="auth-panel login-panel z-50">
+          {swap ? <LoginText swapper={handleSwap} /> :<SignupText swapper={handleSwap} /> }
+        </div>
+        <div className="auth-panel signup-panel">
+          {swap ? <Signup /> : <Login/>}
+        </div>
       </div>
     </div>
   );
