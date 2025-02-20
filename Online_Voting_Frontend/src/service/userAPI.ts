@@ -1,0 +1,50 @@
+import handleResponse from "./handleResponse";
+import { apiRequest } from "./APIrequest";
+import {LoginValues,SignupUser} from "@/types/interfaces"
+import {User,Token} from "@/types/interfaces"
+
+
+const LOGIN_URL='http://127.0.0.1:8000/auth/jwt/create/'
+const USER_URL='http://127.0.0.1:8000/auth/users/'
+
+
+
+
+export async function signup(data:SignupUser) :Promise<Token> {
+    try {
+        const response = await fetch(USER_URL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+        return await handleResponse(response)
+    }
+        catch (error) {
+            throw error;
+        }
+}
+
+
+export async function login(data:LoginValues):Promise<Token>{
+    console.log(data)
+    try {
+        const response = await fetch(LOGIN_URL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+        return await handleResponse(response)
+    }
+        catch (error) {
+            throw error;
+        }
+}
+
+
+export async function getUser() :Promise<User>{
+return await apiRequest(USER_URL,'GET');
+}

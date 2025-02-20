@@ -1,10 +1,9 @@
 from rest_framework import routers
 from django.urls import path, include
-from .views import VoterProfileViewset, CandidateViewset
+from .views import VoterProfileViewset, CandidateViewset,custom_404_view, custom_500_view
+
 
 router = routers.DefaultRouter()
-
-# Registering the ViewSets
 router.register(r'voter_profile', VoterProfileViewset, basename='voter_profile')
 router.register(r'candidate', CandidateViewset, basename='candidate')
 

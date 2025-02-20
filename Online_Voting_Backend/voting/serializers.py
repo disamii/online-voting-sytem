@@ -23,15 +23,15 @@ class CustomUserCreateSerializer(serializers.ModelSerializer):
             access_token = str(refresh.access_token)
 
             # Attach tokens to the context
-            self.context['access_token'] = access_token
-            self.context['refresh_token'] = str(refresh)
+            self.context['access'] = access_token
+            self.context['refresh'] = str(refresh)
 
             return user
 
     def to_representation(self, instance):
             representation ={}
-            representation['access_token'] = self.context.get('access_token')
-            representation['refresh_token'] = self.context.get('refresh_token')
+            representation['access'] = self.context.get('access')
+            representation['refresh'] = self.context.get('refresh')
             return representation
 
 class VoterProfileSerializer(serializers.ModelSerializer):

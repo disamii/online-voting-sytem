@@ -1,16 +1,17 @@
-import React from 'react';
-import { Formik, Form, ErrorMessage, FormikHelpers } from 'formik';
+import { useState }from 'react';
+import { Formik, Form, ErrorMessage} from 'formik';
 import * as yup from 'yup';
-import { Loader2, User } from "lucide-react";
+import { Loader2, User as UserIcon  } from "lucide-react";
 import { Input } from '@/components/ui/input';
 import { Button } from '../ui/button';
 
-interface FormValues {
-  national_id: string;
-  password: string;
-}
+import {User,Token,LoginValues} from "@/types/interfaces"
+import { getUser, login } from '@/service/userAPI';
 
-const initialValues: FormValues = {
+import useAuthStore from '@/store/authStore';
+
+
+const initialValues: LoginValues= {
   national_id: '',
   password: '',
 };
@@ -20,10 +21,25 @@ const validationSchema = yup.object().shape({
   password: yup.string().required("Password is required"),
 });
 
-const Login: React.FC = () => {
-  const handleSubmit = async (values: FormValues, { setSubmitting }: FormikHelpers<FormValues>) => {
-    console.log(values);
-    setSubmitting(false);
+export default function Login  () {
+  const {setToken,setUser}=useAuthStore()
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  const handleSubmit = async (
+    values: LoginValues, 
+    { setSubmitting }: { setSubmitting: (isSubmitting: boolean) => void }
+  ) => {
+    try {
+      const token:Token = await login(values);
+      setToken(token);
+      const user:User = await getUser();
+      setUser(user);
+    } catch (error) {
+      console.error(error);
+      setErrorMessage(typeof error === "string" ? error : "An error occurred.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -35,7 +51,17 @@ const Login: React.FC = () => {
       >
         {({ isSubmitting, handleChange, values, handleBlur }) => (
           <Form className='flex h-full items-center justify-center flex-col gap-4'>
-            <div><User name='user' size={50} color='black' /></div>
+                    {errorMessage && (
+          <div className="text-red-500 mt-2">
+            <p className="font-semibold">errors:</p>
+            <ul className="list-disc list-inside">
+              {errorMessage.split("\n").map((err, index) => (
+                <li key={index}>{err}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+            <div><UserIcon name='user' size={50} color='black' /></div>
             <div className='flex flex-col gap-3 items-center justify-center'>
 
               <div className='w-full'>
@@ -70,4 +96,3 @@ const Login: React.FC = () => {
   );
 }
 
-export default Login;

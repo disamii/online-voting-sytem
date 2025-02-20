@@ -1,9 +1,12 @@
-import React from 'react'
 import { Button } from '../ui/button'
+import { useState } from "react";
 import { Input } from '../ui/input';
 import { Form, Formik, ErrorMessage } from 'formik'
 import * as Yup from 'yup';
 import { Loader2 } from "lucide-react";
+import { getUser, signup } from '@/service/userAPI';
+import useAuthStore from '@/store/authStore';
+import {User,Token} from "@/types/interfaces"
 
 interface FormValues {
   email: string;
@@ -12,8 +15,9 @@ interface FormValues {
   confirm_password: string;
 }
 
-const Signup: React.FC = () => {
-
+export default function Signup ()  {
+  const {setToken,setUser}=useAuthStore()
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const validationSchema = Yup.object().shape({
     email: Yup.string()
       .email('Invalid email format')
@@ -38,11 +42,24 @@ const Signup: React.FC = () => {
 
 
 
-const handleSubmit = (values: FormValues, { setSubmitting }: { setSubmitting: (isSubmitting: boolean) => void }) => {
-  console.log(values);
-  setSubmitting(false)
+  const handleSubmit = async (
+    values: FormValues, 
+    { setSubmitting }: { setSubmitting: (isSubmitting: boolean) => void }
+  ) => {
+    try {
+      const token:Token = await signup(values);
+      setToken(token);
+      const user:User = await getUser();
+      setUser(user);
+    } catch (error) {
+      console.log(error);
+      setErrorMessage(typeof error === "string" ? error : "An error occurred.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
 
-};
+
 
 return (
   <Formik
@@ -52,6 +69,16 @@ return (
   >
     {({ isSubmitting, handleChange, handleBlur, values }) => (
       <Form className='h-full bg-yellow flex items-center justify-center flex-col gap-4 p-4'>
+        {errorMessage && (
+          <div className="text-red-500 mt-2">
+            <p className="font-semibold">errors:</p>
+            <ul className="list-disc list-inside">
+              {errorMessage.split("\n").map((err, index) => (
+                <li key={index}>{err}</li>
+              ))}
+            </ul>
+          </div>
+        )}
         <div className='flex flex-col gap-3 items-center justify-center'>
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
@@ -99,4 +126,3 @@ return (
 );
 }
 
-export default Signup;
