@@ -9,7 +9,8 @@ class CustomUserCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
         fields = ['id', 'email', 'national_id', 'password']
-
+        write_only_fields=['id', 'email', 'national_id', 'password']
+    
     def create(self, validated_data):
             # Hash the password
             password = validated_data.pop('password')
@@ -28,13 +29,9 @@ class CustomUserCreateSerializer(serializers.ModelSerializer):
             return user
 
     def to_representation(self, instance):
-            # Default representation of the user
-            representation = super().to_representation(instance)
-
-            # Add tokens to the response
+            representation ={}
             representation['access_token'] = self.context.get('access_token')
             representation['refresh_token'] = self.context.get('refresh_token')
-
             return representation
 
 class VoterProfileSerializer(serializers.ModelSerializer):

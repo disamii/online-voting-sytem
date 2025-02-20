@@ -64,12 +64,10 @@ SIMPLE_JWT = {
 
 # settings.py
 DJOSER = {
-    # 'USER_CREATE_PASSWORD_RETYPE': True,
     'SEND_CONFIRMATION_EMAIL': False,
     'SERIALIZERS': {
         'user_create': 'voting.serializers.CustomUserCreateSerializer',
     },
-
 }
 
 # Password validation
