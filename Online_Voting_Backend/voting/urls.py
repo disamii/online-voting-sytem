@@ -1,6 +1,6 @@
 from rest_framework import routers
 from django.urls import path, include
-from .views import VoterProfileViewset, CandidateViewset,custom_404_view, custom_500_view
+from .views import VoterProfileViewset, CandidateViewset
 
 
 router = routers.DefaultRouter()

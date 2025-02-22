@@ -47,4 +47,5 @@ export async function login(data:LoginValues):Promise<Token>{
 
 export async function getUser() :Promise<User>{
 return await apiRequest(USER_URL,'GET');
+
 }

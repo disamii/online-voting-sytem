@@ -31,3 +31,17 @@ export interface ErrorResponse {
     message?: string;
     details?: Record<string, string[]>;
   }
+
+  export interface Candidate {
+    id: string;
+    first_name: string;
+    last_name: string;
+    party: string;
+    photo: string;
+    region: string;
+    bio: string;
+    education_history: string;
+    best_speech_quotes: string;
+    votes: number;
+    created_at: string; 
+}

@@ -7,8 +7,6 @@ from .serializers import VoterProfileSerializer,CandidateSerializer,VoteSerializ
 from rest_framework.exceptions import PermissionDenied, NotFound, ValidationError
 from django.db import transaction
 from rest_framework.response import Response
-from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
 class VoterProfileViewset(viewsets.ModelViewSet):
     serializer_class = VoterProfileSerializer
 
@@ -93,19 +91,3 @@ class CandidateViewset(viewsets.ModelViewSet):
             {"message": "Vote successfully cast", "candidate_votes": candidate.votes},
             status=status.HTTP_200_OK
         )
-
-@csrf_exempt
-def custom_404_view(request, exception):
-    return JsonResponse({
-        "status": 404,
-        "error": "NOT_FOUND",
-        "message": "The requested resource was not found."
-    }, status=404)
-
-def custom_500_view(request):
-    return JsonResponse({
-        "status": 500,
-        "error": "SERVER_ERROR",
-        "message": "An unexpected error occurred."
-    }, status=500)
-

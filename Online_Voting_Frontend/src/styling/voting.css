@@ -1,0 +1,115 @@
+
+.continer {
+    height: 22rem;
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    perspective: 900px;
+    transition: perspective 1s linear;
+}
+
+.box {
+    height: 12rem;
+    width: 12rem;
+    transform-style: preserve-3d;
+    transform: rotatey(0deg) rotateX(-20deg);
+
+}
+
+.box>div {
+    position: absolute;
+    height: 12rem;
+    width: 12rem;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightgoldenrodyellow;
+}
+
+.box>div:nth-child(2) {
+
+    background-color: rgba(221, 221, 236, 0.459);
+    transform: translatey(-50%) rotatex(90deg);
+}
+
+.box>div:nth-child(3) {
+    background-color: rgba(221, 221, 236, 0.459);
+    transform: translateX(50%) rotateY(90deg);
+
+}
+
+.box>div:nth-child(4) {
+    background-color: rgba(221, 221, 236, 0.459);
+    transform: translatey(50%) rotatex(-90deg);
+}
+
+.box>div:nth-child(5) {
+    background-color: cornflowerblue;
+    transform: translateX(-50%) rotateY(-90deg);
+}
+
+.box>div:nth-child(6) {
+    transform: translateZ(-6rem) rotateY(180deg);
+    background-color: white;
+    color: rgba(0, 0, 0, 0.786);
+}
+
+.box>div:nth-child(7) {
+    transform: translateZ(6rem);
+    background-color: rgba(0, 0, 0, 0.626);
+}
+
+#top::after {
+    content: '';
+    position: absolute;
+    width: 5rem;
+    height: 1rem;
+    outline: 0.5rem solid gray;
+}
+
+#cardd {
+    background-color: hsl(172, 79%, 55%) !important;
+    height: 4rem;
+    width: 5rem;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(0, 0, 0, .5);
+    animation: vot 3s 1;
+    animation-fill-mode: forwards;
+    padding: 1rem;
+
+}
+
+#return {
+    transform: translateZ(80px);
+}
+
+#front .fas {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 4rem;
+    color: aqua;
+    border-radius: 0;
+}
+
+@keyframes vot {
+    0% {
+        top: -10rem;
+    }
+
+    80% {
+        transform: rotateX(0deg);
+
+    }
+
+    100% {
+        top: 9rem;
+        transform: rotateX(-90deg) rotateZ(45deg);
+    }
+}

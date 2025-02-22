@@ -6,44 +6,41 @@ import * as Yup from 'yup';
 import { Loader2 } from "lucide-react";
 import { getUser, signup } from '@/service/userAPI';
 import useAuthStore from '@/store/authStore';
-import {User,Token} from "@/types/interfaces"
+import {User,Token,SignupUser} from "@/types/interfaces"
+import { useNavigate } from 'react-router-dom';
 
-interface FormValues {
-  email: string;
-  national_id: string;
-  password: string;
-  confirm_password: string;
+
+const validationSchema = Yup.object().shape({
+  email: Yup.string()
+    .email('Invalid email format')
+    .required('Email is required'),
+  national_id: Yup.string()
+    .required('National ID is required')
+    .matches(/^\d{6,10}$/, 'National ID must be between 6 and 10 digits'),
+  password: Yup.string()
+    .min(8, 'Password must be at least 8 characters long')
+    .required('Password is required'),
+  confirm_password: Yup.string()
+    .oneOf([Yup.ref('password')], 'Passwords must match')
+    .required('Confirm Password is required'),
+});
+
+const initialValues = {
+  email: '',
+  national_id: '',
+  password: '',
+  confirm_password: ''
 }
+
 
 export default function Signup ()  {
   const {setToken,setUser}=useAuthStore()
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const validationSchema = Yup.object().shape({
-    email: Yup.string()
-      .email('Invalid email format')
-      .required('Email is required'),
-    national_id: Yup.string()
-      .required('National ID is required')
-      .matches(/^\d{6,10}$/, 'National ID must be between 6 and 10 digits'),
-    password: Yup.string()
-      .min(8, 'Password must be at least 8 characters long')
-      .required('Password is required'),
-    confirm_password: Yup.string()
-      .oneOf([Yup.ref('password')], 'Passwords must match')
-      .required('Confirm Password is required'),
-  });
-
-  const initialValues = {
-    email: '',
-    national_id: '',
-    password: '',
-    confirm_password: ''
-  }
-
+  const navigate=useNavigate()
 
 
   const handleSubmit = async (
-    values: FormValues, 
+    values: SignupUser, 
     { setSubmitting }: { setSubmitting: (isSubmitting: boolean) => void }
   ) => {
     try {
@@ -51,6 +48,7 @@ export default function Signup ()  {
       setToken(token);
       const user:User = await getUser();
       setUser(user);
+      navigate('/home')
     } catch (error) {
       console.log(error);
       setErrorMessage(typeof error === "string" ? error : "An error occurred.");
@@ -83,7 +81,7 @@ return (
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
               <label htmlFor='email'>Email:</label>
-              <Input id='email' className='w-72 rounded-md bg-accent-foreground' name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} />
+              <Input id='email' className='w-72 rounded' name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} />
             </div>
             <ErrorMessage name='email' component={'small'} className='text-red-400'/>
           </div>
@@ -91,7 +89,7 @@ return (
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
               <label htmlFor='national_id'>National ID:</label>
-              <Input id='national_id' className='w-72 rounded-md bg-accent-foreground' name='national_id' onChange={handleChange} onBlur={handleBlur} value={values.national_id} />
+              <Input id='national_id' className='w-72 rounded-md ' name='national_id' onChange={handleChange} onBlur={handleBlur} value={values.national_id} />
             </div>
             <ErrorMessage name='national_id' component={'small'} className='text-red-400'/>
           </div>
@@ -99,7 +97,7 @@ return (
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
               <label htmlFor='password'>Password:</label>
-              <Input id='password' className='w-72 rounded-md bg-accent-foreground' name='password' onChange={handleChange} onBlur={handleBlur} value={values.password} />
+              <Input id='password' className='w-72 rounded-md ' name='password' onChange={handleChange} onBlur={handleBlur} value={values.password} />
             </div>
             <ErrorMessage name='password' component={'small'} className='text-red-400'/>
           </div>
@@ -107,14 +105,15 @@ return (
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
               <label htmlFor='confirm_password'>Confirm Password:</label>
-              <Input id='confirm_password' className='w-72 rounded-md bg-accent-foreground' name='confirm_password' onChange={handleChange} onBlur={handleBlur} value={values.confirm_password} />
+              <Input id='confirm_password' className='w-72 rounded-md' name='confirm_password' onChange={handleChange} onBlur={handleBlur} value={values.confirm_password} />
             </div>
             <ErrorMessage name='confirm_password' component={'small'} className='text-red-400'/>
           </div>
 
           <Button
             type='submit'
-            className='w-[13rem] rounded-lg bg-[var(--Very--dark--cyan)]'
+            className='w-[13rem] rounded-lg'
+            variant='destructive'
             disabled={isSubmitting}
           >
             {isSubmitting ? <Loader2 className="animate-spin" /> : <>Sign up</>}

@@ -1,6 +1,20 @@
 from pathlib import Path
 from datetime import timedelta
-BASE_DIR = Path(__file__).resolve().parent.parent
+import os
+# settings.py
+import os
+from pathlib import Path
+
+# Define BASE_DIR using pathlib
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# Media files settings
+MEDIA_URL = '/media/'  # URL endpoint to access media files
+MEDIA_ROOT = BASE_DIR / 'media'  # Path on disk for media files
+
+# Static files settings
+STATIC_URL = '/static/'  # URL endpoint to access static files
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # Path on disk for collected static files
 
 SECRET_KEY = 'django-insecure-+s%e89$xr%(+0#gv^i5orp7(7%kj&-hvw)*+ql(bzw)w3(tp^1'
 
@@ -26,7 +40,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'voting.middleware.Handle404Middleware'
+    # 'voting.middleware.Handle404Middleware'
 ]
 
 ROOT_URLCONF = 'Online_Voting_Backend.urls'

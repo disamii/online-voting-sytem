@@ -9,6 +9,7 @@ import {User,Token,LoginValues} from "@/types/interfaces"
 import { getUser, login } from '@/service/userAPI';
 
 import useAuthStore from '@/store/authStore';
+import { useNavigate } from 'react-router-dom';
 
 
 const initialValues: LoginValues= {
@@ -22,6 +23,7 @@ const validationSchema = yup.object().shape({
 });
 
 export default function Login  () {
+  const navigate=useNavigate()
   const {setToken,setUser}=useAuthStore()
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
@@ -34,6 +36,7 @@ export default function Login  () {
       setToken(token);
       const user:User = await getUser();
       setUser(user);
+      navigate('/home')
     } catch (error) {
       console.error(error);
       setErrorMessage(typeof error === "string" ? error : "An error occurred.");
@@ -75,14 +78,15 @@ export default function Login  () {
               <div className='w-full'>
                 <div className='flex w-full gap-2 items-center  justify-between'>
                   <label htmlFor='password'>Password:</label>
-                  <Input id='password' className='w-34 rounded-md' name='password' onChange={handleChange} onBlur={handleBlur} value={values.password} />
+                  <Input id='password' className='w-34 rounded-md' name='password' type='password' onChange={handleChange} onBlur={handleBlur} value={values.password} />
                 </div>
                 <ErrorMessage name='password' component={'small'} className='text-red-400' />
               </div>
 
               <Button
                 type='submit'
-                className='w-[13rem] rounded-lg bg-[var(--Very--dark--cyan)]'
+                className='w-[13rem] rounded-lg '
+                variant='destructive'
                 disabled={isSubmitting}
               >
                 {isSubmitting ? <Loader2 className="animate-spin" /> : <>Login</>}

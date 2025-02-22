@@ -2,7 +2,7 @@
   position: relative;
   width: 60rem;
   height: 38rem;
-  background: var(--Very--light--grayish--cyan);
+  background: var(--very-light-grayish-cyan);
   border-radius: 0.25rem;
   overflow: hidden;
   display: flex;

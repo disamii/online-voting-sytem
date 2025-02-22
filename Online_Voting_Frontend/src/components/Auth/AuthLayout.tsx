@@ -13,7 +13,7 @@ const AuthLayout: React.FC = () => {
   };
 
   return (
-    <div className="bg-[url('src/assets/pattern-bg.svg')] h-screen flex items-center justify-center">
+    <div className="bg-[url('src/assets/pattern-bg.svg')] h-screen flex items-center justify-center bg-white">
       <div className={`auth-container ${swap ? "swap" : ""}`}>
         <div className="auth-panel login-panel z-50">
           {swap ? <LoginText swapper={handleSwap} /> :<SignupText swapper={handleSwap} /> }

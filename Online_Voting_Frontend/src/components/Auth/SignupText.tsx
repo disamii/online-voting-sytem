@@ -1,4 +1,5 @@
 import { Button } from '../ui/button'
+import { Card } from '../ui/card';
 
 type Props = {
     swapper: () => void; 
@@ -6,11 +7,11 @@ type Props = {
   
 export default function SignupText({swapper}: Props) {
   return (
-<div className='h-full bg-secondary flex items-center flex-col justify-center text-accent-foreground gap-3'>
+<Card className='h-full  flex items-center flex-col justify-center text-card-foreground gap-3'>
     <h1 className=' font-medium text-4xl text-center'>Hello Voter</h1>
     <p>It is time you to vote your leader .</p>
-    <Button className='bg-secondary shadow-none border-accent-foreground border-[0.1rem] px-10' onClick={swapper}>
+    <Button className=' shadow-none border-[0.1rem] px-10' variant="destructive" onClick={swapper}>
       Sign UP
     </Button>
-  </div>  )
+  </Card>  )
 }
