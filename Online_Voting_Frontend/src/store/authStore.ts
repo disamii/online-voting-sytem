@@ -21,7 +21,7 @@ const useAuthStore = create<AuthState>((set) => ({
   // Method to set the token
   setToken: (token: Token) => set(() => ({
     token,
-    isAuthenticated: true, // Assume authenticated once the token is set
+    isAuthenticated: true, 
   })),
 
   // Method to set user data

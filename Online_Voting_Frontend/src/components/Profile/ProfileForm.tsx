@@ -10,23 +10,41 @@ import {
     FormMessage,
     FormField,
 } from "@/components/ui/form";
-
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { ProfileSchema } from '@/types/schema';
 import { profileInitialValues } from '@/types/initialValues';
 import { UserProfile } from '@/types/interfaces';
+import { VoterProfileReturn } from '@/types/interfaces'
 import { formatDate } from '@/utils/formdate';
 import { Button } from '../ui/button';
+import { postProfile } from '@/service/userAPI';
+
 
 const ProfileForm: React.FC = () => {
+
+    const queryClient = useQueryClient();
+    const [imageSrc, setImageSrc] = useState<string | null>(null);
+
+    const mutation = useMutation<VoterProfileReturn, Error, UserProfile>({
+        mutationFn: postProfile,
+        onSuccess: () => {
+            queryClient.invalidateQueries({ queryKey: ['user_profile'] });
+        },
+    });
+
+
+
     const form = useForm<UserProfile>({
         resolver: yupResolver(ProfileSchema),
         defaultValues: profileInitialValues
     });
 
-    const [imageSrc, setImageSrc] = useState<string | null>(null);
-
-    const onSubmit = (data: UserProfile) => {
-        console.log(data);
+    const onSubmit = async (data: UserProfile) => {
+        try {
+            await mutation.mutateAsync(data)
+        } catch (error) {
+            console.error(error)
+        }
     };
 
     const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>, field: any) => {
@@ -35,12 +53,12 @@ const ProfileForm: React.FC = () => {
             const reader = new FileReader();
             reader.onloadend = () => {
                 setImageSrc(reader.result as string);
-                field.onChange(file); 
+                field.onChange(file);
             };
             reader.readAsDataURL(file);
         } else {
             setImageSrc(null);
-            field.onChange(null); // Clear the field value if no file is selected
+            field.onChange(null);
         }
     };
 
@@ -52,7 +70,7 @@ const ProfileForm: React.FC = () => {
                     name="photo"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel>Enter Image</FormLabel>
+                            <FormLabel className=' text-accent'>Enter Image</FormLabel>
                             <FormControl>
                                 <div className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-gray-300 cursor-pointer m-auto">
                                     {imageSrc ? (
@@ -74,7 +92,7 @@ const ProfileForm: React.FC = () => {
                                     />
                                 </div>
                             </FormControl>
-                            <FormMessage  className=' text-red-400'/>
+                            <FormMessage className=' text-red-400' />
                         </FormItem>
                     )}
                 />
@@ -101,7 +119,7 @@ const ProfileForm: React.FC = () => {
                                 <FormControl>
                                     <Input placeholder="Last Name" {...field} />
                                 </FormControl>
-                                <FormMessage className=' text-red-400'/>
+                                <FormMessage className=' text-red-400' />
                             </FormItem>
                         )}
                     />
@@ -127,7 +145,7 @@ const ProfileForm: React.FC = () => {
                                 <FormControl>
                                     <Input placeholder="Region" {...field} />
                                 </FormControl>
-                                <FormMessage  className=' text-red-400'/>
+                                <FormMessage className=' text-red-400' />
                             </FormItem>
                         )}
                     />
@@ -140,7 +158,7 @@ const ProfileForm: React.FC = () => {
                                 <FormControl>
                                     <Input placeholder="Gender" {...field} />
                                 </FormControl>
-                                <FormMessage className=' text-red-400'/>
+                                <FormMessage className=' text-red-400' />
                             </FormItem>
                         )}
                     />

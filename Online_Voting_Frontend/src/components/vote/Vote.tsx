@@ -47,10 +47,8 @@ export default function Vote({ setOpen, setPhoto, setHasVoted }:VoteProps) {
 
     return (
         <Dialog >
-            <DialogTrigger>
-                <button className="mx-3 ml-16 bg-gradient-to-r from-orange-300 to-orange-600  animate-gradient hover:bg-cyan-400 text-card-foreground py-7 rounded-md w-[32rem]  bg-[length:200%_100%] duration-75">
+            <DialogTrigger className="mx-3 ml-16 bg-gradient-to-r from-orange-300 to-orange-600  animate-gradient hover:bg-cyan-400 text-card-foreground py-7 rounded-md w-[32rem]  bg-[length:200%_100%] duration-75">
                     VOTE
-                </button>
             </DialogTrigger>
             <DialogContent className="max-w-3xl flex flex-col bg-black">
                 <DialogHeader>

@@ -2,7 +2,7 @@ import handleResponse from "./handleResponse";
 import { apiRequest } from "./APIrequest";
 import {LoginValues,SignupUser, VoterProfileReturn} from "@/types/interfaces"
 import {User,Token} from "@/types/interfaces"
-
+import { UserProfile } from "@/types/interfaces";
 
 const LOGIN_URL='http://127.0.0.1:8000/auth/jwt/create/'
 const USER_URL='http://127.0.0.1:8000/auth/users/'
@@ -52,3 +52,9 @@ export  async function getProfile() :Promise<VoterProfileReturn>{
     return await apiRequest(PROFILE_URL,'GET')
     
 }
+
+export  async function postProfile(data:UserProfile) :Promise<VoterProfileReturn>{
+    return await apiRequest(PROFILE_URL,'POST',{data})
+    
+}
+
