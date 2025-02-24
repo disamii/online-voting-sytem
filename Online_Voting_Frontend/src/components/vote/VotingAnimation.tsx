@@ -2,7 +2,6 @@ import '@/styling/voting.css'
 import {
     Dialog,
     DialogContent,
-    DialogTrigger,
 } from '@/components/ui/dialog'
 
 import { Dispatch, SetStateAction, useEffect } from "react";

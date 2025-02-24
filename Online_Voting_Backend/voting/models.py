@@ -41,6 +41,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 # Profile Model
 class VoterProfile(models.Model):
     voter = models.OneToOneField(CustomUser, on_delete=models.CASCADE)
+    has_voted = models.BooleanField(default=False)
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     date_of_birth = models.DateField()
@@ -49,7 +50,6 @@ class VoterProfile(models.Model):
     region = models.CharField(max_length=100)
     photo = models.ImageField(upload_to='voter_photos/', blank=True, null=True)
     biometric_data = models.BinaryField(blank=True, null=True)
-    has_voted = models.BooleanField(default=False)
     registration_date = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

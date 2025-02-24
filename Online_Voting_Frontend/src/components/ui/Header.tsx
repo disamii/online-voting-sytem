@@ -21,7 +21,7 @@ export default function Header({ }: Props) {
         <nav>
           <ul className="flex gap-4 ">
             <li>Home</li>
-            <li>Announcemnet</li>
+            <li>Profile</li>
             <li>Contact us</li>
             <li>About us</li>
           </ul>

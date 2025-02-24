@@ -13,7 +13,7 @@ import {
 import useCandidates from "../customhook/useCandidates"
 import { Button } from "../ui/button";
 import { useState } from "react";
-import { vote } from "@/service/candidate";
+// import { vote } from "@/service/candidate";
 
 
 type VoteProps = {
