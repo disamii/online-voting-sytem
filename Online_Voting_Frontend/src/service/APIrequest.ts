@@ -9,8 +9,10 @@ interface ApiRequestConfig {
 export async function apiRequest<T>(
   url: string,
   method: "GET" | "POST" | "PUT" | "DELETE",
-  body: Record<string, any> | null = null
+  body: Record<string, any> | null = null,
+  contentType: string = "application/json"
 ): Promise<T> {
+  const finalBody: BodyInit | null = body ? ((contentType === "application/json") ? JSON.stringify(body) : (body as BodyInit)) : null;
 
   const accessToken = getAccessToken();
   const originalRequest: ApiRequestConfig = {
@@ -19,9 +21,9 @@ export async function apiRequest<T>(
       method,
       headers: {
         Authorization: accessToken ? `Bearer ${accessToken}` : "",
-        "Content-Type": "application/json",
+        "Content-Type": contentType,
       },
-      body: body ? JSON.stringify(body) : null,
+      body: finalBody,
     },
   };
 

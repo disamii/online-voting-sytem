@@ -15,7 +15,6 @@ export default function voteInvitation({ }: Props) {
     const [has_voted, setHasVoted] = useState(false)
     const [open, setOpen] = useState(false)
     const [photo, setPhoto] = useState('')
-    console.log(user_profile)
     return (
         <div className="p-4 flex justify-between gap-2 items-center">
             <div className="text-left pr-40 text-muted">
@@ -30,7 +29,7 @@ export default function voteInvitation({ }: Props) {
                 </p>
             </div>
 
-            {isAuthenticated ? <> {user_profile? <>{(user_profile?.has_voted && has_voted) ?
+            {isAuthenticated ? <> {user_profile && Object.keys(user_profile).length > 0 ?  <>{(user_profile?.has_voted && has_voted) ?
                 <div className="flex flex-col mt-4 gap-8 w-full ">
                     <span className="mx-3 ml-1 bg-accent-foreground text-card-foreground py-7 rounded-md w-[32rem] flex justify-evenly items-center ">
                         <ArrowBigDown /><ArrowBigDown />  Thank you for your participation <ArrowBigDown /><ArrowBigDown />

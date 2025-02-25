@@ -48,13 +48,13 @@ export interface ErrorResponse {
 
 
 export interface UserProfile {
-  firstName: string;
-  lastName: string;
-  dateOfBirth: Date;
+  first_name: string;
+  last_name: string;
+  date_of_birth: Date;
   gender: string;
   address: string;
   region: string;
-  photo: string; // Photo as a string
+  photo: string; 
 }
 
 

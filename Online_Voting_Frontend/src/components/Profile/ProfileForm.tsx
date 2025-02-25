@@ -62,6 +62,8 @@ const ProfileForm: React.FC = () => {
         }
     };
 
+    
+
     return (
         <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 p-4 ">
@@ -73,6 +75,7 @@ const ProfileForm: React.FC = () => {
                             <FormLabel className=' text-accent'>Enter Image</FormLabel>
                             <FormControl>
                                 <div className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-gray-300 cursor-pointer m-auto">
+
                                     {imageSrc ? (
                                         <img
                                             src={imageSrc}
@@ -99,7 +102,7 @@ const ProfileForm: React.FC = () => {
                 <div className='grid grid-cols-2 gap-7'>
                     <FormField
                         control={form.control}
-                        name="firstName"
+                        name="first_name"
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel className=' text-accent'>First Name</FormLabel>
@@ -112,7 +115,7 @@ const ProfileForm: React.FC = () => {
                     />
                     <FormField
                         control={form.control}
-                        name="lastName"
+                        name="last_name"
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel className=' text-accent'>Last Name</FormLabel>
@@ -164,7 +167,7 @@ const ProfileForm: React.FC = () => {
                     />
                     <FormField
                         control={form.control}
-                        name="dateOfBirth"
+                        name="date_of_birth"
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel className=' text-accent'>Date of Birth</FormLabel>

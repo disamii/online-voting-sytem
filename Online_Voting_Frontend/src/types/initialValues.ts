@@ -1,7 +1,7 @@
 export const profileInitialValues = {
-    firstName: '',
-    lastName: '',
-    dateOfBirth: new Date(),
+  first_name: '',
+  last_name: '',
+  date_of_birth: new Date(),
     gender: '',
     address: '',
     region: '',

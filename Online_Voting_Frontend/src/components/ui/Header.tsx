@@ -1,11 +1,17 @@
 import useAuthStore from "@/store/authStore"
 import { useNavigate } from "react-router-dom"
 import { Button } from "./button"
-
+import { useQueryClient } from "@tanstack/react-query";
 type Props = {}
 
 export default function Header({ }: Props) {
   const { logout, isAuthenticated } = useAuthStore()
+  const queryClient = useQueryClient();
+  const handleLogout = () => {
+    queryClient.removeQueries({ queryKey: ['user_profile'] }); 
+    logout(); 
+};
+
   const navigate = useNavigate()
   return (
     <header className="relative bg-gradient-to-b from-teal-700 via-teal-500 to-teal-300 p-8 px-20 py-[5rem] text-white rounded-bl-[20%] text-2xl flex flex-col justify-between z-50 h-[44rem]">
@@ -32,6 +38,7 @@ export default function Header({ }: Props) {
 
           variant='ghost'
           onClick={() => {
+            handleLogout()
             logout()
             navigate('/auth')
           }}>Logout</Button> :
@@ -42,6 +49,8 @@ export default function Header({ }: Props) {
                 variant='ghost'
 
               onClick={() => {
+                handleLogout()
+
                 navigate('/auth')
               }}>Login</Button>
               <Button 
@@ -50,6 +59,7 @@ export default function Header({ }: Props) {
                 variant='ghost'
 
               onClick={() => {
+                handleLogout()
                 navigate('/auth')
               }}>Signup</Button>
             </>

@@ -27,7 +27,6 @@ export async function signup(data:SignupUser) :Promise<Token> {
 
 
 export async function login(data:LoginValues):Promise<Token>{
-    console.log(data)
     try {
         const response = await fetch(LOGIN_URL, {
             method: "POST",
@@ -54,7 +53,13 @@ export  async function getProfile() :Promise<VoterProfileReturn>{
 }
 
 export  async function postProfile(data:UserProfile) :Promise<VoterProfileReturn>{
-    return await apiRequest(PROFILE_URL,'POST',{data})
+    const formattedData = {
+        ...data,
+        date_of_birth: data.date_of_birth instanceof Date
+          ? data.date_of_birth.toISOString().split("T")[0]
+          : data.date_of_birth,
+      };
+      return await apiRequest(PROFILE_URL, 'POST', formattedData,"multipart/form-data");
     
 }
 
