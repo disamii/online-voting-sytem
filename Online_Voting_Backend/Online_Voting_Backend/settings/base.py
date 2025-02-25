@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'voting.middleware.Handle404Middleware'
+    # 'voting.middleware.Handle404Middleware'
 ]
 
 ROOT_URLCONF = 'Online_Voting_Backend.urls'
@@ -69,7 +69,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 
-    'EXCEPTION_HANDLER': 'voting.custom_exception_handler.custom_exception_handler',
+    # 'EXCEPTION_HANDLER': 'voting.custom_exception_handler.custom_exception_handler',
 }
 
 

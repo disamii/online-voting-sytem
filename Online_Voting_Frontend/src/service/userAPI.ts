@@ -48,10 +48,10 @@ export async function getUser(): Promise<User> {
     return await apiRequest(USER_URL, 'GET');
 }
 
-export async function getProfile(): Promise<VoterProfileReturn> {
+export async function getProfile(): Promise<VoterProfileReturn[]> {
     return await apiRequest(PROFILE_URL, 'GET')
-
 }
+
 export async function postProfile(data: UserProfile): Promise<VoterProfileReturn> {
     const formData = new FormData();
 

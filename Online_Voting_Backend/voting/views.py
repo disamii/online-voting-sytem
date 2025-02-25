@@ -7,14 +7,22 @@ from .serializers import VoterProfileSerializer,CandidateSerializer,VoteSerializ
 from rest_framework.exceptions import PermissionDenied, NotFound, ValidationError
 from django.db import transaction
 from rest_framework.response import Response
+from rest_framework import viewsets, status
+
 class VoterProfileViewset(viewsets.ModelViewSet):
     serializer_class = VoterProfileSerializer
+    
 
     def get_queryset(self):
         user = self.request.user
-        if user.is_staff:
-            return VoterProfile.objects.all()
-        return VoterProfile.objects.filter(voter=user)
+        try:
+            if user.is_staff:
+                return VoterProfile.objects.all()
+            else:
+                return VoterProfile.objects.filter(voter=user)
+        except VoterProfile.DoesNotExist:
+            raise NotFound("Voter profile not found.")
+
 
     def get_permissions(self):
         if self.action in ['create']:
@@ -28,16 +36,6 @@ class VoterProfileViewset(viewsets.ModelViewSet):
         if VoterProfile.objects.filter(voter=user).exists():
             raise ValidationError("You already have a profile.")
         serializer.save(voter=user)
-
-from rest_framework import viewsets, status
-from rest_framework.decorators import action
-from rest_framework.permissions import IsAuthenticated, IsAdminUser
-from rest_framework.response import Response
-from rest_framework.exceptions import ValidationError, NotFound, PermissionDenied
-from django.db import transaction
-
-from .models import Candidate, VoterProfile
-from .serializers import CandidateSerializer, VoteSerializer
 
 
 class CandidateViewset(viewsets.ModelViewSet):

@@ -21,6 +21,13 @@ def custom_exception_handler(exc, context):
                 "message": "The provided token is invalid or has expired.",
                 "details": None  
             }
+        elif isinstance(exc, NotFound):
+            response.data = {
+            "status": response.status_code,
+            "error": "NOT_FOUND",
+            "message": "The requested resource was not found.",
+            "details": None  
+        }
         else:
             response.data = {
                 "status": response.status_code,

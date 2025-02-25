@@ -6,14 +6,13 @@ import {
     DialogTitle,
     DialogDescription,
     DialogClose,
-    
 } from "@/components/ui/dialog"
-
 
 import useCandidates from "../customhook/useCandidates"
 import { Button } from "../ui/button";
 import { useState } from "react";
 import { vote } from "@/service/candidate";
+import useProfile from "../customhook/useProfile";
 
 
 type VoteProps = {
@@ -28,15 +27,17 @@ export default function Vote({ setOpen, setPhoto, setHasVoted }:VoteProps) {
         photo:''
     })
     const { candidates} = useCandidates()
-
+const {invalidateProfile}=useProfile()
 
     const handleVote =async () => {
         try {
             await vote({candidate_id:voted.id})
-            setPhoto(voted.photo); 
+            setPhoto(voted.photo);
             setOpen(true);             
             setHasVoted(true);    
             setVoted({id:'',photo:''})
+            invalidateProfile()
+
         } catch (error) {
             console.error('uanble to vote',error)
             

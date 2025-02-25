@@ -89,7 +89,8 @@ return (
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
               <label htmlFor='national_id'>National ID:</label>
-              <Input id='national_id' className='w-72 rounded-md ' name='national_id' onChange={handleChange} onBlur={handleBlur} value={values.national_id} />
+              <Input id='national_id' className='w-72 rounded-md ' type='number' minLength={6} min={100000}  
+  max={9999999999}  name='national_id' onChange={handleChange} onBlur={handleBlur} value={values.national_id} />
             </div>
             <ErrorMessage name='national_id' component={'small'} className='text-red-400'/>
           </div>
@@ -97,7 +98,7 @@ return (
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
               <label htmlFor='password'>Password:</label>
-              <Input id='password' className='w-72 rounded-md ' name='password' onChange={handleChange} onBlur={handleBlur} value={values.password} />
+              <Input id='password' className='w-72 rounded-md 'type='password' name='password' onChange={handleChange} onBlur={handleBlur} value={values.password} />
             </div>
             <ErrorMessage name='password' component={'small'} className='text-red-400'/>
           </div>
@@ -105,7 +106,7 @@ return (
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>
               <label htmlFor='confirm_password'>Confirm Password:</label>
-              <Input id='confirm_password' className='w-72 rounded-md' name='confirm_password' onChange={handleChange} onBlur={handleBlur} value={values.confirm_password} />
+              <Input id='confirm_password' className='w-72 rounded-md' name='confirm_password' type='password' onChange={handleChange} onBlur={handleBlur} value={values.confirm_password} />
             </div>
             <ErrorMessage name='confirm_password' component={'small'} className='text-red-400'/>
           </div>
