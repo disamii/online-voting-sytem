@@ -54,22 +54,15 @@ export interface UserProfile {
   gender: string;
   address: string;
   region: string;
-  photo: string; 
+  photo?: File|null; 
 }
 
 
-export interface VoterProfileReturn {
+export interface VoterProfileReturn extends UserProfile {
   id: number;
-  voter: string; // UUID
-  first_name: string;
-  last_name: string;
-  date_of_birth: string; // Consider using Date type if handling date objects
-  gender: string;
-  address: string;
-  region: string;
-  photo: string | null; // Assuming photo can be a string or null
-  biometric_data: string | null; // Assuming biometric_data can be a string or null
+  voter: string; 
+  biometric_data: string | null; 
   has_voted: boolean;
-  registration_date: string; // Consider using Date type if handling date objects
-  updated_at: string; // Consider using Date type if handling date objects
+  registration_date: string; 
+  updated_at: string; 
 }
