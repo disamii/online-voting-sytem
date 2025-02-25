@@ -4,7 +4,6 @@ type Props = {
 };
 
 export default function CandidateSingleSlider({ candidate }: Props) {
-  { console.log(candidate.photo) }
   return (
     <>
       <img

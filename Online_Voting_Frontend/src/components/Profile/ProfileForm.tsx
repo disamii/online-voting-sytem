@@ -90,7 +90,7 @@ const ProfileForm: React.FC = () => {
                                     <input
                                         type="file"
                                         accept="image/*"
-                                        onChange={(e) => handleFileChange(e, field)} // Handle file change
+                                        onChange={(e) => handleFileChange(e, field)} 
                                         className="absolute inset-0 opacity-0 cursor-pointer"
                                     />
                                 </div>
