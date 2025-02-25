@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    # 'voting.middleware.Handle404Middleware'
+    'voting.middleware.Handle404Middleware'
 ]
 
 ROOT_URLCONF = 'Online_Voting_Backend.urls'

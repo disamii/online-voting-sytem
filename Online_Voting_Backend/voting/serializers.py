@@ -43,7 +43,7 @@ class VoterProfileSerializer(serializers.ModelSerializer):
         ]
         read_only_fields = ['has_voted', 'registration_date', 'updated_at','voter']
 
-
+    
     def validate_voter_id(self, value):
         """Ensure voter_id is exactly 20 characters."""
         if len(value) != 20:
