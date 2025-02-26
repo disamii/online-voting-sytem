@@ -8,7 +8,7 @@ from rest_framework.exceptions import PermissionDenied, NotFound, ValidationErro
 from django.db import transaction
 from rest_framework.response import Response
 from rest_framework import viewsets, status
-
+from rest_framework.decorators import api_view
 class VoterProfileViewset(viewsets.ModelViewSet):
     serializer_class = VoterProfileSerializer
     
@@ -95,3 +95,12 @@ class CandidateViewset(viewsets.ModelViewSet):
             {"message": "Vote successfully cast", "candidate_votes": candidate.votes},
             status=status.HTTP_200_OK,
         )
+
+@api_view(['GET'])
+def voted_vs_registerd(request):
+    registered_user=VoterProfile.objects.count()
+    has_voted=VoterProfile.objects.filter(has_voted=True).count()
+    return Response({
+        'registered_user':registered_user,
+        'already_voted':has_voted
+    })

@@ -8,17 +8,18 @@ import ProfileDialog from "../Profile/ProfileDialog";
 import useAuthStore from "@/store/authStore";
 import { Link } from "react-router-dom";
 import { VoterProfileReturn } from '@/types/interfaces';
+import useVoteStats from "../customhook/useVoteStats";
 
 type Props = {};
 
 export default function VoteInvitation({ }: Props) {
     const { isLoading, error, user_profile = [] } = useProfile();
     const profile: VoterProfileReturn | undefined = user_profile[0]; 
-    
     const { isAuthenticated } = useAuthStore();
     const [hasVoted, setHasVoted] = useState(profile?.has_voted || false);
     const [open, setOpen] = useState(false);
     const [photo, setPhoto] = useState('');
+    const {status}=useVoteStats()
     useEffect(() => {
         if (profile) {
             setHasVoted(profile.has_voted);
@@ -32,7 +33,7 @@ export default function VoteInvitation({ }: Props) {
         <div className="p-4 flex justify-between gap-2 items-center">
             <div className="text-left pr-40 text-muted">
                 <h1>
-                    {profile?.first_name ? `Welcome, ${profile.first_name}` : 'Welcome!'} Out of 100 registered voters, 5 have voted.
+                    {profile?.first_name ? `Welcome, ${profile.first_name}` : 'Welcome!'} Out of {status?.registered_user} registered voters, {status?.already_voted} have voted.
                 </h1>
                 <p className="mb-2">
                     The voting process has been smooth and efficient. Voter participation is essential for a healthy democracy. We encourage all eligible voters to make their voices heard. Your vote matters—let's shape the future together!

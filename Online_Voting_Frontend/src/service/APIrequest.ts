@@ -24,7 +24,6 @@ export async function apiRequest<T>(
     }
   }
   const accessToken = getAccessToken();
-  console.log(accessToken)
   if (accessToken) {
     headers["Authorization"] = `Bearer ${accessToken}`;
   }

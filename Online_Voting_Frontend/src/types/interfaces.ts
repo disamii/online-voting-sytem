@@ -66,3 +66,9 @@ export interface VoterProfileReturn extends UserProfile {
   registration_date: string; 
   updated_at: string; 
 }
+
+
+export interface VoterStats {
+  registered_user: number;
+  already_voted: number;
+}
