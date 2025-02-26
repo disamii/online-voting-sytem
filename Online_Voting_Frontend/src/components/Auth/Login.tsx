@@ -1,15 +1,15 @@
-import { useState }from 'react';
 import { Formik, Form, ErrorMessage} from 'formik';
 import * as yup from 'yup';
 import { Loader2, User as UserIcon  } from "lucide-react";
 import { Input } from '@/components/ui/input';
 import { Button } from '../ui/button';
-
+import { setToken } from '@/utils/Token';
 import {User,Token,LoginValues} from "@/types/interfaces"
 import { getUser, login } from '@/service/userAPI';
 
 import useAuthStore from '@/store/authStore';
 import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 
 const initialValues: LoginValues= {
@@ -23,9 +23,10 @@ const validationSchema = yup.object().shape({
 });
 
 export default function Login  () {
+
   const navigate=useNavigate()
-  const {setToken,setUser}=useAuthStore()
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const {setUser}=useAuthStore()
+  
 
   const handleSubmit = async (
     values: LoginValues, 
@@ -39,7 +40,9 @@ export default function Login  () {
       navigate('/home')
     } catch (error) {
       console.error(error);
-      setErrorMessage(typeof error === "string" ? error : "An error occurred.");
+      toast.error(typeof error === "string" ? error : "Check your credential and try again.",{
+        position: "top-right",
+      })
     } finally {
       setSubmitting(false);
     }
@@ -54,19 +57,8 @@ export default function Login  () {
       >
         {({ isSubmitting, handleChange, values, handleBlur }) => (
           <Form className='flex h-full items-center justify-center flex-col gap-4'>
-                    {errorMessage && (
-          <div className="text-red-500 mt-2">
-            <p className="font-semibold">errors:</p>
-            <ul className="list-disc list-inside">
-              {errorMessage.split("\n").map((err, index) => (
-                <li key={index}>{err}</li>
-              ))}
-            </ul>
-          </div>
-        )}
             <div><UserIcon name='user' size={50} color='black' /></div>
             <div className='flex flex-col gap-3 items-center justify-center'>
-
               <div className='w-full'>
                 <div className='flex w-full gap-2 items-center justify-between'>
                   <label htmlFor='national_id'>National ID:</label>
@@ -74,7 +66,6 @@ export default function Login  () {
                 </div>
                 <ErrorMessage name='national_id' component={'small'} className='text-red-400' />
               </div>
-
               <div className='w-full'>
                 <div className='flex w-full gap-2 items-center  justify-between'>
                   <label htmlFor='password'>Password:</label>
@@ -82,7 +73,6 @@ export default function Login  () {
                 </div>
                 <ErrorMessage name='password' component={'small'} className='text-red-400' />
               </div>
-
               <Button
                 type='submit'
                 className='w-[13rem] rounded-lg '
@@ -91,7 +81,6 @@ export default function Login  () {
               >
                 {isSubmitting ? <Loader2 className="animate-spin" /> : <>Login</>}
               </Button>
-
             </div>
           </Form>
         )}

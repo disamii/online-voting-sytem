@@ -1,17 +1,17 @@
 import useAuthStore from "@/store/authStore";
 import { useNavigate } from "react-router-dom";
 import { Button } from "./button";
-import { useQueryClient } from "@tanstack/react-query";
+import useProfile from "../customhook/useProfile";
 
 type Props = {};
 
 export default function Header({ }: Props) {
   const { logout, isAuthenticated } = useAuthStore();
-  const queryClient = useQueryClient();
   const navigate = useNavigate();
+  const {removeProfile}=useProfile()
 
-  const handleLogout = () => {
-    queryClient.removeQueries({ queryKey: ['user_profile'] });
+  const handleLogout = async () => {
+    removeProfile()
     logout(); 
     navigate('/auth'); 
   };

@@ -13,12 +13,12 @@ type Props = {};
 
 export default function VoteInvitation({ }: Props) {
     const { isLoading, error, user_profile = [] } = useProfile();
-    const profile: VoterProfileReturn | undefined = user_profile[0]; // Type assertion
+    const profile: VoterProfileReturn | undefined = user_profile[0]; 
+    
     const { isAuthenticated } = useAuthStore();
-    const [hasVoted, setHasVoted] = useState(profile?.has_voted || false); // Optional chaining
+    const [hasVoted, setHasVoted] = useState(profile?.has_voted || false);
     const [open, setOpen] = useState(false);
     const [photo, setPhoto] = useState('');
-
     useEffect(() => {
         if (profile) {
             setHasVoted(profile.has_voted);

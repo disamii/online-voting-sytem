@@ -13,6 +13,7 @@ import { Button } from "../ui/button";
 import { useState } from "react";
 import { vote } from "@/service/candidate";
 import useProfile from "../customhook/useProfile";
+import { toast } from 'react-toastify';
 
 
 type VoteProps = {
@@ -27,8 +28,8 @@ export default function Vote({ setOpen, setPhoto, setHasVoted }:VoteProps) {
         photo:''
     })
     const { candidates} = useCandidates()
-const {invalidateProfile}=useProfile()
 
+const {invalidateProfile}=useProfile()
     const handleVote =async () => {
         try {
             await vote({candidate_id:voted.id})
@@ -37,10 +38,12 @@ const {invalidateProfile}=useProfile()
             setHasVoted(true);    
             setVoted({id:'',photo:''})
             invalidateProfile()
-
+            toast.success('Successfully voted!');
         } catch (error) {
             console.error('uanble to vote',error)
-            
+            toast.error(typeof error === "string" ? error : "An error occurred.",{
+            position: "top-left",
+            })
         }
     };
 

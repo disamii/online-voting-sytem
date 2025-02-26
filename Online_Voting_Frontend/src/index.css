@@ -84,3 +84,8 @@ label {
 
 
 
+.Toastify {
+  margin: 0;
+  max-height: 100vh; 
+  overflow: hidden; 
+}

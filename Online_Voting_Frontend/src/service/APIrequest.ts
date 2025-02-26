@@ -23,8 +23,8 @@ export async function apiRequest<T>(
       headers["Content-Type"] = contentType;
     }
   }
-
   const accessToken = getAccessToken();
+  console.log(accessToken)
   if (accessToken) {
     headers["Authorization"] = `Bearer ${accessToken}`;
   }

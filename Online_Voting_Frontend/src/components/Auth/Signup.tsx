@@ -1,5 +1,4 @@
 import { Button } from '../ui/button'
-import { useState } from "react";
 import { Input } from '../ui/input';
 import { Form, Formik, ErrorMessage } from 'formik'
 import * as Yup from 'yup';
@@ -8,6 +7,8 @@ import { getUser, signup } from '@/service/userAPI';
 import useAuthStore from '@/store/authStore';
 import {User,Token,SignupUser} from "@/types/interfaces"
 import { useNavigate } from 'react-router-dom';
+import { setToken } from '@/utils/Token';
+import { toast } from 'react-toastify';
 
 
 const validationSchema = Yup.object().shape({
@@ -34,8 +35,7 @@ const initialValues = {
 
 
 export default function Signup ()  {
-  const {setToken,setUser}=useAuthStore()
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const {setUser}=useAuthStore()
   const navigate=useNavigate()
 
 
@@ -43,15 +43,21 @@ export default function Signup ()  {
     values: SignupUser, 
     { setSubmitting }: { setSubmitting: (isSubmitting: boolean) => void }
   ) => {
+
+
     try {
       const token:Token = await signup(values);
       setToken(token);
       const user:User = await getUser();
       setUser(user);
       navigate('/home')
+      
+
     } catch (error) {
       console.log(error);
-      setErrorMessage(typeof error === "string" ? error : "An error occurred.");
+      toast.error(typeof error === "string" ? error : "An error occurred.",{
+        position: "top-left",
+      })
     } finally {
       setSubmitting(false);
     }
@@ -67,16 +73,6 @@ return (
   >
     {({ isSubmitting, handleChange, handleBlur, values }) => (
       <Form className='h-full bg-yellow flex items-center justify-center flex-col gap-4 p-4'>
-        {errorMessage && (
-          <div className="text-red-500 mt-2">
-            <p className="font-semibold">errors:</p>
-            <ul className="list-disc list-inside">
-              {errorMessage.split("\n").map((err, index) => (
-                <li key={index}>{err}</li>
-              ))}
-            </ul>
-          </div>
-        )}
         <div className='flex flex-col gap-3 items-center justify-center'>
           <div className='w-full'>
             <div className='flex w-full gap-2 items-center justify-between'>

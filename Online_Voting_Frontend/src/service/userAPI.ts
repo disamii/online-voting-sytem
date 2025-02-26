@@ -3,7 +3,6 @@ import { apiRequest } from "./APIrequest";
 import { LoginValues, SignupUser, VoterProfileReturn } from "@/types/interfaces"
 import { User, Token } from "@/types/interfaces"
 import { UserProfile } from "@/types/interfaces";
-// import { getAccessToken } from "@/utils/Token";
 
 const LOGIN_URL = 'http://127.0.0.1:8000/auth/jwt/create/'
 const USER_URL = 'http://127.0.0.1:8000/auth/users/'

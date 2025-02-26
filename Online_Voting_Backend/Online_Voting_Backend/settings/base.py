@@ -69,7 +69,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 
-    # 'EXCEPTION_HANDLER': 'voting.custom_exception_handler.custom_exception_handler',
+    'EXCEPTION_HANDLER': 'voting.custom_exception_handler.custom_exception_handler',
 }
 
 

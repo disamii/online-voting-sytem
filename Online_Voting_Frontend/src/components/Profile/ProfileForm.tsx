@@ -10,30 +10,18 @@ import {
     FormMessage,
     FormField,
 } from "@/components/ui/form";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { ProfileSchema } from '@/types/schema';
 import { profileInitialValues } from '@/types/initialValues';
 import { UserProfile } from '@/types/interfaces';
-import { VoterProfileReturn } from '@/types/interfaces'
 import { formatDate } from '@/utils/formdate';
 import { Button } from '../ui/button';
-import { postProfile } from '@/service/userAPI';
-
+import usePostProfile from '../customhook/usePostProfile';
+import { toast } from 'react-toastify';
 
 const ProfileForm: React.FC = () => {
 
-    const queryClient = useQueryClient();
     const [imageSrc, setImageSrc] = useState<string | null>(null);
-
-    const mutation = useMutation<VoterProfileReturn, Error, UserProfile>({
-        mutationFn: postProfile,
-        onSuccess: () => {
-            queryClient.invalidateQueries({ queryKey: ['user_profile'] });
-        },
-    });
-
-
-
+    const {createProfile}=usePostProfile()
     const form = useForm<UserProfile>({
         resolver: yupResolver(ProfileSchema),
         defaultValues: profileInitialValues
@@ -41,8 +29,12 @@ const ProfileForm: React.FC = () => {
 
     const onSubmit = async (data: UserProfile) => {
         try {
-            await mutation.mutateAsync(data)
+            await createProfile(data)
+            toast.success('successfully filled profile form, you can now vote !')
         } catch (error) {
+            toast.error(typeof error === "string" ? error : "An error occurred.",{
+                position: "top-left",
+            })
             console.error(error)
         }
     };
@@ -62,7 +54,7 @@ const ProfileForm: React.FC = () => {
         }
     };
 
-    
+
 
     return (
         <Form {...form}>
@@ -90,7 +82,7 @@ const ProfileForm: React.FC = () => {
                                     <input
                                         type="file"
                                         accept="image/*"
-                                        onChange={(e) => handleFileChange(e, field)} 
+                                        onChange={(e) => handleFileChange(e, field)}
                                         className="absolute inset-0 opacity-0 cursor-pointer"
                                     />
                                 </div>
@@ -157,14 +149,20 @@ const ProfileForm: React.FC = () => {
                         name="gender"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className=' text-accent'>Gender</FormLabel>
+                                <FormLabel className='text-accent'>Gender</FormLabel>
                                 <FormControl>
-                                    <Input placeholder="Gender" {...field} />
+                                    <select {...field} aria-label="Select Gender" className='          "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-lg",
+'>
+                                        <option value="">Select Gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
                                 </FormControl>
-                                <FormMessage className=' text-red-400' />
+                                <FormMessage className='text-red-400' />
                             </FormItem>
                         )}
                     />
+
                     <FormField
                         control={form.control}
                         name="date_of_birth"
