@@ -15,7 +15,6 @@ class VoterProfileViewset(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
-        print(user)
         try:
             if user.is_staff:
                 return VoterProfile.objects.all()

@@ -37,7 +37,7 @@ export default function Login  () {
       setToken(token);
       const user:User = await getUser();
       setUser(user);
-      navigate('/home')
+      navigate('/')
     } catch (error) {
       console.error(error);
       toast.error(typeof error === "string" ? error : "Check your credential and try again.",{

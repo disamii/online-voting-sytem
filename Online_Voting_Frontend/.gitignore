@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+candidates-management.tsx 
+dashboard-overview.tsx
+elections-management.tsx
+voters-management.tsx
+useElection.ts
+useVoterManage.ts
+useStatus.ts

@@ -1,4 +1,4 @@
-
+import { LucideIcon } from "lucide-react";
 export interface Token {
     access: string;
     refresh: string;
@@ -10,6 +10,26 @@ export interface Token {
     national_id: string | null;
 }
 
+
+export interface UserProfile {
+  first_name: string;
+  last_name: string;
+  date_of_birth: Date;
+  gender: string;
+  address: string;
+  region: string;
+  photo?: File|null; 
+}
+
+
+export interface VoterProfileReturn extends UserProfile {
+  id: number;
+  voter: string; 
+  biometric_data: string | null; 
+  has_voted: boolean;
+  registration_date: string; 
+  updated_at: string; 
+}
 
 
 
@@ -47,28 +67,46 @@ export interface ErrorResponse {
 }
 
 
-export interface UserProfile {
-  first_name: string;
-  last_name: string;
-  date_of_birth: Date;
-  gender: string;
-  address: string;
-  region: string;
-  photo?: File|null; 
-}
-
-
-export interface VoterProfileReturn extends UserProfile {
-  id: number;
-  voter: string; 
-  biometric_data: string | null; 
-  has_voted: boolean;
-  registration_date: string; 
-  updated_at: string; 
-}
-
 
 export interface VoterStats {
   registered_user: number;
   already_voted: number;
 }
+
+export interface Stat {
+  title: string;
+  value: string;
+  icon: LucideIcon;
+  description: string;
+}
+
+export  interface Election {
+  id: number;
+  title: string;
+  startDate: string; 
+  endDate: string;
+  status: "Upcoming" | "Ongoing" | "Completed"|"In Progress";
+  candidates: number;
+  voters: number;
+}
+
+
+export interface AdminVoterManagement {
+  user_id: string | null;       // From User
+  email: string | null;         // From User
+  national_id: string | null;   // From User
+  first_name: string;           // From UserProfile
+  last_name: string;            // From UserProfile
+  date_of_birth: Date;          // From UserProfile
+  gender: string;               // From UserProfile
+  address: string;              // From UserProfile
+  region: string;               // From UserProfile
+  photo?: File | null;          // From UserProfile
+  id: number;                   // From VoterProfileReturn
+  voter: string;                // From VoterProfileReturn
+  biometric_data: string | null; // From VoterProfileReturn
+  has_voted: boolean;           // From VoterProfileReturn
+  registration_date: string;    // From VoterProfileReturn
+  updated_at: string;           // From VoterProfileReturn
+}
+

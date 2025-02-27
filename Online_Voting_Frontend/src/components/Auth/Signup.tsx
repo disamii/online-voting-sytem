@@ -50,7 +50,7 @@ export default function Signup ()  {
       setToken(token);
       const user:User = await getUser();
       setUser(user);
-      navigate('/home')
+      navigate('/')
       
 
     } catch (error) {
