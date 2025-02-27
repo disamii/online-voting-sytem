@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-candidates-management.tsx 
+
 
 elections-management.tsx
 voters-management.tsx
