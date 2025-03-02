@@ -3,14 +3,21 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import useStatus from "../customhook/useStatus"
 import useCandidates from "../customhook/useCandidates"
+import useRecentActivity from "../customhook/useRecentActivity"
 
 export function DashboardOverview() {
 
-  const electionName = "Presidential Election 2024"
-  const electionDate = "November 5, 2024"
+  const electionName = "Presidential Election "
+  const electionDate = new Date().toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+  
   const electionStatus = "In Progress"
   const {stats}=useStatus()
   const {candidates}=useCandidates()
+  const {recent}=useRecentActivity()
 
 
   return (
@@ -32,7 +39,7 @@ export function DashboardOverview() {
           <Card key={index}>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium">{stat.title}</CardTitle>
-              <stat.icon className="h-4 w-4 text-muted-foreground" />
+              {/* <stat.icon className="h-4 w-4 text-muted-foreground" /> */}
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">{stat.value}</div>
@@ -73,17 +80,7 @@ export function DashboardOverview() {
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
-              {[
-                { action: "Voter Verified", details: "Emma Wilson completed ID verification", time: "10 minutes ago" },
-                { action: "Vote Cast", details: "Anonymous voter submitted their ballot", time: "25 minutes ago" },
-                {
-                  action: "Candidate Updated",
-                  details: "Robert Wilson updated profile information",
-                  time: "2 hours ago",
-                },
-                { action: "New Voter Registered", details: "James Thompson created an account", time: "3 hours ago" },
-                { action: "System Check", details: "Automated security audit completed", time: "5 hours ago" },
-              ].map((activity, i) => (
+              {recent.map((activity, i) => (
                 <div key={i} className="flex items-center">
                   <div className="w-2 h-2 rounded-full bg-primary mr-2"></div>
                   <div className="flex-1">

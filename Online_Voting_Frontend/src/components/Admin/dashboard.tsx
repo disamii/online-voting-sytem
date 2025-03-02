@@ -3,7 +3,6 @@ import { AdminSidebar } from "./sidebar"
 import { DashboardOverview } from "./dashboard-overview"
 import { CandidatesManagement } from "./candidates-management"
 import { VotersManagement } from "./voters-management"
-import { ElectionsManagement } from "./elections-management"
 
 
 
@@ -17,7 +16,6 @@ export function AdminDashboard() {
       <div className="flex-1 overflow-auto">
         <main className="p-6">
           {activeTab === "dashboard" && <DashboardOverview />}
-          {activeTab === "elections" && <ElectionsManagement />}
           {activeTab === "candidates" && <CandidatesManagement />}
           {activeTab === "voters" && <VotersManagement />}
         </main>

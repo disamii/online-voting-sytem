@@ -69,3 +69,4 @@ class CandidateSerializer(serializers.ModelSerializer):
         read_only_fields = ['id', 'votes', 'created_at']
 class VoteSerializer(serializers.Serializer):
     candidate_id = serializers.CharField(required=True)
+ 

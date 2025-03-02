@@ -1,8 +1,6 @@
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.db import models
 import uuid
-
-# Custom User Manager
 class CustomUserManager(BaseUserManager):
     def create_user(self, email, password=None, **extra_fields):
         if not email:
@@ -28,6 +26,8 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
     is_superuser = models.BooleanField(default=False)
     date_joined = models.DateTimeField(auto_now_add=True)
     last_login = models.DateTimeField(null=True, blank=True)
+    updated_at = models.DateTimeField(auto_now=True) 
+    created_at = models.DateTimeField(auto_now_add=True)
 
     objects = CustomUserManager()
 
@@ -51,6 +51,7 @@ class VoterProfile(models.Model):
     photo = models.ImageField(upload_to='voter_photos/', blank=True, null=True)
     biometric_data = models.BinaryField(blank=True, null=True)
     registration_date = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
@@ -70,6 +71,8 @@ class Candidate(models.Model):
     best_speech_quotes = models.TextField(blank=True, null=True) 
     votes = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
-
+    updated_at = models.DateTimeField(auto_now=True) 
     def __str__(self):
         return f'{self.first_name} {self.last_name} ({self.party})'
+
+

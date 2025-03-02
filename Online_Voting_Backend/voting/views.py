@@ -2,17 +2,18 @@ from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated,IsAdminUser
 from djoser.views import UserViewSet
 from rest_framework.decorators import action
-from .models import VoterProfile,Candidate
+from .models import VoterProfile,Candidate,CustomUser
 from .serializers import VoterProfileSerializer,CandidateSerializer,VoteSerializer
 from rest_framework.exceptions import PermissionDenied, NotFound, ValidationError
 from django.db import transaction
 from rest_framework.response import Response
 from rest_framework import viewsets, status
 from rest_framework.decorators import api_view
+from rest_framework.viewsets import ViewSet
+
 class VoterProfileViewset(viewsets.ModelViewSet):
     serializer_class = VoterProfileSerializer
     
-
     def get_queryset(self):
         user = self.request.user
         try:
@@ -22,7 +23,6 @@ class VoterProfileViewset(viewsets.ModelViewSet):
                 return VoterProfile.objects.filter(voter=user)
         except VoterProfile.DoesNotExist:
             raise NotFound("Voter profile not found.")
-
 
     def get_permissions(self):
         if self.action in ['create']:
@@ -43,7 +43,7 @@ class CandidateViewset(viewsets.ModelViewSet):
     serializer_class = CandidateSerializer
 
     def get_permissions(self):
-        if self.action in ["list", "option", "vote"]:  # Allow authenticated users to vote
+        if self.action in ["list", "option", "vote"]: 
             return [IsAuthenticated()]
         if self.action in ["create", "retrieve", "update", "partial_update"]:
             return [IsAdminUser()]
@@ -59,14 +59,12 @@ class CandidateViewset(viewsets.ModelViewSet):
             candidate = Candidate.objects.get(id=candidate_id)
         except Candidate.DoesNotExist:
             raise NotFound({"candidate_id": "Candidate not found."})
-
         return candidate
 
     @action(detail=False, methods=["post"], permission_classes=[IsAuthenticated])
     def vote(self, request):
         user = request.user
 
-        # Check if the voter's profile exists
         try:
             profile = VoterProfile.objects.get(voter=user)
         except VoterProfile.DoesNotExist:
@@ -95,11 +93,93 @@ class CandidateViewset(viewsets.ModelViewSet):
             status=status.HTTP_200_OK,
         )
 
-@api_view(['GET'])
-def voted_vs_registerd(request):
-    registered_user=VoterProfile.objects.count()
-    has_voted=VoterProfile.objects.filter(has_voted=True).count()
-    return Response({
-        'registered_user':registered_user,
-        'already_voted':has_voted
-    })
+class StatsViewSet(ViewSet):
+    
+    @action(detail=False, methods=['GET'])
+    def status(self, request):
+        registered_voter = {
+            "title": "Registered Voters",
+            "value": CustomUser.objects.exclude(is_staff=True).exclude(is_superuser=True).count(),
+            "description": "These are the overall registered users"
+        }
+        profile_filled = {
+            "title": "Profile Filled Users",
+            "value": VoterProfile.objects.count(),
+            "description": "These are the users that have filled their profile"
+        }
+        already_voted = {
+            "title": "Already Voted Users",
+            "value": VoterProfile.objects.filter(has_voted=True).count(),
+            "description": "Already voted users"
+        }
+        candidate={
+            "title":"Total Candidates",
+            "value":Candidate.objects.count(),
+            "description":"Candidate that are registered "
+            }
+        
+        
+        
+        return Response([registered_voter, profile_filled, already_voted,candidate])
+    
+    
+    
+    @action(detail=False, methods=['GET'])
+    def voted_vs_registerd(self,request):
+        registered_user=VoterProfile.objects.count()
+        has_voted=VoterProfile.objects.filter(has_voted=True).count()
+        return Response({
+            'registered_user':registered_user,
+            'already_voted':has_voted
+        })
+    
+    @action(detail=False, methods=['GET'])
+    def recent_activity(self,request):
+        activities=[]
+        latest_vote = VoterProfile.objects.order_by("-updated_at", "-created_at").first()
+        if latest_vote:
+            if latest_vote.created_at == latest_vote.updated_at:
+                activities.append({
+                    "action": "Voter Profile Created",
+                    "details": f"{latest_vote.first_name}  {latest_vote.last_name}created their profile",
+                    "time": latest_vote.created_at
+                })
+            else:
+                activities.append({
+                    "action": "Voter Profile Updated",
+                    "details": f"{latest_vote.first_name}  {latest_vote.last_name}updated their profile",
+                    "time": latest_vote.updated_at
+                })
+
+        latest_candidate = Candidate.objects.order_by("-updated_at", "-created_at").first()
+        if latest_candidate:
+            if latest_candidate.created_at == latest_candidate.updated_at:
+                activities.append({
+                    "action": "Candidate Created",
+                    "details": f"{latest_candidate.first_name} {latest_candidate.last_name} is created ",
+                    "time": latest_candidate.created_at
+                })
+            else:
+                activities.append({
+                    "action": "Candidate Updated",
+                    "details": f"{latest_candidate.first_name} {latest_candidate.last_name} is updated ",
+                    "time": latest_candidate.updated_at
+                })
+
+        latest_user = CustomUser.objects.order_by("-updated_at", "-created_at").first()
+        if latest_user:
+            if latest_user.created_at == latest_user.updated_at:
+                activities.append({
+                    "action": "User Account Created",
+                    "details": f"{latest_user.national_id} created their account",
+                    "time": latest_user.created_at
+                })
+            else:
+                activities.append({
+                    "action": "User Account Updated",
+                    "details": f"{latest_user.national_id} updated their account",
+                    "time": latest_user.updated_at
+                })
+        activities.sort(key=lambda x: x["time"], reverse=True)
+
+        return Response(activities)

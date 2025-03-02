@@ -72,24 +72,12 @@ export interface VoterStats {
   registered_user: number;
   already_voted: number;
 }
-
 export interface Stat {
   title: string;
-  value: string;
-  icon: LucideIcon;
+  value: number;  // Changed from string to number
+  icon?: LucideIcon;  // Made optional since API does not return it
   description: string;
 }
-
-export  interface Election {
-  id: number;
-  title: string;
-  startDate: string; 
-  endDate: string;
-  status: "Upcoming" | "Ongoing" | "Completed"|"In Progress";
-  candidates: number;
-  voters: number;
-}
-
 
 export interface AdminVoterManagement {
   user_id: string | null;       // From User
@@ -110,3 +98,10 @@ export interface AdminVoterManagement {
   updated_at: string;           // From VoterProfileReturn
 }
 
+
+
+export interface RecentActivity {
+  action: string;
+  details: string;
+  time: string; 
+}

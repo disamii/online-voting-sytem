@@ -1,4 +1,4 @@
-import { Users, UserCheck, BarChart3 , LucideVote} from "lucide-react"
+import { Users, UserCheck, BarChart3 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 interface AdminSidebarProps {
@@ -10,7 +10,6 @@ export function AdminSidebar({ activeTab, setActiveTab }: AdminSidebarProps) {
   const menuItems = [
     { id: "dashboard", label: "Dashboard", icon: BarChart3 },
     { id: "candidates", label: "Candidates", icon: UserCheck },
-    { id: "elections", label: "Elections", icon: LucideVote },
     { id: "voters", label: "Voters", icon: Users },
   ]
 
